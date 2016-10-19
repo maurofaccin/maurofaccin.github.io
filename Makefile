@@ -1,16 +1,6 @@
-GH-PAGES = ${HOME}/dev/urubu-gh-pages/
 # Static Site Generator
 BUILD_DIR=_build/
-TIME=$(shell date -Iseconds)
-SASS_OPTS=--cache-location /tmp/ssg --trace --sourcemap=none
 
-USERNAME=$(shell git config --get user.name)
-USEREMAIL=$(shell git config --get user.email)
-
-# Git server remote
-ORIGIN="git@bitbucket.org:maurofaccin/maurofaccin.bitbucket.org"
-
-THEME=academic
 SASS_SRC=./_sass/
 SASS_STC=./css/
 
@@ -39,8 +29,5 @@ serve:
 stop:
 	@ for i in $$(cat /tmp/c23459serve.pid); do echo killing pid: $$i; kill $$i; done
 
-publish:
-	git subtree push --prefix _build origin master    
 
-
-.PHONY: all build sassc clean serve stop publish
+.PHONY: all build sassc clean serve stop
