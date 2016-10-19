@@ -1,7 +1,6 @@
 GH-PAGES = ${HOME}/dev/urubu-gh-pages/
 # Static Site Generator
 BUILD_DIR=_build/
-CSS_DIR=css/
 TIME=$(shell date -Iseconds)
 SASS_OPTS=--cache-location /tmp/ssg --trace --sourcemap=none
 
@@ -22,7 +21,7 @@ build: sassc
 	vex urubu urubu build
 
 sassc:
-	mkdir -p $(CSS_DIR)
+	mkdir -p $(SASS_STC)
 	sassc -t compressed $(SASS_SRC)style.scss $(SASS_STC)style.css
 
 deploy: clean build
@@ -30,7 +29,7 @@ deploy: clean build
 	bash _deploy.sh
 
 clean:
-	rm $(SASS_STC)*.css
+	rm -rf $(SASS_STC)
 	rm -rf $(BUILD_DIR)
 
 serve: 
