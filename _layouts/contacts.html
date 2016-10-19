@@ -1,0 +1,37 @@
+
+{% extends "page.html" %}
+{% import "macros.html" as macros %}
+
+{% block body %}
+<main role="main">
+    <section>
+    <dl>
+	{% for item in site.contacts %}
+	<dt><h1>{{ item.title }}:</h1></dt>
+	<dd>
+	{% if item.name %}
+	{% if item.url %}
+	<a href="{{ item.url }}">{{ item.name }}</a>
+	{% else %}
+	{{ item.name }}
+	{% endif %}
+	{% endif %}
+	{{ item.description }}
+	{% if item.list %}
+	<ul>
+	{% for i in item.list %}
+	<li>
+	<a href="{{i.url}}">{{i.name}}</a>
+	</li>
+	{% endfor %}
+	</ul>
+	{% endif %}
+	{% if item.image %}
+	    {{ macros.figure(item.image, item.title, style='width:20em;') }}    
+	{% endif %}
+	</dd>
+	{% endfor %}
+    </dl>
+    </section>
+</main>
+{% endblock  %}

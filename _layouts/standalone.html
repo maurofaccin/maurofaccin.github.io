@@ -1,0 +1,33 @@
+{% extends "_base.html" %}
+{% import "macros.html" as macros %}
+
+{% block navbar %}
+<a href="{{ '/' }}">
+    <img src="/images/home.svg" alt="Home" style='width:3em; padding:6px;'/>
+</a>
+{% endblock %}
+
+{% block breadcrumbs %}
+{% endblock %}
+
+{% block bigtitle %}
+    {% include 'bigtitle.html' %}
+{% endblock %}
+
+{% block body %}
+  <section>
+    
+    {% if this.image %}
+    <aside>
+	{{ macros.figure('images/'+this.image, alt=this.title) }}
+    </aside>
+    {% endif %}
+
+    <main>
+      {{this.body}}
+    </main>
+
+  </section>
+
+
+{% endblock %}

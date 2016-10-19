@@ -1,0 +1,77 @@
+{% extends "_base.html" %}
+
+{% block breadcrumbs %}
+    {% include 'breadcrumbs.html' %}
+{% endblock %}
+
+{% block bigtitle %}
+    {% include 'bigtitle.html' %}
+{% endblock %}
+
+{% block body %}
+  <section>
+    <main>
+
+    {#
+    REF
+    #}
+    {% for au in this.authors[:-1]%}
+        {% if au|lower in site.collaborators %}
+        {% set _au = site.collaborators[au|lower] %}
+        <a href="{{ _au.url }}" target="_blank">{{ _au.name }}</a>
+        {%- else %}
+        {{ au }}
+        {%- endif %},
+    {% endfor %}
+    {% if this.authors[-1]|lower in site.collaborators %}
+    {% set _au = site.collaborators[this.authors[-1]|lower] %}
+    <a href="{{ _au.url }}" target="_blank">{{ _au.name }}</a>
+    {%- else %}
+    {{ this.authors[-1] }}
+    {%- endif %},
+    <strong>
+    {% if 'journallink' in this %}
+    <a href="{{ this.journallink }}" target="_blank">{{ this.journal }}</a>
+    {%- else %}
+    {{ this.journal }}
+    {%- endif %}
+    </strong>
+
+    
+    {#
+    BUTTONS
+    <a class='button col3' href="/papers/data/{{ this.pdf }}" target="_blank">PDF</a>
+    #}
+    <a class='button col1' href="{{ this.arxiv }}" target="_blank">ArXiv</a>
+    <input class="popup" type="checkbox" id="{{ this.title }}">
+    <label class="popup" for="{{ this.title }}">
+        <div class="button col2">BibTeX</div>
+        <div class="hidden"><pre>{{ this.bibtex }}</pre></div>
+    </label>
+
+    {#
+    IMAGE
+    #}
+    {% if this.image %}
+    <aside><figure>
+            <img src="images/{{ this.image }}" alt="{{this.title}}" />
+    </figure></aside>
+    {% endif %}
+    
+    {#
+    TAGS
+    #}
+    {% if this.tags %}<br />
+    TAGS: {% for tag in this.tags %}
+    <a href="/tag/{{ tag }}">{{ tag }}</a>{% if not loop.last %},{% endif %}
+    {% endfor %}
+    {% endif %}
+
+    {#
+    ABSTRACT
+    #}
+    <h3>Abstract:</h3>
+    {{this.abstract}}
+    </main>
+  </section>
+{% endblock %}

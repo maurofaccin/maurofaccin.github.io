@@ -1,0 +1,17 @@
+{% extends "_base.html" %}
+
+{% block breadcrumbs %}
+    {% include 'breadcrumbs.html' %}
+{% endblock %}
+
+{% block bigtitle %}
+    {% include 'bigtitle.html' %}
+{% endblock %}
+
+{% block body %}
+  <section>
+    <main>
+      {{this.body}}
+    </main>
+  </section>
+{% endblock %}

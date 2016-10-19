@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    {% block head %}
+    {% include 'header.html' %}
+    {% endblock %}
+
+    {% block head_addon %}
+    {% endblock %}
+  </head>
+
+  <body>
+
+    {% block navbar %}
+    {% include 'navbar.html' %}
+    {% endblock %}
+
+    {% block breadcrumbs %}
+    {% endblock %}
+
+    {% block bigtitle %}
+    {% endblock %}
+
+    {% block body %}
+    {% endblock %}
+
+    {% block footer %}
+    {% include 'footer.html' %}
+    {% endblock %}
+
+  </body>
+</html>
+

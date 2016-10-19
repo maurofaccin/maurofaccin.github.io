@@ -1,0 +1,45 @@
+{% extends "_base.html" %}
+
+{% block navbar %}
+{% endblock %}
+
+{% block bigtitle %}
+    {% include 'bigtitle.html' %}
+{% endblock %}
+
+{% block body %}
+
+
+    {% if this.news %}
+        <section class='breakingnews'>
+            <h1>Breaking News:</h1>
+
+            {% for n in site.reflinks['/news'].content %}
+                {% if loop.first %}{{ n.body }}{% endif %}
+            {% endfor %}
+        </section>
+    {% endif %}
+
+    <section>
+    {{ this.body }}
+    <div>
+	{% for p in this.content %}
+	<div class="block" style='height:10em;'>
+            <a href="{{p.url}}">
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+		    style='width:100%; height=100%'>
+                <g>
+                    <rect x='0' y='0'
+                        class='frame'
+                        width='100%' height='100%'/>
+                    <text x="50%" y="50%"
+                        class='title'
+                        text-anchor='middle'>{{ p.title }}</text>
+                </g>
+            </svg>
+	    </a>
+	</div>
+	{% endfor %}
+    </div>
+    </section>
+{% endblock %}

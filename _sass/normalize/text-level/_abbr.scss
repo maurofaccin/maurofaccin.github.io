@@ -1,0 +1,25 @@
+//////////////////////////////////////////////////////////////////////////////////////////
+//
+// normalize.scss text level semantics abbr
+//
+//////////////////////////////////////////////////////////////////////////////////////////
+
+@if normalize-get("parts", "text level semantics", "abbr") {
+
+	@if normalize-get("options", "explanatory comments") { 
+
+/**
+ * Address inconsistent styling of `abbr[title]`.
+ * 1. Correct styling in Firefox 39 and Opera 12.
+ * 2. Correct missing styling in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+	}
+
+	abbr[title] {
+		border-bottom: none; /* 1 */
+		text-decoration: underline; /* 2 */
+		text-decoration: underline dotted; /* 2 */
+	}
+
+}
