@@ -63,27 +63,15 @@ body{
     }
 }
 
-.cv {
-    aside {
-        text-align: left;
-        @include media ($bp-m) {
-            text-align: right;
-        }
-    }
 
-    ul {
-        list-style: none ;
-        padding-left:0px;
+@include media ($bp-m){
+    dt {
+        @include shift(-6);
+        @include span-columns(6);
+        text-align:right;
     }
-
-    article {
-        margin-left: 40px;
-        @include media ($bp-m) {
-            margin-left: 0px;
-        }
-    }
-    h2 {
-        text-align:center;
+    dd {
+        margin-left: 0px;
     }
 }
 
@@ -104,17 +92,6 @@ body{
     }
 }
 
-//section {
-//    background-color: red;
-//}
-//
-//aside {
-//    background-color: gray;
-//}
-//
-//.block {
-//    background-color: green;
-//}
 .jumbotron,
 footer {
     clear:both !important;
