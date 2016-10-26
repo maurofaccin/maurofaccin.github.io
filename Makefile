@@ -16,7 +16,9 @@ sassc:
 
 deploy: clean build
 	touch $(BUILD_DIR).nojekyll
-	bash _deploy.sh
+	# bash _deploy.sh
+	bash _deploy.sh -c .env-bb
+	bash _deploy.sh -c .env-gh
 
 clean:
 	rm -rf $(SASS_STC)
@@ -26,8 +28,4 @@ serve:
 	@ echo "Serving on port 8000"
 	vex urubu urubu serve
 
-stop:
-	@ for i in $$(cat /tmp/c23459serve.pid); do echo killing pid: $$i; kill $$i; done
-
-
-.PHONY: all build sassc clean serve stop
+.PHONY: all build sassc clean serve
