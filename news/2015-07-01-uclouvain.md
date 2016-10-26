@@ -1,10 +1,9 @@
-+++
-date = "2015-07-01"
-title = "New position at UCLouvain"
-author = "Mauro Faccin"
-figure = "logo-uclouvain.png"
-tags = ["event", "uclouvain"]
-+++
+---
+date : 2015-07-01
+title : New position at UCLouvain
+figure : logo-uclouvain.png
+layout: page
+---
 
 Starting from today I move to Belgium to start a new life in an Applied
 Mathematics department.

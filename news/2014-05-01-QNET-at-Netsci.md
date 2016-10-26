@@ -1,10 +1,9 @@
-+++
-date = "2014-05-01"
-title = "QNET satellite @ NetSci 2014"
-figure = "qnet-at-netsci-2014.png"
-author = "Mauro Faccin"
-tags = ["workshop", "event", "quantum-networks"]
-+++
+---
+date : 2014-05-01
+title : QNET satellite @ NetSci 2014
+figure : qnet-at-netsci-2014.png
+layout: page
+---
 
 This year I will organize with Zoltan and Filippo a satellite meeting at the huge Network Conference [NetSci2014](http://www.netsci2014.net/) at Berkeley:
 

@@ -1,9 +1,9 @@
-+++
-title= "Talk @ Complenet 2014"
-figure= "logo-complenet.png"
-tags= ["talk", "event", "quantum-networks"]
-date = "2014-03-14"
-+++
+---
+title: Talk @ Complenet 2014
+figure: figures/logo-complenet.png
+layout: page
+date : 2014-03-14
+---
 
 I gave a talk in Bologna at the 
 [Complenet workshop on Complex Networks](http://2014.complenet.org/CompleNet_2014/Home.html).
