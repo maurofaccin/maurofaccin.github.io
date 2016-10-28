@@ -19,7 +19,6 @@ $bp-l: new-breakpoint(min-width $breakpoint-big 12);
   &:nth-child(#{$nth}+1) { clear: none }
 }
 
-
 body{
     @include outer-container;
     width:100%;
@@ -39,6 +38,7 @@ body{
         @include clearfix;
     }
     section .block{
+        @include fill-parent();
         @include span-columns(12);
         @include media($bp-s) {
             @include span-columns(6);

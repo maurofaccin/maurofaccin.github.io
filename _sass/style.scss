@@ -166,28 +166,11 @@ label {
 
 .block{
     //height: 12em;
-    margin-bottom: $gutter/2;
-    //background-color: $color-col2;
-    //background-color: rgba(shade($color-col2, 30%), 0.7);
-}
 
-svg {
-    margin: 0px;
-    .frame {
-        fill: $color-col2;
-        fill-opacity: 0.5;
-        stroke: $color-col2;
-        stroke-width: 1px;
-        //fill: rgba(shade($color-col2, 30%), 0.7);
-    }
-    .title {
-        font-size: scale(2);
-        font-weight: 600;
-        dominant-baseline: middle;
-    }
-    text {
-        font-family: "fira", sans-serif;
-    }
+    margin-bottom: $gutter/2;
+    background-color: $color-col2;
+    background-color: rgba($color-col2, 0.55555);
+    text-align: center;
 }
 
 .button {
