@@ -22,12 +22,14 @@
 
     <section>
     {{ this.body }}
+    <ul class='blocks'>
 	{% for p in this.content %}
-        <div class='block'>
+        <li class='block'>
             <a href="{{p.url}}">
                 <h4>{{ p.title }}</h4> 
             </a>
-        </div>
+        </li>
 	{% endfor %}
+    </ul>
     </section>
 {% endblock %}

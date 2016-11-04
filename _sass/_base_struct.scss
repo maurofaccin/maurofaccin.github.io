@@ -36,13 +36,22 @@ body{
     section {
         width: 100%;
         @include clearfix;
-    }
-    section .block{
-        @include fill-parent();
-        @include span-columns(12);
-        @include media($bp-s) {
-            @include span-columns(6);
-            @include omega(2n);
+        ul.blocks{
+            padding-left: 0px;
+        }
+        .block{
+            @include media($bp-s) {
+                @include omega-reset(n);
+                @include span-columns(6);
+                @include omega(2n);
+                display: block;
+            }
+            @include media($bp-m) {
+                @include omega-reset(2n);
+                @include span-columns(4);
+                @include omega(3n);
+                display: block;
+            }
         }
     }
     @include media ($bp-s){
