@@ -343,8 +343,12 @@ ul.list{
     font-size: 20px;
     background-color: $color-col1;
     color: white;
+    h1 {
+        text-align: center;
+    }
     a {
         color: white;
         font-weight: bold;
     }
 }
+
