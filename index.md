@@ -9,7 +9,7 @@ content:
     - contacts
 subtitle:
     Academic Website 
-news: True
+news: False
 ---
 
 I'm a PostDoc researcher at the 
