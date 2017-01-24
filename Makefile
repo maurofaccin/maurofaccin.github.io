@@ -8,7 +8,7 @@ all: build
 
 build: sassc
 	mkdir -p $(BUILD_DIR)
-	vex urubu urubu build
+	vex uru urubu build
 
 sassc:
 	mkdir -p $(SASS_STC)
@@ -29,6 +29,6 @@ clean:
 
 serve: 
 	@ echo "Serving on port 8000"
-	vex urubu urubu serve
+	vex uru urubu serve
 
 .PHONY: all build sassc clean serve
