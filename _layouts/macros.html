@@ -15,16 +15,14 @@
 
 {% macro reference(this, collaborators) %}
     {% for au in this.authors%}
-        {% if au|lower == 'faccin' %}
+        {% if au|lower == 'faccin' -%}
         <strong>{{ au|title }}</strong>
-        {%- elif au|lower in collaborators %}
+        {%- elif au|lower in collaborators -%}
         {% set _au = collaborators[au|lower] %}
-        {% if _au.url %}
-        <a href="{{ _au.url }}" target="_blank">{{ _au.name|title }}</a>
-        {% else %}{{ _au.name|title }}{% endif %}
-        {%- else %}
+        {% if _au.url -%}<a href="{{ _au.url }}" target="_blank">{{ _au.name|title }}</a>{% else -%}{{ _au.name|title }}{% endif -%}
+        {%- else -%}
         {{ au|title }}
-	{%- endif %},
+	{%- endif -%},
     {% endfor %}
     <strong>
     {% if 'journallink' in this %}

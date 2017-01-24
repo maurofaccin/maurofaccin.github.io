@@ -1,4 +1,5 @@
 {% extends "_base.html" %}
+{% import "macros.html" as macros %}
 
 {% block breadcrumbs %}
     {% include 'breadcrumbs.html' %}
@@ -15,27 +16,7 @@
     {#
     REF
     #}
-    {% for au in this.authors[:-1]%}
-        {% if au|lower in site.collaborators %}
-        {% set _au = site.collaborators[au|lower] %}
-        <a href="{{ _au.url }}" target="_blank">{{ _au.name }}</a>
-        {%- else %}
-        {{ au }}
-        {%- endif %},
-    {% endfor %}
-    {% if this.authors[-1]|lower in site.collaborators %}
-    {% set _au = site.collaborators[this.authors[-1]|lower] %}
-    <a href="{{ _au.url }}" target="_blank">{{ _au.name }}</a>
-    {%- else %}
-    {{ this.authors[-1] }}
-    {%- endif %},
-    <strong>
-    {% if 'journallink' in this %}
-    <a href="{{ this.journallink }}" target="_blank">{{ this.journal }}</a>
-    {%- else %}
-    {{ this.journal }}
-    {%- endif %}
-    </strong>
+    {{ macros.reference(this, site.collaborators) }}
 
     
     {#
