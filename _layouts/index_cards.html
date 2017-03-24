@@ -1,0 +1,41 @@
+{% extends "_base.html" %}
+{% import "macros.html" as macros %}
+
+{% block breadcrumbs %}
+{% include 'breadcrumbs.html' %}
+{% endblock %}
+
+{% block bigtitle %}
+{% include 'bigtitle.html' %}
+{% endblock %}
+
+
+{% block body %}
+<section>
+    <div class='cards'>
+        {% for item in this.content %}
+        <div class=card>
+	    <a href="{{item.url}}" title='{{item.title|title}}'>
+                <div class='card-image'>
+                    {% if item.image %}
+                    <img src="images/{{item.image}}" alt="{{item.title}}" />
+                    {% elif item.type == 'poster' %}
+                    {% set folder = item.components[-1] %}
+                    <img src="{{ folder }}/poster.png" alt="{{item.title}}" />
+                    {% elif item.type == 'talk' %}
+                    {% set folder = item.components[-1] %}
+                    <img src="{{ folder }}/slide-01.png" alt="{{item.title}}" />
+                    {% endif %}
+                </div>
+                <h4>{{ item.title|title|truncate(40) }}</h4>
+            </a>
+            {% if item.description %}
+            <p>{{ item.description }}</p>
+            {% elif item.subtitle %}
+            <p>{{ item.subtitle }}</p>    
+            {% endif %}
+        </div>                
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}

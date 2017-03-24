@@ -1,0 +1,5 @@
+_build
+*.css
+.sass-cache
+public
+cv/index.md

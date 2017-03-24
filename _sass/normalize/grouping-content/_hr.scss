@@ -1,0 +1,39 @@
+//////////////////////////////////////////////////////////////////////////////////////////
+//
+// normalize.scss grouping content hr
+//
+//////////////////////////////////////////////////////////////////////////////////////////
+
+@if normalize-get("parts", "grouping content", "hr") {
+
+	@if normalize-get("options", "explanatory comments") { 
+
+		@if normalize-get("options", "legacy support for ie7") {
+/**
+ * Address differences between Firefox and other browsers.
+ * 1. Correct `box-sizing` set to `border-box` in Firefox.
+ * 2. Correct `overflow` set to `hidden` in IE 8/9/10/11 and Edge 12.
+ * 3. Correct `block` display not defined for `hr` in IE 7.
+ */
+		}
+
+		@else {
+/**
+ * Address differences between Firefox and other browsers.
+ * 1. Correct `box-sizing` set to `border-box` in Firefox.
+ * 2. Correct `overflow` set to `hidden` in IE 8/9/10/11 and Edge 12.
+ */
+		}
+
+	}
+
+	hr {
+		box-sizing: content-box; /* 1 */
+		height: 0; /* 1 */
+		overflow: visible; /* 2 */
+		@if normalize-get("options", "legacy support for ie7") { 
+			display: block; /* 3 */
+		}
+	}
+
+}

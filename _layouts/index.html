@@ -1,0 +1,40 @@
+{% extends "_base.html" %}
+{% import "macros.html" as macros %}
+
+{% block breadcrumbs %}
+    {% include 'breadcrumbs.html' %}
+{% endblock %}
+
+{% block bigtitle %}
+    {% include 'bigtitle.html' %}
+{% endblock %}
+
+
+{% block body %}
+    <section>
+	{{ this.body }}
+	<ul class='list'>
+	  {% for item in this.content %}
+	    <li>
+	      {% if item.image %}
+		<div class='oblo'>
+		   <img src="images/{{item.image}}" alt="" />            
+		</div>
+	      {% endif %}
+	      <h5><a href="{{item.url}}">{{item.title|title}}</a></h5>
+	      {% if item.type %}
+		{% if item.type=='poster' %}
+		{{item.subtitle}}, <i>(Poster)</i>,
+		{% elif item.type=='talk' %}
+		{{item.subtitle}},
+		{% endif %}
+	      {% endif %}
+              {{ macros.reference(item, site.collaborators) }}
+	      {% if item.date|d %}
+	      <small>{{item.date}}</small></h4>
+	      {% endif %}
+	    </li>
+	  {% endfor %}
+	</ul>
+    </section>
+{% endblock %}

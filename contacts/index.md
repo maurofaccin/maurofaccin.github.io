@@ -1,0 +1,31 @@
+---
+date: 2016-10-01
+title: Contacts
+order: date
+layout: page
+---
+
+# Address:
+
+[ICTEAM][icteam] Euler Building<br/>
+4, Avenue Georges Lemaître<br/>
+B-1348 Louvain-la-Neuve<br/>
+Belgium
+
+# Email:
+
+<img src='/files/email.png' style='max-width:20em;'>
+
+# Telephone:
+
++32 10 47 25 97
+
+# Web:
+
+- [Google Scholar Profile][googleProfile]{: target='_blank'}
+- [Bitbucket Repository][bitbucket]{: target='_blank'}
+- [ResearchGate Profile][researchGate]{: target='_blank'}
+- [My Page at the Azimuth Project][azimuth]{: target='_blank'}
+- [Frontiers (Review Editor)][frontiers]{: target='_blank'}
+
+

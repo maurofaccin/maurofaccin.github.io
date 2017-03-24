@@ -1,0 +1,35 @@
+{% extends "_base.html" %}
+
+{% block navbar %}
+{% endblock %}
+
+{% block bigtitle %}
+    {% include 'bigtitle.html' %}
+{% endblock %}
+
+{% block body %}
+
+
+    {% if this.news %}
+        <section class='breakingnews'>
+            <h1>Breaking News:</h1>
+
+            {% for n in site.reflinks['/news'].content %}
+                {% if loop.first %}{{ n.body }}{% endif %}
+            {% endfor %}
+        </section>
+    {% endif %}
+
+    <section>
+    {{ this.body }}
+    <ul class='blocks'>
+	{% for p in this.content %}
+        <li class='block'>
+            <a href="{{p.url}}">
+                <h4>{{ p.title }}</h4> 
+            </a>
+        </li>
+	{% endfor %}
+    </ul>
+    </section>
+{% endblock %}
