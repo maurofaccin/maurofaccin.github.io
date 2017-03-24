@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+
+    <title>QuEBApp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <link href="/css/style.css" rel="stylesheet" media="screen">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+
+  </head>
+
+  <body>
+
+<a href="/">
+    <img src="/images/home.svg" alt="Home" style='width:3em; padding:6px;'/>
+</a>
+
+
+
+    <div class="jumbotron">
+	    <h1>Quebapp</h1>
+    </div>
+  <section>
+    
+    <aside>
+	<figure style=''>
+  <img src="images/quebapp.svg" alt="QuEBApp">
+</figure>
+
+    </aside>
+
+    <main>
+      <p>Quantum Effects Based Approach to community detection.
+This sofware compute the community structure of a Quantum System based
+on its Hamiltonian, on the preferred basis.</p>
+<p>For details see:
+<a href="/papers/2014-10-21-communities.html" title="Community Detection in Quantum Complex Networks">Community Detection in Quantum Complex Networks</a></p>
+<figure style=''>
+  <img src="images/quebapp-dendro-wide.png" alt="Dendrogram">
+  <figcaption>Community Detection Dendrogram</figcaption>
+</figure>
+
+<h3 id="requirements">Requirements</h3>
+<ul>
+<li>Python3 (it should work in python2 too, not sure about that)</li>
+<li>matplotlib (only for dendrogram plots)</li>
+<li>numpy, scipy</li>
+</ul>
+<h3 id="install">Install</h3>
+<p>Clone the repository somewhere</p>
+<ul>
+<li><code>git clone git@bitbucket.org:maurofaccin/quebapp.git</code></li>
+</ul>
+<p>go to the folder</p>
+<ul>
+<li><code>cd quebapp</code></li>
+</ul>
+<p>install (use <code>--user</code> if you don't have root privileges or you want a local
+install)</p>
+<ul>
+<li><code>./setup.py install [--user]</code></li>
+</ul>
+<h3 id="usage">Usage</h3>
+<p>Use <code>quebapp -h</code> for help.</p>
+<div class="codehilite"><pre><span></span>usage: quebapp <span class="o">[</span>-h<span class="o">]</span> <span class="o">[</span>--edgelist<span class="o">]</span> <span class="o">[</span>-0<span class="o">]</span> 
+               <span class="o">[</span>-t <span class="o">{</span>fidelity,transport,purity<span class="o">}]</span> <span class="o">[</span>-d<span class="o">]</span>
+               network
+
+QuEBApp: Quantum Community Detection
+
+positional arguments:
+  network               Network file <span class="o">[</span><span class="nv">default</span><span class="o">=</span>Hamiltonian matrix<span class="o">]</span>
+
+optional arguments:
+  -h, --help            show this <span class="nb">help</span> message and <span class="nb">exit</span>
+  --edgelist            Read Hamiltonian as list of edges <span class="o">[</span>i j
+                        weight<span class="o">(</span>optional<span class="o">)]</span>
+  -0, --time0           Closeness measure with short-time limit <span class="o">[</span>default:
+                        long-time limit<span class="o">]</span>
+  -t <span class="o">{</span>fidelity,transport,purity<span class="o">}</span>, --type <span class="o">{</span>fidelity,transport,purity<span class="o">}</span>
+                        Use a specific closeness measure <span class="o">[</span>default: fidelity<span class="o">]</span>
+  -d, --dendrogram      Outputs the resulting dendrogram and modularity
+</pre></div>
+
+
+<p>The network representing the quantum system needs to be a Hermitian matrix
+(the Hamiltonian). It can be given in matrix form:</p>
+<div class="codehilite"><pre><span></span><span class="n">h_11</span>  <span class="n">h_12</span>  <span class="n">h_13</span>  <span class="o">...</span>
+<span class="n">h_21</span>  <span class="n">h_22</span>  <span class="n">h_23</span>  <span class="o">...</span>
+<span class="n">h_31</span>  <span class="n">h_32</span>  <span class="n">h_33</span>  <span class="o">...</span>
+<span class="o">...</span>   <span class="o">...</span>   <span class="o">...</span>   <span class="o">...</span>
+</pre></div>
+
+
+<p>with <code>h_ij</code> complex conjugate of <code>h_ji</code>.
+The matrix can be given as an edge list:</p>
+<div class="codehilite"><pre><span></span>i    j    h_ij
+...  ...  ...
+</pre></div>
+
+
+<p>where <code>i</code> and <code>j</code> are indexes and <code>h_ij</code> the Hamiltonian entry (<code>h_ji</code> will
+be computed automatically).</p>
+<h3 id="license">License</h3>
+<p>Copyright: Mauro Faccin (2014)</p>
+<p>QuEBApp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.</p>
+<p>QuEBApp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.</p>
+<p>Check LICENSE.txt for details.</p>
+    </main>
+
+  </section>
+
+
+
+    <footer>
+        Website powered by     <a href="http://urubu.jandecaluwe.com" target="_blank">Urubu</a>
+
+    </footer>
+
+
+  </body>
+</html>
