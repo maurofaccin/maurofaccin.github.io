@@ -32,4 +32,16 @@
 	{% endfor %}
     </ul>
     </section>
+
+
+    {% for n in site.reflinks['/news'].content %}
+    <section class='pin'>
+            {% if n.pin %}
+                <a href="{{ n.url }}" target='_blank'>
+                <h5>{{ n.title }}</h5>
+                </a>
+                {{ n.body }}
+        {% endif %}
+    </section>
+    {% endfor %}
 {% endblock %}

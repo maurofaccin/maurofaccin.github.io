@@ -352,3 +352,16 @@ ul.list{
     }
 }
 
+section {
+    margin: 1em 0;
+}
+
+.pin {
+    color: white;
+    background-color: $color-main;
+    background-color: rgba($color-main, 0.8);
+    a {
+        color: white;
+        font-weight: bold;
+    }
+}
