@@ -1,14 +1,13 @@
 # Static Site Generator
-BUILD_DIR=_build/
+BUILD_DIR=public/
 
-SASS_SRC=./_sass/
-SASS_STC=./css/
+SASS_SRC=./scr/sass/
+SASS_STC=./static/css/
 
 all: build
 
 build: sassc
-	mkdir -p $(BUILD_DIR)
-	vex uru urubu build
+	hugo
 
 sassc:
 	mkdir -p $(SASS_STC)
