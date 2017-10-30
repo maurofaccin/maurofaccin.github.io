@@ -24,11 +24,18 @@
 {{ end }}
 
 {{ define "footer" }}
+{{ if eq .Params.contrib "talk" }}
+      {{ $.Scratch.Set "count" 0 }}
+      {{ range readDir ( add "/content" .URL ) }}
+      {{ if hasPrefix .Name "slide-" }}{{ $.Scratch.Add "count" 1 }}{{ end }}
+      {{ end }}
+
+
 <script>
     var x = 1;
     function NextSlide(){
 	x++;
-	if (x > {{ .Params.slide_num }})
+	if (x > {{ $.Scratch.Get "count" }})
 	    x = 1;
 	if (x < 10)
 	    src = "{{ .URL }}slide-0"+x+".png";
@@ -39,7 +46,7 @@
     function PrevSlide(){
 	x--;
 	if (x <= 0)
-	    x = {{ .Params.slide_num }};
+	    x = {{ $.Scratch.Get "count" }};
 	if (x < 10)
             src = "{{ .URL }}slide-0"+x+".png";
 	else
@@ -59,4 +66,5 @@
 	}
     };
 </script>
+{{ end }}
 {{ end }}
