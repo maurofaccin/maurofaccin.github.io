@@ -1,3 +1,30 @@
 baseURL = "https://maurofaccin.github.io"
 languageCode = "en-us"
 title = "Mauro Faccin"
+relativeURLs = "true"
+canonifyurls = true
+
+[blackfriday]
+   plainIDAnchors = true
+   hrefTargetBlank = true
+
+[[menu.main]]
+  name = "Publications"
+  identifier = "pubs"
+  url = "/papers/"
+  weight = 110
+[[menu.main]]
+  name = "Codes"
+  identifier = "codes"
+  url = "/codes/"
+  weight = 111
+[[menu.main]]
+  name = "CV"
+  identifier = "cv"
+  url = "/cv/"
+  weight = 112
+[[menu.main]]
+  name = "Contacts"
+  identifier = "contacts"
+  url = "/contacts/"
+  weight = 113

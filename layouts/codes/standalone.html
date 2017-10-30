@@ -1,0 +1,26 @@
+{{ define "navbar" }}
+<a href="{{ '/' }}">
+    <img src="/images/home.svg" alt="Home" style='width:3em; padding:6px;'/>
+</a>
+{{ end }}
+
+{{ define "main" }}
+  <section>
+    
+      {{ if isset .Params "image" }}
+    <aside>
+	<figure>
+            <img src="{{ .URL }}{{ .Params.image }}" alt="{{ .Title }}">
+	</figure>
+
+    </aside>
+    {{ end }}
+
+    <main>
+      {{ .Content }}
+    </main>
+
+  </section>
+
+
+  {{ end }}

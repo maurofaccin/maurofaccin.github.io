@@ -17,8 +17,7 @@ on its Hamiltonian, on the preferred basis.
 For details see:
 [/papers/2014-10-21-communities]
 
-{% import "macros.html" as macros %}
-{{ macros.figure("images/quebapp-dendro-wide.png", "Dendrogram", "Community Detection Dendrogram") }}
+{{< figure src="codes/quebapp/quebapp-dendro-wide.png" caption="Dendrogram" alt="Community Detection Dendrogram" >}}
 
 ## Requirements
 

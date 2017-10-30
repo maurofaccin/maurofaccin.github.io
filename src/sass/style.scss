@@ -1,0 +1,378 @@
+@import 'base';
+
+body {
+    background: url('/images/bg-light-small.jpg') fixed no-repeat;
+    background-color: #d7d7d7;
+    background-size: 100%;
+    @include media($bp-s) {
+        background: url('/images/bg-light.jpg') fixed no-repeat;
+        background-color: #d7d7d7;
+        background-size: 100%;
+    }
+    color: $color-main;
+}
+
+html, body {
+    margin:0px;
+    padding:0px;
+}
+
+.jumbotron{
+    padding-top: 2em;
+    padding-bottom: 5em;
+    text-align:center;
+    overflow:auto;
+    //background-color: $color-col1;
+    //background-color: rgba(shade($color-col1, 30%), 0.7);
+    h1, h4 {
+        margin-bottom:0em;
+    }
+    h4 {
+        margin-top:0px;
+    }
+    .date {
+        color: $color-main-light;
+    }
+}
+
+footer {
+    padding-top: 5em;
+    text-align: right;
+    padding-right: 1em;
+    bottom:0px;
+    display:block;
+    color: $color-main-light;
+}
+
+nav{
+    background-color: $color-main;
+    background-color: rgba($color-main, 0.8);
+    font-weight: 400;
+    
+    input {
+        display:none; // no checkbox
+        &:not(:checked) ~ a { // the following links hidden by default
+            display:none;
+        }
+    }
+    label {
+        cursor: pointer;
+        color: $color-main-bg;
+        display: block;
+        width: 100%;
+        padding: 1em;
+        text-align: right;
+    }
+    @include media($bp-m) {
+        input:not(:checked) ~ a {
+            display:inline-block;
+        }
+        label {
+            display:none;
+        }
+    }
+
+    ul{
+        margin: 0px;
+        list-style-type:none;
+        display: inline-block; 
+        padding:0px;
+        width:100%;
+        a {
+            text-decoration:none;
+        }
+        li {
+            color: $color-main-bg;
+            padding: 1em;
+            // this is for the right aligned menu
+            text-align: right;
+        }
+        @include media ($bp-m) {
+            padding-left: 5em;
+            li {
+                display: inline-block;
+                margin-right: 2em;
+            }
+        }
+    }
+    .active {
+        background-color: lighten($color-main, 30%);
+    }
+    .home {
+        // get the home link always on the top left
+        float: left;
+    }
+}
+
+
+pre {
+    padding: 1ex;
+    width: 100%;
+    opacity: 0.8;
+    color: #aaaaaa;
+    background-color: #333333;
+} 
+
+img {
+    width: 100%;
+}
+figure {
+    margin: 0px;
+}
+figcaption {
+    text-align:center;
+}
+
+li{
+    @include clearfix();
+}
+
+a {
+    color: black;
+    text-decoration:underline;
+    &:hover, &:active, &:focus {
+        text-shadow: 0 0 0.2em $color-links;
+    }
+    &.extended {
+        color: inherit;
+        text-decoration: inherit;
+        &:active, &:focus {
+            background-color: $color-links;
+        }
+        display: block;
+    }
+}
+
+// popup
+input {
+    &.popup {
+        display: none;
+    }
+    &:checked + label.popup{
+        width: 100%;
+        .hidden{
+            display: block;
+        }
+    }
+}
+
+label {
+    &.popup{
+        .hidden{
+            display: none;
+        }
+    }
+}
+
+.blocks {
+    .block {
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        appearance: button;
+
+        text-decoration: none;
+        box-shadow: none;
+        display: block;
+        margin-bottom: $gutter/2;
+        background-color: $color-col2;
+        background-color: rgba($color-col2, 0.55555);
+        text-align: center;
+    }
+
+    .block:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+}
+
+.button {
+    display: inline-block;
+    padding: 0.2ex 0.7ex;
+    text-decoration: none;
+    &.col1 {
+        background: $color-col1;
+    }                          
+    &.col2 {                   
+        background: $color-col2;
+    }                          
+    &.col3 {                   
+        background: $color-col3;
+    }
+}
+
+.oblo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: $color-alt;
+    background-color: rgba($color-main ,0.2);
+    float: left;
+    margin-right: 2ex;
+    border-color: $color-alt;
+    border-color: rgba($color-main, 0.0);
+    border-style: solid;
+    border-width: 5px;
+    img {
+        height: 100%;
+    }
+}
+
+.bottom {
+    position: fixed;
+    bottom: 1ex;
+    left: 1ex;
+}
+
+ul.list{
+    h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 0px;
+    }
+    list-style-type: none ;
+    padding-left: 1ex;
+}
+
+.breadcrumb {
+    $base-border-color: gainsboro !default;
+    $base-border-radius: 3px !default;
+    $base-background-color: white !default;
+    $base-spacing: 1.2em !default;
+    $action-color: #477DCA !default;
+    $medium-gray: #999 !default;
+    $light-gray: #DDD !default;
+    $breadcrumb-border-color: $base-border-color;
+    $breadcrumb-border: 1px solid $breadcrumb-border-color;
+    $breadcrumb-height: $base-spacing * 1.5;
+    $breadcrumb-arrow-color: $breadcrumb-border-color;
+    $breadcrumb-background: $base-background-color;
+    $breadcrumb-inactive-hover-color: $breadcrumb-background;
+    $breadcrumb-color: $medium-gray;
+    $breadcrumb-color-hover: $action-color;
+    $breadcrumb-color-active: $breadcrumb-color;
+
+    display: inline-block;
+    margin-bottom: $base-spacing;
+    margin-top: $base-spacing;
+    text-align: left;
+
+    a {
+      background-color: $breadcrumb-background;
+      border: $breadcrumb-border;
+      border-left: 0;
+      color: $breadcrumb-color;
+      display: inline-block;
+      font-size: 0.8em;
+      line-height: $breadcrumb-height;
+      margin-bottom: 2px;
+      margin-right: -5px;
+      padding: 0 ($breadcrumb-height / 4) 0 ($breadcrumb-height / 2);
+      position: relative;
+      text-decoration: none;
+
+      &:first-child {
+        border-bottom-left-radius: $base-border-radius;
+        border-left: $breadcrumb-border;
+        border-top-left-radius: $base-border-radius;
+        padding-left: $breadcrumb-height / 2;
+      }
+
+      &:last-child {
+        background-color: $breadcrumb-background;
+        border-bottom-right-radius: $base-border-radius;
+        border-top-right-radius: $base-border-radius;
+        color: $breadcrumb-color-active;
+        padding-right: $breadcrumb-height / 2;
+      }
+
+      &::after,
+      &::before {
+        @include position(absolute, 0 auto 0 100%);
+        border-bottom: $breadcrumb-height / 2 solid transparent;
+        border-left: $breadcrumb-height / 4 solid transparent;
+        border-top: $breadcrumb-height / 2 solid transparent;
+        content: "";
+        display: block;
+        margin: auto;
+        z-index: 2;
+      }
+
+      &:last-child::after,
+      &:last-child::before {
+         border: 0;
+      }
+
+      &::before {
+        border-left-color: $breadcrumb-arrow-color;
+        margin-left: 1px;
+        z-index: 1;
+      }
+
+      &::after {
+        border-left-color: $breadcrumb-background;
+      }
+
+    }
+}
+
+.right {
+    float:right;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.cards {
+    .card {
+        padding: 0.5em;
+        overflow: hidden;
+        background-color: #e7e7e7;
+        .card-image {
+            height: 12em;
+            overflow: hidden;
+            text-align: center;
+            img{
+                width: auto;
+                max-width: 100%;
+                max-height: 100%;
+                @include transition(all .4s ease-in-out);
+                @include transform-origin(center);
+            }
+            img:hover {
+                max-width: 80%;
+                max-height: 80%;
+            }
+        }
+        h4 {
+            margin:0;
+            text-align: center;
+        }
+    }
+}
+
+.breakingnews {
+    font-size: 20px;
+    background-color: $color-col1;
+    color: white;
+    h1 {
+        text-align: center;
+    }
+    a {
+        color: white;
+        font-weight: bold;
+    }
+}
+
+section {
+    margin: 1em 0;
+}
+
+.pin {
+    color: white;
+    background-color: $color-main;
+    background-color: rgba($color-main, 0.8);
+    a {
+        color: white;
+        font-weight: bold;
+    }
+}

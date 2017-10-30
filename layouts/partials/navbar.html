@@ -1,15 +1,16 @@
 
     <nav>
         <ul>
-            <a class='home' href="{{ '/' }}"><li><strong>{{site.title}}</strong></li></a>
+            <a class='home' href="{{ "/" | relURL }}"><li><strong>{{ .Site.Title }}</strong></li></a>
             <input type="checkbox" name="MENU" id="MENU"/>
             <label for="MENU">MENU</label>
-            {% for item in site.reflinks['/'].content %}
-            {%   set context = '' %}
-            {%   if item.components|d and this.components[0] == item.components[0] %}
-            {%     set context = ' class="active"' %}
-            {%   endif %}
-            <a href="{{item.url}}"><li{{context}}>{{item.title}}</li></a>
-            {% endfor %}
+
+	
+	    {{ $currentPage := . }}
+
+	    {{ range .Site.Menus.main }}
+	    <a href="{{.URL}}">
+		<li{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} class="active"{{end}}>{{ .Name }}</li></a>
+	    {{ end }}
         </ul>
     </nav>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      {{ partial "header.html" . }}
+  </head>
+
+  <body>
+      {{ block "navbar" . }}
+      {{ partial "navbar.html" . }}
+      {{ end }}
+
+      {{ block "title" . }}
+      {{ partial "bigtitle.html" . }}
+      {{ end }}
+
+      {{ block "main" . }}
+      {{ end }}
+
+      {{ block "footer" . }}
+      {{ partial "footer.html" . }}
+      {{ end }}
+  </body>
+</html>
+

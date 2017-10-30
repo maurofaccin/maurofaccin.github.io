@@ -1,40 +1,25 @@
-{% extends "_base.html" %}
-{% import "macros.html" as macros %}
+{{ define "navbar" }}
+<!--This is a comment.-->
+{{ end }}
 
-{% block breadcrumbs %}
-    {% include 'breadcrumbs.html' %}
-{% endblock %}
-
-{% block bigtitle %}
-    {% include 'bigtitle.html' %}
-{% endblock %}
-
-
-{% block body %}
+{{ define "main" }}
     <section>
-	{{ this.body }}
-	<ul class='list'>
-	  {% for item in this.content %}
-	    <li>
-	      {% if item.image %}
-		<div class='oblo'>
-		   <img src="images/{{item.image}}" alt="" />            
-		</div>
-	      {% endif %}
-	      <h5><a href="{{item.url}}">{{item.title|title}}</a></h5>
-	      {% if item.type %}
-		{% if item.type=='poster' %}
-		{{item.subtitle}}, <i>(Poster)</i>,
-		{% elif item.type=='talk' %}
-		{{item.subtitle}},
-		{% endif %}
-	      {% endif %}
-              {{ macros.reference(item, site.collaborators) }}
-	      {% if item.date|d %}
-	      <small>{{item.date}}</small></h4>
-	      {% endif %}
-	    </li>
-	  {% endfor %}
-	</ul>
+    {{ .Content }}
+
+    <div class='blocks'>
+        {{ range .Site.Sections }}
+        <a href="{{ .URL }}" class='block'><h4>{{ .Title }}</h4></a>
+        {{ end }}
+    </div>
+
     </section>
-{% endblock %}
+
+    {{ range where .Data.Pages "Section" "news" }}
+    {{ if .Params.pin }}
+    <section class='pin'>
+        <h5>{{ .Title }}</h5>
+        {{ .Content }}
+    </section>
+    {{ end }}
+    {{ end }}
+{{ end }}

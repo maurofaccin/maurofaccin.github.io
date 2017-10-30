@@ -1,0 +1,22 @@
+
+{{ define "main" }}
+
+<section>
+    {{ .Content }}
+
+    <ul class='list'>
+      {{ range .Pages }}
+        <li>
+            {{ if isset .Params "image" }}
+            <div class='oblo'>
+		<img src="{{ .URL }}{{ .Params.Image }}" alt="" />
+            </div>
+            {{ end }}
+            {{ partial "listedtitle.html" . }}
+	    {{ with .Params.subtitle }}<b>{{ . }}</b>{{ end }}
+	    {{ with .Params.description }}{{ . }}{{ end }}
+        </li>
+        {{ end }}
+    </ul>
+</section>
+{{ end }}

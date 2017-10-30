@@ -1,17 +1,23 @@
 # Static Site Generator
 BUILD_DIR=public/
 
-SASS_SRC=./scr/sass/
+CV_SRC=./src/cv/
+
+SASS_SRC=./src/sass/
 SASS_STC=./static/css/
 
 all: build
 
-build: sassc
+build: sassc cv
 	hugo
 
 sassc:
 	mkdir -p $(SASS_STC)
 	sassc -t compressed $(SASS_SRC)style.scss $(SASS_STC)style.css
+
+cv:
+	$(MAKE) -C $(CV_SRC)
+	cp $(CV_SRC)/compiled.pdf ./static/files/faccin-cv.pdf
 
 deploy: clean build
 	touch $(BUILD_DIR).nojekyll

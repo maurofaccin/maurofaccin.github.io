@@ -1,0 +1,62 @@
+
+{{ define "main" }}
+  <section>
+
+      <strong class='center'>  Get the PDF from
+          {{ if eq .Params.contrib "poster" }}
+	  <a href="{{ .URL }}poster.pdf">HERE</a>
+          {{ else }}
+	  <a href="{{ .URL }}slides.pdf">HERE</a>
+          {{ end }} 
+      </strong>
+
+      {{ .Content }}
+      
+      {{ if eq .Params.contrib "talk" }}
+      <img id='slideshow' src="{{ .URL }}slide-01.png" alt="Slides" />
+      {{ else }}
+      <a href="{{ .URL }}poster.pdf">
+	  <img src="{{ .URL }}poster.png" alt="Poster" />
+      </a>
+      {{ end }}
+
+  </section>
+{{ end }}
+
+{{ define "footer" }}
+<script>
+    var x = 1;
+    function NextSlide(){
+	x++;
+	if (x > {{ .Params.slide_num }})
+	    x = 1;
+	if (x < 10)
+	    src = "{{ .URL }}slide-0"+x+".png";
+	else
+	    src = "{{ .URL }}slide-"+x+".png";
+	document.getElementById("slideshow").src=src;
+    }
+    function PrevSlide(){
+	x--;
+	if (x <= 0)
+	    x = {{ .Params.slide_num }};
+	if (x < 10)
+            src = "{{ .URL }}slide-0"+x+".png";
+	else
+	    src = "{{ .URL }}slide-"+x+".png";
+	document.getElementById("slideshow").src=src;
+    }
+    document.addEventListener ("click", NextSlide, false);
+    document.onkeydown = function(evt) {
+	evt = evt || window.event;
+	switch (evt.keyCode) {
+	    case 37:
+		PrevSlide();
+		break;
+	    case 39:
+		NextSlide();
+		break;
+	}
+    };
+</script>
+{{ end }}
