@@ -14,12 +14,17 @@ canonifyurls = true
   url = "/papers/"
   weight = 110
 [[menu.main]]
+  name = "Slides & Posters"
+  identifier = "slides"
+  url = "/slides/"
+  weight = 110
+[[menu.main]]
   name = "Codes"
   identifier = "codes"
   url = "/codes/"
   weight = 111
 [[menu.main]]
-  name = "CV"
+  name = "Curriculum Vitæ"
   identifier = "cv"
   url = "/cv/"
   weight = 112
