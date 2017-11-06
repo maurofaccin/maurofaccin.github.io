@@ -1,18 +1,18 @@
 ---
-date: 
-title:
+title: "{{ replace .TranslationBaseName "-" " " | title }}"
+date: {{ .Date }}
+draft: true
+tags: 
+    - tag1
 authors:
     - Faccin
-    - Innominato
-journal: Panini
-journallink: 
-arxiv:
-abstract:
-image: 
-tags:
-    - nice paper
-    - model
+journal:
+journallink:
+pdf: path.pdf
+image: path.png
+arxiv: http://arxiv.org/abs/XXX
+abstract: ""
 bibtex: |-
-layout: paper
+    @article{faccin2017,
+    }
 ---
-
