@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Slides and Posters on Mauro Faccin</title>
+    <link>https://maurofaccin.github.io/slides/</link>
+    <description>Recent content in Slides and Posters on Mauro Faccin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 Mar 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://maurofaccin.github.io/slides/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Community detection in networks with non-Markovian dynamics</title>
+      <link>https://maurofaccin.github.io/slides/2017-03-21-complenet2017/</link>
+      <pubDate>Tue, 21 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/slides/2017-03-21-complenet2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Behind Communities: Dynamics Define Modules</title>
+      <link>https://maurofaccin.github.io/slides/2016-12-01-complexnetworks2016/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/slides/2016-12-01-complexnetworks2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quantum Mechanics and Complex Networks</title>
+      <link>https://maurofaccin.github.io/slides/2016-10-11-seminar-icteam/</link>
+      <pubDate>Tue, 11 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/slides/2016-10-11-seminar-icteam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beyond Communities: Dynamical Markov Modules</title>
+      <link>https://maurofaccin.github.io/slides/2016-09-19-ccs2016/</link>
+      <pubDate>Mon, 19 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/slides/2016-09-19-ccs2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mesoscopic Structure and diffusion process memory</title>
+      <link>https://maurofaccin.github.io/slides/2016-06-02-netsci2016/</link>
+      <pubDate>Thu, 02 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/slides/2016-06-02-netsci2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Memory and Mesoscopic Structure in Diffusion Processes</title>
+      <link>https://maurofaccin.github.io/slides/2016-03-23-complenet2016/</link>
+      <pubDate>Wed, 23 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/slides/2016-03-23-complenet2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Memory and Mesoscopic Structures in Diffusion Processes</title>
+      <link>https://maurofaccin.github.io/slides/2016-01-10-netscix2016/</link>
+      <pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/slides/2016-01-10-netscix2016/</guid>
+      <description>Heading up in Wrocław{: target=&amp;rsquo;_blank&amp;rsquo;} to give a talk on the last work on Communities and Markovian processes on networks.</description>
+    </item>
+    
+    <item>
+      <title>Structural Controllability of EEG Temporal Causal Networks</title>
+      <link>https://maurofaccin.github.io/slides/2015-04-08-netsci2015/</link>
+      <pubDate>Wed, 08 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/slides/2015-04-08-netsci2015/</guid>
+      <description>In June I will attend at NetSci 2015 in Zaragoza. I&amp;rsquo;ll give a talk about control over time varying networks in brain EEG.</description>
+    </item>
+    
+    <item>
+      <title>Quantum Approaches to Community Detection</title>
+      <link>https://maurofaccin.github.io/slides/2014-07-15-eccs2014/</link>
+      <pubDate>Tue, 15 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/slides/2014-07-15-eccs2014/</guid>
+      <description>In September I will give a talk at ECCS 2014. Hey, I gave a talk in a church!!! Look at this!
+{% from &amp;lsquo;macros.html&amp;rsquo; import figure %} {{ figure(&amp;lsquo;images/eccs14-photo.jpg&amp;rsquo;, alt=&amp;lsquo;Church speach&amp;rsquo;, caption=&amp;lsquo;The main session where held in S. Francesco church (1430), now location of IMT&amp;rsquo;, style=&amp;lsquo;width:20em; margin: 0 auto;&amp;lsquo;) }}</description>
+    </item>
+    
+    <item>
+      <title>Community Detection in Quantum Systems</title>
+      <link>https://maurofaccin.github.io/slides/2014-03-14-complenet2014/</link>
+      <pubDate>Fri, 14 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/slides/2014-03-14-complenet2014/</guid>
+      <description>I gave a talk in Bologna at the Complenet workshop on Complex Networks. A lot of people attended and it was great.</description>
+    </item>
+    
+    <item>
+      <title>Community Detection in Quantum Systems</title>
+      <link>https://maurofaccin.github.io/slides/2014-01-15-bifi2014/</link>
+      <pubDate>Wed, 15 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/slides/2014-01-15-bifi2014/</guid>
+      <description>In January I will give a talk at BIFI 2014
+Obviously it&amp;rsquo;s on Quantum Networks: Community Detection on Quantum Complex Systems</description>
+    </item>
+    
+    <item>
+      <title>Degree distribution in quantum complex networks</title>
+      <link>https://maurofaccin.github.io/slides/2013-05-26-iqc-workshop/</link>
+      <pubDate>Sun, 26 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/slides/2013-05-26-iqc-workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ground state spin logic</title>
+      <link>https://maurofaccin.github.io/slides/2012-11-08-tensor-net-workshop-turin/</link>
+      <pubDate>Thu, 08 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/slides/2012-11-08-tensor-net-workshop-turin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Equilibrium and Kinetics of the Ankyrin repeat protein myotrophin through a simple statistical mechanical model</title>
+      <link>https://maurofaccin.github.io/slides/2011-02-02-bifi2011/</link>
+      <pubDate>Wed, 02 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/slides/2011-02-02-bifi2011/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

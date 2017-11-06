@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wsme on Mauro Faccin</title>
+    <link>https://maurofaccin.github.io/tags/wsme/</link>
+    <description>Recent content in Wsme on Mauro Faccin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Nov 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://maurofaccin.github.io/tags/wsme/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mapping the Topography of a Protein Energy Landscape</title>
+      <link>https://maurofaccin.github.io/papers/2015-11-19-gankyrin-energy-landscape/</link>
+      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/papers/2015-11-19-gankyrin-energy-landscape/</guid>
+      <description>A new paper from my old PhD work is out. In collaboration with the Itzhaki experimental lab group, we applied our simple model for protein folding (based on WMSE) to the Gankyrin protein. With this approach, both experimental and theoretical, we were able to unveil non trivial folding/unfolding paths.</description>
+    </item>
+    
+    <item>
+      <title>Analysis of the Equilibrium and Kinetics of the Ankyrin Repeat Protein Myotrophin</title>
+      <link>https://maurofaccin.github.io/papers/2011-03-01-ankyrin-wsme/</link>
+      <pubDate>Tue, 01 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/papers/2011-03-01-ankyrin-wsme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TnovoMS</title>
+      <link>https://maurofaccin.github.io/codes/tnovoms/</link>
+      <pubDate>Wed, 16 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/codes/tnovoms/</guid>
+      <description>T-novoMS is a combined de-novo/database-search tool for MSMS tandem spectra identification. Providing one or a list of MSMS spectra (in &amp;ldquo;dta&amp;rdquo; format), you will receive an email message with the most-likely, de-novo predicted parent peptide, the best matching peptide found in uniprot, and a measure of the reliability of the de-novo and database-search predictions.
+Try [tnovoms-server]{: target=&amp;rsquo;_blank&amp;rsquo;} @ BiFi.
+Refer to the following paper: [/papers/2013-04-12-msms-tnovo]</description>
+    </item>
+    
+  </channel>
+</rss>

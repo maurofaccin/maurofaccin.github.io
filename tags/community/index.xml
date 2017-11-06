@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Community on Mauro Faccin</title>
+    <link>https://maurofaccin.github.io/tags/community/</link>
+    <description>Recent content in Community on Mauro Faccin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Nov 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://maurofaccin.github.io/tags/community/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Entrograms and coarse graining of dynamics on complex networks</title>
+      <link>https://maurofaccin.github.io/papers/2017-11-02-entrograms/</link>
+      <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/papers/2017-11-02-entrograms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Community Detection in Quantum Complex Networks</title>
+      <link>https://maurofaccin.github.io/papers/2014-10-21-communities/</link>
+      <pubDate>Tue, 21 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/papers/2014-10-21-communities/</guid>
+      <description>We extend the concept of community detection from classical to quantum systems, which provides a crucial missing tool for analyzing quantum systems with a network structure. As well as for analysis, we argue that breaking down a quantum system into strongly correlated parts, i.e., a form of community partitioning, is an essential precursor for any simulation that aims to use this partitioning to reduce computational cost.
+To achieve the above goals we adapt traditional community detection methods that, as their starting point, use a measure of &amp;lsquo;closeness&amp;rsquo; for any two nodes.</description>
+    </item>
+    
+    <item>
+      <title>QuEBApp</title>
+      <link>https://maurofaccin.github.io/codes/quebapp/</link>
+      <pubDate>Sun, 16 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/codes/quebapp/</guid>
+      <description>Quantum Effects Based Approach to community detection. This sofware compute the community structure of a Quantum System based on its Hamiltonian, on the preferred basis.
+For details see: [/papers/2014-10-21-communities]
+  Dendrogram   Requirements  Python3 (it should work in python2 too, not sure about that) matplotlib (only for dendrogram plots) numpy, scipy  Install Clone the repository somewhere
+ git clone git@bitbucket.org:maurofaccin/quebapp.git  go to the folder</description>
+    </item>
+    
+  </channel>
+</rss>

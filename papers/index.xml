@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Mauro Faccin</title>
+    <link>https://maurofaccin.github.io/papers/</link>
+    <description>Recent content in Publications on Mauro Faccin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Nov 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://maurofaccin.github.io/papers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Entrograms and coarse graining of dynamics on complex networks</title>
+      <link>https://maurofaccin.github.io/papers/2017-11-02-entrograms/</link>
+      <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/papers/2017-11-02-entrograms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Complex Networks: from Classical to Quantum</title>
+      <link>https://maurofaccin.github.io/papers/2017-02-27-compnet-classic-quantum/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/papers/2017-02-27-compnet-classic-quantum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chiral Quantum Walks</title>
+      <link>https://maurofaccin.github.io/papers/2016-04-01-chiral-circuits/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/papers/2016-04-01-chiral-circuits/</guid>
+      <description>In this work we propose and carry out an NMR experiment to demonstrate the capabilities of a chiral quantum walk to control and direct the transport in a quantum system.
+Here we develop a quantum circuit analog of the chiral walk theory showing that one can design a system that break the time symmetry.</description>
+    </item>
+    
+    <item>
+      <title>Mapping the Topography of a Protein Energy Landscape</title>
+      <link>https://maurofaccin.github.io/papers/2015-11-19-gankyrin-energy-landscape/</link>
+      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/papers/2015-11-19-gankyrin-energy-landscape/</guid>
+      <description>A new paper from my old PhD work is out. In collaboration with the Itzhaki experimental lab group, we applied our simple model for protein folding (based on WMSE) to the Gankyrin protein. With this approach, both experimental and theoretical, we were able to unveil non trivial folding/unfolding paths.</description>
+    </item>
+    
+    <item>
+      <title>Community Detection in Quantum Complex Networks</title>
+      <link>https://maurofaccin.github.io/papers/2014-10-21-communities/</link>
+      <pubDate>Tue, 21 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/papers/2014-10-21-communities/</guid>
+      <description>We extend the concept of community detection from classical to quantum systems, which provides a crucial missing tool for analyzing quantum systems with a network structure. As well as for analysis, we argue that breaking down a quantum system into strongly correlated parts, i.e., a form of community partitioning, is an essential precursor for any simulation that aims to use this partitioning to reduce computational cost.
+To achieve the above goals we adapt traditional community detection methods that, as their starting point, use a measure of &amp;lsquo;closeness&amp;rsquo; for any two nodes.</description>
+    </item>
+    
+    <item>
+      <title>Degree distribution in quantum walks on complex networks</title>
+      <link>https://maurofaccin.github.io/papers/2013-09-04-degree/</link>
+      <pubDate>Wed, 04 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/papers/2013-09-04-degree/</guid>
+      <description>The probability of finding a classical random walker, after a long time, on a node is proportional to the degree distribution of that node independently of the topology of the rest of the network.
+A walker that obey quantum mechanics undergoes weird phenomena as interference, fluctuation, initial state dependence. The difference of its probability distribution from the classical counterpart depends on the system energy and entropy.</description>
+    </item>
+    
+    <item>
+      <title>Quantum Transport Enhancement by Time-Reversal Symmetry Breaking</title>
+      <link>https://maurofaccin.github.io/papers/2013-07-02-chiral-walks/</link>
+      <pubDate>Tue, 02 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/papers/2013-07-02-chiral-walks/</guid>
+      <description>Traditionally, the probability for a quantum walker to reach a node j starting from a node i is symmetric in time, and can be shown that pi&amp;rarr;j(t)=pj&amp;rarr;i(t) for any t. In this article we introduce a family of topologies for which this symmetry if broken and we call them Chiral Quantum Walk. The introduction of complex terms in the Hamiltonian leads to sensible enhancement and suppression and directionality in the system transport.</description>
+    </item>
+    
+    <item>
+      <title>MS/MS Spectra Interpretation as a Statistical–Mechanics Problem</title>
+      <link>https://maurofaccin.github.io/papers/2013-04-12-msms-tnovo/</link>
+      <pubDate>Fri, 12 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/papers/2013-04-12-msms-tnovo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ground State Spin Logic</title>
+      <link>https://maurofaccin.github.io/papers/2012-05-01-gs-spin-logic/</link>
+      <pubDate>Tue, 01 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/papers/2012-05-01-gs-spin-logic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysis of the Equilibrium and Kinetics of the Ankyrin Repeat Protein Myotrophin</title>
+      <link>https://maurofaccin.github.io/papers/2011-03-01-ankyrin-wsme/</link>
+      <pubDate>Tue, 01 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/papers/2011-03-01-ankyrin-wsme/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
