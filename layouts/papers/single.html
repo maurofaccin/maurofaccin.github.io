@@ -2,15 +2,7 @@
   <section>
     <main>
 
-    {{ partial "authors.html" . }}
-
-    
-    <a class='button col1' href="{{ .Params.arxiv }}" target="_blank">ArXiv</a>
-    <input class="popup" type="checkbox" id="{{ .Title }}">
-    <label class="popup" for="{{ .Title }}">
-        <div class="button col2">BibTeX</div>
-        <div class="hidden"><pre>{{ .Params.bibtex }}</pre></div>
-    </label>
+	{{ partial "authors.html" . }}{{ partial "buttons.html" . }}
 
     {{ if isset .Params "image" }}
     <aside><figure>

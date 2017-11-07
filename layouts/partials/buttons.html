@@ -1,0 +1,9 @@
+
+    {{ with .Params.arxiv }}
+    <a class='button col1' href="{{ . }}" target="_blank">ArXiv</a>
+    {{ end }}
+    <input class="popup" type="checkbox" id="{{ .Title }}">
+    <label class="popup" for="{{ .Title }}">
+        <div class="button col2">BibTeX</div>
+        <div class="hidden"><pre>{{ .Params.bibtex }}</pre></div>
+    </label>
