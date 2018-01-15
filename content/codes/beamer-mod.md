@@ -14,5 +14,5 @@ layout: standalone
 This is a DIY theme I managed to write for LaTeX/Beamer which I use to design
 some of my slides and posters (yes, it should work with beamerposter straight
 away).
-[BeamerThemeMOD](https://gitlab.com/maurofaccin/beamerthememod){: target='\_blank'}.
+[BeamerThemeMOD](https://gitlab.com/maurofaccin/beamerthememod).
 

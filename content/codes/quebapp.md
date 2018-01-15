@@ -15,7 +15,7 @@ This sofware compute the community structure of a Quantum System based
 on its Hamiltonian, on the preferred basis.
 
 For details see:
-[/papers/2014-10-21-communities]
+[here](/papers/2014-10-21-communities)
 
 {{< figure src="codes/quebapp/quebapp-dendro-wide.png" caption="Dendrogram" alt="Community Detection Dendrogram" >}}
 
