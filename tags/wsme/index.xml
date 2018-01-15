@@ -36,8 +36,8 @@
       
       <guid>https://maurofaccin.github.io/codes/tnovoms/</guid>
       <description>T-novoMS is a combined de-novo/database-search tool for MSMS tandem spectra identification. Providing one or a list of MSMS spectra (in &amp;ldquo;dta&amp;rdquo; format), you will receive an email message with the most-likely, de-novo predicted parent peptide, the best matching peptide found in uniprot, and a measure of the reliability of the de-novo and database-search predictions.
-Try [tnovoms-server]{: target=&amp;rsquo;_blank&amp;rsquo;} @ BiFi.
-Refer to the following paper: [/papers/2013-04-12-msms-tnovo]</description>
+Try TnovoMS Server @ BiFi.
+Refer to the paper for details.</description>
     </item>
     
   </channel>

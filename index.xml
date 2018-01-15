@@ -138,7 +138,7 @@ Great experience, it wasn&amp;rsquo;t so cold and we enjoyed snow, beer, vodka a
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://maurofaccin.github.io/codes/beamer-mod/</guid>
-      <description>This is a DIY theme I managed to write for LaTeX/Beamer which I use to design some of my slides and posters (yes, it should work with beamerposter straight away). BeamerThemeMOD{: target=&amp;rsquo;_blank&amp;rsquo;}.</description>
+      <description>This is a DIY theme I managed to write for LaTeX/Beamer which I use to design some of my slides and posters (yes, it should work with beamerposter straight away). BeamerThemeMOD.</description>
     </item>
     
     <item>
@@ -253,7 +253,7 @@ Here you can find the slides of my talk.</description>
       
       <guid>https://maurofaccin.github.io/codes/quebapp/</guid>
       <description>Quantum Effects Based Approach to community detection. This sofware compute the community structure of a Quantum System based on its Hamiltonian, on the preferred basis.
-For details see: [/papers/2014-10-21-communities]
+For details see: here
   Dendrogram   Requirements  Python3 (it should work in python2 too, not sure about that) matplotlib (only for dendrogram plots) numpy, scipy  Install Clone the repository somewhere
  git clone git@bitbucket.org:maurofaccin/quebapp.git  go to the folder</description>
     </item>
@@ -350,8 +350,8 @@ A walker that obey quantum mechanics undergoes weird phenomena as interference, 
       
       <guid>https://maurofaccin.github.io/codes/tnovoms/</guid>
       <description>T-novoMS is a combined de-novo/database-search tool for MSMS tandem spectra identification. Providing one or a list of MSMS spectra (in &amp;ldquo;dta&amp;rdquo; format), you will receive an email message with the most-likely, de-novo predicted parent peptide, the best matching peptide found in uniprot, and a measure of the reliability of the de-novo and database-search predictions.
-Try [tnovoms-server]{: target=&amp;rsquo;_blank&amp;rsquo;} @ BiFi.
-Refer to the following paper: [/papers/2013-04-12-msms-tnovo]</description>
+Try TnovoMS Server @ BiFi.
+Refer to the paper for details.</description>
     </item>
     
     <item>
