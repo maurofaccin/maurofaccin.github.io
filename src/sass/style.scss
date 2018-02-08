@@ -129,9 +129,10 @@ li{
 
 a {
     color: black;
-    text-decoration:underline;
+    text-decoration: none;
     &:hover, &:active, &:focus {
         text-shadow: 0 0 0.2em $color-links;
+        text-decoration: none;
     }
     &.extended {
         color: inherit;
@@ -188,6 +189,7 @@ label {
     display: inline-block;
     padding: 0.2ex 0.7ex;
     text-decoration: none;
+    cursor: pointer;
     &.col1 {
         background: $color-col1;
     }                          

@@ -1,9 +1,16 @@
 {{ $data := .Site.Data.collaborators }}
 {{ if isset .Params "authors" }}
-    {{ range .Params.authors }}
-	{{ $coll := index $data (lower .) }}
-	{{ if $coll }}<a href="{{ $coll.url }}" target="_blank">{{ $coll.name }}</a>{{ else }}{{ . }}{{ end }},
+    {{ range $i, $v := .Params.authors }}
+    {{ $collaborator := index $data (lower $v) }}
+	{{ if $collaborator }}
+        {{ $this := ( printf "<a href=\"%s\" target=\"_blank\">%s</a>" $collaborator.url $collaborator.name ) }}
+        {{ $.Scratch.Add "cols" ( slice $this ) }}
+    {{ else }}
+        {{ $.Scratch.Add "cols" ( slice $v ) }}
     {{ end }}
+    {{ end }}
+    {{ delimit ($.Scratch.Get "cols" ) ", " " and " }}
+    <br>
     <b>
 	{{ if isset .Params "journal" }}
 	<a href="{{ .Params.journallink }}" target="_blank">{{ .Params.journal }}</a>

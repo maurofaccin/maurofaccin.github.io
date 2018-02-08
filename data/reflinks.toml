@@ -1,43 +1,43 @@
 [urubu]
-url = http://urubu.jandecaluwe.com
-title = Urubu
+url = "http://urubu.jandecaluwe.com"
+title = "Urubu"
 
 [content_license]
-url = http://creativecommons.org/licenses/by-sa/3.0/
-title = CC-BY-SA License
+url = "http://creativecommons.org/licenses/by-sa/3.0/"
+title = "CC-BY-SA License"
 
 [software_license]
-url = http://www.gnu.org/licenses/agpl-3.0.txt
-title = GNU Affero General Public License
+url = "http://www.gnu.org/licenses/agpl-3.0.txt"
+title = "GNU Affero General Public License"
 
 [icteam]
-url = https://uclouvain.be/en/research-institutes/icteam
-title = ICTEAM
+url = "https://uclouvain.be/en/research-institutes/icteam"
+title = "ICTEAM"
 
 [uclouvain]
-url = https://www.uclouvain.be
-title = Université Catholique de Louvain
+url = "https://www.uclouvain.be"
+title = "Université Catholique de Louvain"
 
 [tnovoms-server]
-url = http://webapps.bifi.es/tnovoms
-title = TnovoMS Server
+url = "http://webapps.bifi.es/tnovoms"
+title = "TnovoMS Server"
 
 [googleProfile]
 url = "http://scholar.google.it/citations?user=CbeKfM4AAAAJ"
-title = Google Scholar Profile
+title = "Google Scholar Profile"
 
 [bitbucket]
-title = Bitbucket Repository
+title = "Bitbucket Repository"
 url = "https://bitbucket.org/maurofaccin"
 
 [researchGate]
-title = ResearchGate Profile
+title = "ResearchGate Profile"
 url = "http://www.researchgate.net/profile/Mauro_Faccin"
 
 [azimuth]
-title = My Page at the Azimuth Project
+title = "My Page at the Azimuth Project"
 url = "http://www.azimuthproject.org/azimuth/show/Mauro+Faccin"
 
 [frontiers]
-title = Frontiers (Review Editor)
+title = "Frontiers (Review Editor)"
 url = "http://community.frontiersin.org/people/MauroFaccin/104713"
