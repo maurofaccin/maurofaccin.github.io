@@ -10,7 +10,7 @@ authors:
     - Faccin
     - Schaub
     - Delvenne
-journal: Journal of Complex Networks
+journal: Journal of Complex Networks, cnx055
 journallink: https://academic.oup.com/comnet/article/4587985
 pdf: path.pdf
 image: fig_entrogram.svg
