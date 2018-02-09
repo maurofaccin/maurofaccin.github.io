@@ -48,7 +48,7 @@ nav{
     background-color: $color-main;
     background-color: rgba($color-main, 0.8);
     font-weight: 400;
-    
+
     input {
         display:none; // no checkbox
         &:not(:checked) ~ a { // the following links hidden by default
@@ -75,7 +75,7 @@ nav{
     ul{
         margin: 0px;
         list-style-type:none;
-        display: inline-block; 
+        display: inline-block;
         padding:0px;
         width:100%;
         a {
@@ -111,7 +111,7 @@ pre {
     opacity: 0.8;
     color: #aaaaaa;
     background-color: #333333;
-} 
+}
 
 img {
     width: 100%;
@@ -192,11 +192,11 @@ label {
     cursor: pointer;
     &.col1 {
         background: $color-col1;
-    }                          
-    &.col2 {                   
+    }
+    &.col2 {
         background: $color-col2;
-    }                          
-    &.col3 {                   
+    }
+    &.col3 {
         background: $color-col3;
     }
 }
