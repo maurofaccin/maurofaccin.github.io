@@ -2,7 +2,8 @@
   <section>
     <main>
 
-    {{ partial "buttons.html" . }}
+    {{ $loc := ( dict "Params" .Params "Title" .Title) }}
+    {{ partial "buttons.html" $loc }}
 
     {{ if isset .Params "image" }}
     <aside><figure>

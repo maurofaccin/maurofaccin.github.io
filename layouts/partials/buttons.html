@@ -9,3 +9,10 @@
         <div class="hidden"><pre>{{ .Params.bibtex }}</pre></div>
     </label>
     {{ end }}
+    {{ if and (isset .Params "abstract") ( isset . "abstract") }}
+    <input class="popup" type="checkbox" id="{{ .Title }}-abs">
+    <label class="popup" for="{{ .Title }}-abs">
+        <div class="button col3">Abstract</div>
+        <div class="hidden"><p>{{ .Params.abstract }}</p></div>
+    </label>
+    {{ end }}

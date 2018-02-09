@@ -20,7 +20,8 @@
 	    {{ partial "titles/authorlist.html" . }}
 	    {{ partial "titles/journal.html" . }}
 
-	    {{ partial "buttons.html" . }}
+	    {{ $loc := ( dict "Params" .Params "Title" .Title "abstract" "true") }}
+	    {{ partial "buttons.html" $loc }}
 
 	    {{ with .Params.subtitle }}<b>{{ . }}</b>{{ end }}
 	    {{ with .Params.description }}{{ . }}{{ end }}
