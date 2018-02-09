@@ -12,7 +12,16 @@
 		<img src="{{ .URL }}{{ .Params.Image }}" alt="" />
             </div>
             {{ end }}
-            {{ partial "listedtitle.html" . }}
+
+	    <a href="{{ .Permalink }}">
+	    <h5>{{ .Title }}</h5>
+	    </a>
+
+	    {{ partial "titles/authorlist.html" . }}
+	    {{ partial "titles/journal.html" . }}
+
+	    {{ partial "buttons.html" . }}
+
 	    {{ with .Params.subtitle }}<b>{{ . }}</b>{{ end }}
 	    {{ with .Params.description }}{{ . }}{{ end }}
         </li>

@@ -1,5 +1,10 @@
 
     <div class="jumbotron">
 	    <h1>{{ .Title }}</h1>
-            {{ with .Params.subtitle }}<h4>{{ . }}</h4>{{ end }}
+	    {{ if isset .Params "subtitle" }}
+	    <h4>{{ .Params.subtitle }}</h4>
+	    {{ else }}
+	    <i><h4>{{ partial "titles/authorlist.html" . }}</h4></i>
+	    <h4> {{ partial "titles/journal.html" . }}<br> </h4>
+	    {{ end }} 
     </div>

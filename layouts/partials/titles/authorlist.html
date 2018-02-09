@@ -1,0 +1,16 @@
+{{ $data := .Site.Data.collaborators }}
+
+{{ range $i, $v := .Params.authors }}
+    {{ $collaborator := index $data (lower . ) }}
+    {{ if $collaborator }}
+        {{ $this := ( printf "<a class=\"underline\" href=\"%s\" target=\"_blank\">%s</a>" $collaborator.url $collaborator.name ) }}
+        {{ $.Scratch.SetInMap "aut" (printf "%i" $i) $this }}
+    {{ else }}
+        {{ $.Scratch.SetInMap "aut" (printf "%i" $i) $v }}
+    {{ end }}
+{{ end }}
+
+{{ with $.Scratch.GetSortedMapValues "aut" }}
+<i> {{ delimit . ", " " and " }} </i><br>
+{{ end }}
+

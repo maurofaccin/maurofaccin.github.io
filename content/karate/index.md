@@ -1,6 +1,6 @@
 ---
 title: "Shotokan Karate"
-subtitle: My parallel life
+subtitle: "Training the spirit"
 draft: true
 ---
 

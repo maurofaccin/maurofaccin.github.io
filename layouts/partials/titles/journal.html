@@ -1,0 +1,3 @@
+{{ if isset .Params "journal" }}
+<b>{{ if isset .Params "journallink" }}<a href="{{ .Params.journallink }}" target="_blank">{{ .Params.journal }}</a>{{ else }}{{ .Params.journal }}{{ end }}</b><br>
+{{ end }}
