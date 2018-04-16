@@ -6,10 +6,28 @@
     <description>Recent content in News on Mauro Faccin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Apr 2018 16:06:45 +0200</lastBuildDate>
     
 	<atom:link href="https://maurofaccin.github.io/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Complex Networks 2018</title>
+      <link>https://maurofaccin.github.io/news/2018-12-11-complexnetworks2018/</link>
+      <pubDate>Mon, 16 Apr 2018 16:06:45 +0200</pubDate>
+      
+      <guid>https://maurofaccin.github.io/news/2018-12-11-complexnetworks2018/</guid>
+      <description>In December Complex Networks 2018 will be in Cambridge.</description>
+    </item>
+    
+    <item>
+      <title>Netsci2018 (Paris)</title>
+      <link>https://maurofaccin.github.io/news/2018-06-13-netsci2018/</link>
+      <pubDate>Mon, 16 Apr 2018 16:05:45 +0200</pubDate>
+      
+      <guid>https://maurofaccin.github.io/news/2018-06-13-netsci2018/</guid>
+      <description>In June I&amp;rsquo;ll be giving a talk in Netsci 2018 (Paris).</description>
+    </item>
     
     <item>
       <title>Benet 2016</title>

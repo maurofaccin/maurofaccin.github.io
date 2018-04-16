@@ -6,10 +6,28 @@
     <description>Recent content on Mauro Faccin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Apr 2018 16:06:45 +0200</lastBuildDate>
     
 	<atom:link href="https://maurofaccin.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Complex Networks 2018</title>
+      <link>https://maurofaccin.github.io/news/2018-12-11-complexnetworks2018/</link>
+      <pubDate>Mon, 16 Apr 2018 16:06:45 +0200</pubDate>
+      
+      <guid>https://maurofaccin.github.io/news/2018-12-11-complexnetworks2018/</guid>
+      <description>In December Complex Networks 2018 will be in Cambridge.</description>
+    </item>
+    
+    <item>
+      <title>Netsci2018 (Paris)</title>
+      <link>https://maurofaccin.github.io/news/2018-06-13-netsci2018/</link>
+      <pubDate>Mon, 16 Apr 2018 16:05:45 +0200</pubDate>
+      
+      <guid>https://maurofaccin.github.io/news/2018-06-13-netsci2018/</guid>
+      <description>In June I&amp;rsquo;ll be giving a talk in Netsci 2018 (Paris).</description>
+    </item>
     
     <item>
       <title>Entrograms and coarse graining of dynamics on complex networks</title>
@@ -254,7 +272,7 @@ Here you can find the slides of my talk.</description>
       <guid>https://maurofaccin.github.io/codes/quebapp/</guid>
       <description>Quantum Effects Based Approach to community detection. This sofware compute the community structure of a Quantum System based on its Hamiltonian, on the preferred basis.
 For details see: here
-  Dendrogram   Requirements  Python3 (it should work in python2 too, not sure about that) matplotlib (only for dendrogram plots) numpy, scipy  Install Clone the repository somewhere
+   Dendrogram   Requirements  Python3 (it should work in python2 too, not sure about that) matplotlib (only for dendrogram plots) numpy, scipy  Install Clone the repository somewhere
  git clone git@bitbucket.org:maurofaccin/quebapp.git  go to the folder</description>
     </item>
     
