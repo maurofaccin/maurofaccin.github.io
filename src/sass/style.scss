@@ -114,7 +114,6 @@ pre {
 }
 
 img {
-    width: 100%;
 }
 figure {
     margin: 0px;
@@ -202,21 +201,22 @@ label {
 }
 
 .oblo {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    width: 120px;
     overflow: hidden;
-    background-color: $color-alt;
-    background-color: rgba($color-main ,0.2);
-    float: left;
-    margin-right: 2ex;
-    border-color: $color-alt;
-    border-color: rgba($color-main, 0.0);
-    border-style: solid;
-    border-width: 5px;
+    // background-color: $color-alt;
+    // background-color: rgba($color-main ,0.2);
+    float: right;
+    // border-color: $color-alt;
+    // border-color: rgba($color-main, 0.0);
+    // border-style: solid;
+    // border-width: 5px;
     img {
-        height: 100%;
+        width: 120px;
     }
+}
+
+.cover {
+    object-fit:contain;
 }
 
 .bottom {
@@ -323,6 +323,13 @@ ul.list{
     text-align: center;
 }
 
+.onlybig {
+    display:none;
+    @include media($bp-s) {
+        display:inline-block;
+    }
+}
+
 
 .cards {
     .card {
@@ -371,6 +378,7 @@ section {
 
 .pin {
     color: white;
+    padding: 0px 2em 1em 2em;
     background-color: $color-main;
     background-color: rgba($color-main, 0.8);
     a {

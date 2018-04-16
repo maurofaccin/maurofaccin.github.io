@@ -13,10 +13,10 @@
       {{ .Content }}
       
       {{ if eq .Params.contrib "talk" }}
-      <img id='slideshow' src="{{ .URL }}slide-01.png" alt="Slides" />
+      <img id='slideshow' width="100%" src="{{ .URL }}slide-01.png" alt="Slides" />
       {{ else }}
       <a href="{{ .URL }}poster.pdf">
-	  <img src="{{ .URL }}poster.png" alt="Poster" />
+	  <img width="100%" src="{{ .URL }}poster.png" alt="Poster" />
       </a>
       {{ end }}
 

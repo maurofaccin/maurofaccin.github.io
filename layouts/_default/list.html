@@ -8,9 +8,11 @@
       {{ range .Pages }}
         <li>
             {{ if isset .Params "image" }}
+            <aside class="onlybig">
             <div class='oblo'>
-		<img src="{{ .URL }}{{ .Params.Image }}" alt="" />
+		<img class='cover' src="{{ .URL }}{{ .Params.Image }}" alt="" />
             </div>
+            </aside>
             {{ end }}
 
 	    <a href="{{ .Permalink }}">

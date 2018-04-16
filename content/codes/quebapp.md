@@ -17,7 +17,7 @@ on its Hamiltonian, on the preferred basis.
 For details see:
 [here](/papers/2014-10-21-communities)
 
-{{< figure src="codes/quebapp/quebapp-dendro-wide.png" caption="Dendrogram" alt="Community Detection Dendrogram" >}}
+{{< figure src="codes/quebapp/quebapp-dendro-wide.png" caption="Dendrogram" alt="Community Detection Dendrogram" width="100%" >}}
 
 ## Requirements
 
