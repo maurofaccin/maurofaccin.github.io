@@ -6,10 +6,19 @@
     <description>Recent content in Slides and Posters on Mauro Faccin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://maurofaccin.github.io/slides/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dynamical Markov Modules</title>
+      <link>https://maurofaccin.github.io/slides/2018-06-13-netsci2018/</link>
+      <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/slides/2018-06-13-netsci2018/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Community detection in networks with non-Markovian dynamics</title>
