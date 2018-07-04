@@ -1,0 +1,8 @@
+---
+date: 2016-09-19
+title: "Beyond Communities: Dynamical Markov Modules"
+subtitle: CCS 2016 @ Amsterdam (Netherlands)
+image: ccs2016amsterdam.jpg
+contrib: talk
+---
+
