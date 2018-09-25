@@ -2,7 +2,7 @@
 
 // Convert px values to rem or unitless
 @function convert-px($px, $unit: rem) {
-  $output: $px / $base;
+  $output: ($px / $base);
   @if $unit == rem {
     @return #{$output}rem;
   }
