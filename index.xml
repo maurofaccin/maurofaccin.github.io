@@ -6,10 +6,19 @@
     <description>Recent content on Mauro Faccin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Jul 2018 16:16:10 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 24 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://maurofaccin.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A dynamical approach to block structure analysis</title>
+      <link>https://maurofaccin.github.io/slides/2018-09-24-ccs2018/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/slides/2018-09-24-ccs2018/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CCS2018</title>
