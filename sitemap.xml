@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://maurofaccin.github.io/papers/2018-10-17-tubercolosis-rsa-swa-thelancet/</loc>
+    <lastmod>2018-10-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://maurofaccin.github.io/slides/2018-09-24-ccs2018/</loc>
     <lastmod>2018-09-24T00:00:00+00:00</lastmod>
   </url>
@@ -270,7 +275,7 @@
   
   <url>
     <loc>https://maurofaccin.github.io/</loc>
-    <lastmod>2018-09-24T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -304,7 +309,7 @@
   
   <url>
     <loc>https://maurofaccin.github.io/papers/</loc>
-    <lastmod>2017-11-02T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -344,6 +349,12 @@
   
   <url>
     <loc>https://maurofaccin.github.io/news/2017-11-29-complexnetworks/</loc>
+  </url>
+  
+  <url>
+    <loc>https://maurofaccin.github.io/tags/tuberculosis/</loc>
+    <lastmod>2018-10-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
