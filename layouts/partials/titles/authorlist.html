@@ -4,9 +4,9 @@
     {{ $collaborator := index $data (lower . ) }}
     {{ if $collaborator }}
         {{ $this := ( printf "<a class=\"underline\" href=\"%s\" target=\"_blank\">%s</a>" $collaborator.url $collaborator.name ) }}
-        {{ $.Scratch.SetInMap "aut" (printf "%i" $i) $this }}
+        {{ $.Scratch.SetInMap "aut" (printf "%03d" $i) $this }}
     {{ else }}
-        {{ $.Scratch.SetInMap "aut" (printf "%i" $i) $v }}
+        {{ $.Scratch.SetInMap "aut" (printf "%03d" $i) $v }}
     {{ end }}
 {{ end }}
 
