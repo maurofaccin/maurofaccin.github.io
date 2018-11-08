@@ -19,7 +19,8 @@
       <guid>https://maurofaccin.github.io/codes/quebapp/</guid>
       <description>Quantum Effects Based Approach to community detection. This sofware compute the community structure of a Quantum System based on its Hamiltonian, on the preferred basis.
 For details see: here
-   Dendrogram   Requirements  Python3 (it should work in python2 too, not sure about that) matplotlib (only for dendrogram plots) numpy, scipy  Install Clone the repository somewhere
+  Dendrogram
+  Requirements  Python3 (it should work in python2 too, not sure about that) matplotlib (only for dendrogram plots) numpy, scipy  Install Clone the repository somewhere
  git clone git@bitbucket.org:maurofaccin/quebapp.git  go to the folder</description>
     </item>
     
