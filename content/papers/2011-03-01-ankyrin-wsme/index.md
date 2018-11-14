@@ -11,7 +11,7 @@ authors:
 journal: J Chem Phys 134:075102 (2011)
 journallink: http://link.aip.org/link/?JCP/134/075102/1
 pdf: faccin-pelizzola_WSME-ankyrin_JChemPhys2011.pdf
-image: gankyrin-jacs-image.png
+image: folding.png
 arxiv: http://arxiv.org/abs/1103.0216
 abstract: "We apply the Wako-Saito-Muñoz-Eaton model to the study of myotrophin, a small ankyrin repeat protein, whose folding equilibrium and kinetics have been recently characterized experimentally. The model, which is a native-centric with binary variables, provides a finer microscopic detail than the Ising model that has been recently applied to some different repeat proteins, while being still amenable for an exact solution. In partial agreement with the experiments, our results reveal a weakly three-state equilibrium and a two-state-like kinetics of the wild-type protein despite the presence of a nontrivial free-energy profile. These features appear to be related to a careful “design” of the free-energy landscape, so that mutations can alter this picture, stabilizing some intermediates and changing the position of the rate-limiting step. Also, the experimental findings of two alternative pathways, an N-terminal and a C-terminal one, are qualitatively confirmed, even if the variations in the rates upon the experimental mutations cannot be quantitatively reproduced. Interestingly, the folding and unfolding pathways appear to be different, even if closely related: a property that is not generally considered in the phenomenological interpretation of the experimental data."
 bibtex: |-
