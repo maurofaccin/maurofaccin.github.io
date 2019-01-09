@@ -4,20 +4,18 @@
 @include font-face("fira", "/fonts/fira/FiraSans-Bold", 600, normal);
 @include font-face("fira mono", "/fonts/fira/FiraMono-Regular", monospace);
 
-// @import 'harmon';
-
 :root{
-    // font-size:$base;
+    font-size: 21px;
     font-family: "fira", sans-serif;
     font-weight: 300;
 }
 
-// h6{ font-size:scale(1)}
-// h5{ font-size:scale(2)}
-// h4{ font-size:scale(3)}
-// h3{ font-size:scale(4)}
-// h2{ font-size:scale(5)}
-// h1{ font-size:scale(6)}
+h1 {font-size: 42px;}
+h2 {font-size: 32px;}
+h3 {font-size: 28px;}
+h4 {font-size: 24px;}
+h5 {font-size: 21px;}
+h6 {font-size: 21px;}
 
 code, pre {
     font-family: "fira mono", monospace;
