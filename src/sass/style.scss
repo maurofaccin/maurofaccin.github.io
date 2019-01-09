@@ -135,7 +135,7 @@ dd {
 
 a {
     color: black;
-    text-decoration: none;
+    text-decoration: underline;
     &:hover, &:active, &:focus {
         text-shadow: 0 0 0.2em $color-links;
         text-decoration: none;

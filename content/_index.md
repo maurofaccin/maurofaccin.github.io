@@ -3,18 +3,10 @@ title: Mauro Faccin
 subtitle: Academic Website
 ---
 
-I work as a PostDoc researcher at the
-[Université Catholique de Louvain](https://www.uclouvain.be), in the
-[ICTEAM](https://uclouvain.be/en/research-institutes/icteam) institute,
-in Louvain-La-Neuve (Belgium).
-My main research interests include the analysis of dynamical systems evolving
-on and interacting with complex topologies or networks.
-Under the wide category of such dynamical systems one can find simple models to
-describe the diffusion of information on social networks, the spreading of diseases
-on human or animal contact networks, blackout cascades on energy distribution
-networks and many other diverse systems.
+My main research interests include the analysis of dynamical systems evolving on and interacting with complex topologies or networks.
+This includes a wide variety of interdisciplinary scenarios from physics (my own background) to medicine, from sociology to technology.
+In particular I focus on the characterization of the topological features (such as community structures) of the underlying data that can be evinced from the system temporal evolution.
+I analyse those systems applying tools from Information Theory, Statistical Physics and Quantum Mechanics.
 
-I analyse those systems applying tools from Information Theory, Statistical
-Physics, Quantum Mechanics blended with results from the fast growing fields
-of Network Science and Big Data.
-
+I work as a PostDoc in the [ICTEAM](https://uclouvain.be/en/research-institutes/icteam) institute ([Université Catholique de Louvain](https://www.uclouvain.be), Belgium) in collaboration with the [Cliniques universitaires Saint-Luc](https://www.saintluc.be/) and [Savics](https://savics.org/).
+I hold a visiting position in the [ARCS group](https://arcs.di.unito.it/) in the [Università di Torino](https://www.unito.it) department of informatics, Italy.
