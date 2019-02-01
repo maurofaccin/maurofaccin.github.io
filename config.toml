@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Mauro Faccin"
 relativeURLs = "true"
 canonifyurls = true
+disablePathToLower = true
 
 [blackfriday]
    plainIDAnchors = true
