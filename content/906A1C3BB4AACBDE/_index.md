@@ -7,4 +7,6 @@ layout: standalone
 ---
 
 - [South Kivu]({{<localdir>}}skivu)
+- [North Kivu]({{<localdir>}}nkivu)
 - [Rwanda]({{<localdir>}}rwa)
+- [Burundi]({{<localdir>}}bdi)
