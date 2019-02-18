@@ -4,9 +4,8 @@ title: The Maps
 subtitle: Under construction
 type: codes
 layout: standalone
+addToHeader: |-
+    <meta hhtp-equiv="refresh" content="2; url=tb_map">
 ---
 
-- [South Kivu]({{<localdir>}}skivu)
-- [North Kivu]({{<localdir>}}nkivu)
-- [Rwanda]({{<localdir>}}rwa)
-- [Burundi]({{<localdir>}}bdi)
+Redirecting to [the new home](tb_map)

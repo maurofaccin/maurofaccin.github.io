@@ -78,3 +78,23 @@ map.on("overlayadd", function(eo) {
 	}, 10);
     }
 });
+
+var legend = L.control({position: 'bottomright'});
+
+legend.onAdd = function (map) {
+
+    var div = L.DomUtil.create('div', 'legend'),
+        grades = [1, 2, 5, 10],
+	opacity = [0.1, 0.35, 0.6, 0.7],
+        colors = ['#cccc00', '#cc8800', '#cc4400', '#cc0000'];
+
+    // loop through our density intervals and generate a label with a colored square for each interval
+    for (var i = 0; i < grades.length; i++) {
+        div.innerHTML +=
+            '<i style="background:' + colors[i] + '; opacity:' + opacity[i] + '"></i> >' + grades[i] + 'x<br>';
+    }
+
+    return div;
+};
+
+legend.addTo(map);
