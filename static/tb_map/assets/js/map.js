@@ -11,7 +11,7 @@ var osm_hot = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png
 var baseLayers = {
     "CartoDB Positron": CartoDB_Positron,
     "OSM Hot": osm_hot,
-}
+};
 
 var percLayer = new L.GeoJSON.AJAX("data/tb-prev.json", {
     style: function (feature) {
