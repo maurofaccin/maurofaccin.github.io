@@ -1,5 +1,5 @@
 var healthIcon = L.icon({
-    iconUrl: '../assets/health-icon.png',
+    iconUrl: 'tb_map/assets/health-icon.png',
 
     iconSize:     [28, 40], // size of the icon
     iconAnchor:   [14, 40], // point of the icon which will correspond to marker's location
@@ -7,7 +7,7 @@ var healthIcon = L.icon({
 });
 
 
-var hfacs = new L.GeoJSON.AJAX("./data/hfacs.json", {
+var hfacs = new L.GeoJSON.AJAX("data/hfacs.json", {
     pointToLayer: function (feature, latlng) {
 	return L.marker(latlng, {
 	    icon: healthIcon
