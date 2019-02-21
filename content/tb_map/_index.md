@@ -1,7 +1,7 @@
 ---
 date: 2016-10-01
 title: TB Maps
-subtitle: Under construction
+subtitle: Cartographie des zones à très haut risque de tuberculose
 type: codes
 layout: standalone
 addToHeader: |-
@@ -9,7 +9,9 @@ addToHeader: |-
         <link rel="stylesheet" href="tb_map/assets/css/map.css"/>
 ---
 
-<div id="mapid" style="height: 90vh;"></div>
+This is a work in progress.
+
+<div id="mapid" style="height: 50vh;"></div>
 
 <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
 <script type="text/javascript" src="tb_map/assets/js/leaflet-ajax.js"></script>

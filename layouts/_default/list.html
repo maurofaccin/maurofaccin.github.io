@@ -2,6 +2,14 @@
 {{ define "main" }}
 
 <section>
+    {{ if .IsTranslated }}
+    <nav class="LangNav">
+    {{ range .Translations }}
+        <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+    {{ end}}
+    </nav>
+    {{ end }}
+
     {{ .Content }}
 
     <ul class='list'>

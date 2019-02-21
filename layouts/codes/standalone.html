@@ -5,14 +5,13 @@
 {{ end }}
 
 {{ define "main" }}
+<ul>
   <section>
-    
-      {{ if isset .Params "image" }}
+    {{ if isset .Params "image" }}
     <aside>
 	<figure>
             <img width="100%" src="{{ .URL }}{{ .Params.image }}" alt="{{ .Title }}">
 	</figure>
-
     </aside>
     {{ end }}
 
@@ -21,6 +20,4 @@
     </main>
 
   </section>
-
-
-  {{ end }}
+{{ end }}
