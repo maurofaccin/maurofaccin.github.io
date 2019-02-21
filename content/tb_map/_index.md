@@ -18,7 +18,6 @@ This is a work in progress.
 <script type="text/javascript" src="tb_map/assets/js/map_front.js"></script>
 
 
-# Cartographie des zones à très haut risque de tuberculose
 
 L’Organisation Mondiale de la Santé (OMS) estime qu’une partie importante des malades atteints de la tuberculose (TB) n’ont pas accès à un test diagnostic et au traitement. Cette proportion de malades non-diagnostiqués, qui peut atteindre plus de la moitié des cas de tuberculose dans certaines parties du monde, contribue largement à la mortalité liée à la TB et à sa propagation.
 

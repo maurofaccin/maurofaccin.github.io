@@ -4,6 +4,7 @@ relativeURLs = "true"
 canonifyurls = true
 disablePathToLower = true
 
+languageCode = "en-us"
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = "true"
 
