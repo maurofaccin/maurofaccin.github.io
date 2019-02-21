@@ -4,20 +4,60 @@ var CartoDB_Positron = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/
     subdomains: 'abcd',
     maxZoom: 19
 }).addTo(map);
+
+function highlight(e) {
+    var layer = e.target;
+
+    layer.setStyle({
+        weight: 5,
+        color: 'white',
+        dashArray: '',
+        fillOpacity: 0.8
+    });
+
+    if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+        layer.bringToFront();
+    };
+    info.update(layer.feature.properties)
+}
+
+function resetHighlight(e) {
+  percLayer.resetStyle(e.target);
+  info.update()
+}
+
+var info = L.control();
+
+info.onAdd = function (map) {
+    this._div = L.DomUtil.create('div', 'legend'); // create a div with a class "info"
+    this.update();
+    return this._div;
+};
+
+// method that we will use to update the control based on feature properties passed
+info.update = function (props) {
+    this._div.innerHTML = (props ?
+    '<b>' + props.name + '</b><br />Prevalence: ' + props.prevalence + '<br><small>TB cases per 100k<small>':
+    'Country TB prevalence');
+};
+
+info.addTo(map);
+
 var percLayer = new L.GeoJSON.AJAX("tb_map/countries.geojson", {
     style: function (feature) {
         return {
             color: 'white',
-            fillOpacity: 0.7,
+            fillOpacity: 0.6,
             fillColor: feature.properties.color,
             opacity: 0.7,
             weight: 2,
         };
     },
   onEachFeature: function (feature, layer) {
-    layer.bindTooltip(feature.properties.name),
     layer.on({
-      click: function (layer) {window.open(feature.properties.url, '_blank')}
+      click: function (layer) {window.open(feature.properties.url, '_blank')},
+      mouseover: highlight,
+      mouseout: resetHighlight
     })
   }
 }).addTo(map);

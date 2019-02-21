@@ -1,5 +1,5 @@
 var healthIcon = L.icon({
-    iconUrl: 'tb_map/assets/health-icon.png',
+    iconUrl: '../assets/health-icon.png',
 
     iconSize:     [28, 40], // size of the icon
     iconAnchor:   [14, 40], // point of the icon which will correspond to marker's location
