@@ -10,7 +10,9 @@
             {{ if isset .Params "image" }}
             <aside class="onlybig">
             <div class='oblo'>
+	    <a href="{{ .Permalink }}">
 		<img class='cover' src="{{ .URL }}{{ .Params.Image }}" alt="" />
+	    </a>
             </div>
             </aside>
             {{ end }}
