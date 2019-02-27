@@ -6,16 +6,14 @@ disablePathToLower = true
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-defaultContentLanguageInSubdir = "true"
 
 [languages]
-  [language.en]
+  [languages.en]
     languageName = "English"
     weight = 1
-  [language.fr]
+  [languages.fr]
     languageName = "Français"
     weight = 2
-    url = "/fr/"
 
 [blackfriday]
    plainIDAnchors = true

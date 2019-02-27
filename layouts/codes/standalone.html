@@ -5,7 +5,10 @@
 {{ end }}
 
 {{ define "main" }}
-<ul>
+{{ if .IsTranslated }}
+    Lang: {{ range .Translations }} <a href="{{ .Permalink }}">[{{ .Lang }}]</a> {{ end}}
+{{ end }}
+
   <section>
     {{ if isset .Params "image" }}
     <aside>

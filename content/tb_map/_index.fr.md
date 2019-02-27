@@ -1,7 +1,7 @@
 ---
 date: 2016-10-01
 title: TB Maps
-subtitle: Cartography of predicted tuberculosis in high burden settings
+subtitle: Cartographie des zones à très haut risque de tuberculose
 type: codes
 layout: standalone
 addToHeader: |-
@@ -12,27 +12,31 @@ addToHeader: |-
 This is a work in progress.
 
 <div id="mapid" style="height: 50vh;"></div>
-<small>*Prevalence refers to the values estimated by our approach.*</small>
+<small>
+*La prévalence fait référence aux valeurs estimées par notre approche.*
+</small>
 
 <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
 <script type="text/javascript" src="tb_map/assets/js/leaflet-ajax.js"></script>
 <script type="text/javascript" src="tb_map/assets/js/map_front.js"></script>
 
-Thanks to a research fund granted by the Brussels Region in Belgium ([Innoviris](https://www.innoviris.be)), a consortium of Universities ([UCLouvain](https://uclouvain.be/) and [KULeuven](https://www.kuleuven.be)) and a start-up active in the development of innovative tools for international health ([Savics](http://www.savics/org)) are developing innovative solutions to help:
+Grâce à un fond de recherche accordé par la Région Bruxelloise en Belgique ([Innoviris](https://www.innoviris.be)), un consortium d'Universités ([UCLouvain](https://uclouvain.be/) et [KULeuven](https://www.kuleuven.be)) et une start-up active dans le développement d'outils innovants pour la santé internationale ([Savics](http://www.savics/org)) développent des solutions innovantes permettant:
 
-- to target very precisely the geographical areas throughout the world with a very high risk of tuberculosis;
-- to facilitate the operational response to address them.
+- de cibler de manière très précise les zones géographiques au travers le monde présentant un très haut risque de tuberculose;
+- de faciliter la réponse opérationnelle pour y faire face.
 
-This site is dedicated to the first chapter.
+Ce site est consacré au premier chapitre, consultez [ici pour plus d'informations](fr/tb_map/about).
 
-We invite you to visit Savics [Mediscout](https://www.savics.org/mediscout) website for more information on the operational tools developed.
+Nous vous invitons à consulter le site [Mediscout de Savics](https://www.savics.org/mediscout) pour obtenir plus d'informations sur les outils opérationnels développés.
 
-## A collaboration between:
+
+
+## Une collaboration entre:
 
 {{< figure src="images/kuleuven_logo.png" class="center" alt="KULeuven LOGO" width="50%" link="https://www.kuleuven.be" target="_blank">}}
 {{< figure src="images/uclouvain_logo.png" class="center" alt="UCLouvain LOGO" width="50%" link="https://www.uclouvain.be" target="_blank">}}
 {{< figure src="images/savics_logo.png" class="center" alt="Savics LOGO" width="50%" link="https://savics.org" target="_blank">}}
 
-## With the support of:
+## Avec le soutien de:
 
 {{< figure src="images/innoviris_logo.png" class="center" alt="Innoviris LOGOs" width="50%" link="http://www.innoviris.be" target="_blank">}}
