@@ -23,7 +23,7 @@ Thanks to a research fund granted by the Brussels Region in Belgium ([Innoviris]
 - to target very precisely the geographical areas throughout the world with a very high risk of tuberculosis;
 - to facilitate the operational response to address them.
 
-This site is dedicated to the first chapter.
+This site is dedicated to the first chapter, see [here for more informations](tb_map/about).
 
 We invite you to visit Savics [Mediscout](https://www.savics.org/mediscout) website for more information on the operational tools developed.
 
