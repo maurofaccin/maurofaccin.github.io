@@ -11,5 +11,16 @@
 	<atom:link href="https://maurofaccin.github.io/tb_map/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>TB Maps</title>
+      <link>https://maurofaccin.github.io/tb_map/about/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/tb_map/about/</guid>
+      <description>This is a work in progress.
+The World Health Organization (WHO) estimates that a significant proportion of tuberculosis (TB) patients do not have access to diagnostic testing and treatment. This proportion of undiagnosed patients, which can account for more than half of tuberculosis cases in some parts of the world, contributes significantly to TB-related mortality and spread.
+For this reason, WHO recommends that active TB screening activities be carried out in high-risk populations.</description>
+    </item>
+    
   </channel>
 </rss>
