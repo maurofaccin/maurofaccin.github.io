@@ -13,7 +13,7 @@ var baseLayers = {
     "OSM Hot": osm_hot,
 };
 
-var percLayer = new L.GeoJSON.AJAX("data/tb-prev.json", {
+var percLayer = new L.GeoJSON.AJAX("data/tb-incidence.json", {
     style: function (feature) {
         return {
             color: feature.properties.stroke,
@@ -25,7 +25,7 @@ var percLayer = new L.GeoJSON.AJAX("data/tb-prev.json", {
         };
     }
 }).addTo(map);
-var absLayer = new L.GeoJSON.AJAX("data/tb-prev-abs.json", {
+var absLayer = new L.GeoJSON.AJAX("data/tb-incidence-abs.json", {
     style: function (feature) {
         return {
             color: feature.properties.stroke,
@@ -37,6 +37,21 @@ var absLayer = new L.GeoJSON.AJAX("data/tb-prev-abs.json", {
         };
     }
 });
+var hzLayer = new L.GeoJSON.AJAX("data/hz.json", {
+    style: function (feature) {
+        return {
+            color: feature.properties.stroke,
+            fillOpacity: feature.properties["fill-opacity"],
+            fillColor: feature.properties.fill,
+            opacity: feature.properties["stroke-opacity"],
+            weight: feature.properties["stroke-width"],
+        };
+    }
+}).bindTooltip(
+	function (layer) {
+		return "<b>" + layer.feature.properties.tbmap_name + "</b><br>" +
+			"Incidence rate: " + layer.feature.properties.tbmap_incidence
+	});
 
 var screening = new L.GeoJSON.AJAX("./data/screening.json", {
     pointToLayer: function (feature, latlng) {
@@ -57,22 +72,23 @@ var screening = new L.GeoJSON.AJAX("./data/screening.json", {
 	circ.on('mouseout', function (e) {this.closePopup();});
 	return circ;
     }
-}).addTo(map);
+});
+
 
 var overlayLayers = {
-    "TB cases (abs)": absLayer,
-    "TB prevalence": percLayer,
-    "screening": screening,
-}
+    "TB cases": absLayer,
+    "TB rate": percLayer,
+    "Health Zones": hzLayer,
+};
 
 var control = L.control.layers(baseLayers, overlayLayers).addTo(map);
 
 map.on("overlayadd", function(eo) {
-    if (eo.name === "TB prevalence") {
+    if (eo.name === "TB rate") {
 	setTimeout(function() {
 	    map.removeLayer(absLayer)
 	}, 10);
-    } else if (eo.name === "TB cases (abs)") {
+    } else if (eo.name === "TB cases") {
 	setTimeout(function() {
 	    map.removeLayer(percLayer)
 	}, 10);
@@ -98,3 +114,13 @@ legend.onAdd = function (map) {
 };
 
 legend.addTo(map);
+
+screening.addTo(map);
+setTimeout(
+  function () {
+    console.log('Screening size ' + screening.getLayers().length);
+    if (screening.getLayers().length > 0) {
+      control.addOverlay(screening, "Screening");
+    }
+  },
+  1000);

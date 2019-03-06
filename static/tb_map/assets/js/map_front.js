@@ -37,8 +37,8 @@ info.onAdd = function (map) {
 // method that we will use to update the control based on feature properties passed
 info.update = function (props) {
     this._div.innerHTML = (props ?
-    '<b>' + props.name + '</b><br />Prevalence: ' + props.prevalence + '<br><small>TB cases per 100k<small>':
-    'Country TB prevalence');
+    '<b>' + props.name + '</b><br />Incidence rate: ' + props.incidence + '<br><small>TB cases per 100k<small>':
+    'Country TB Incidence');
 };
 
 info.addTo(map);
