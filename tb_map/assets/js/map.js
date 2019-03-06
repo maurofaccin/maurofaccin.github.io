@@ -13,7 +13,7 @@ var baseLayers = {
     "OSM Hot": osm_hot,
 };
 
-var percLayer = new L.GeoJSON.AJAX("data/tb-prev.json", {
+var percLayer = new L.GeoJSON.AJAX("data/tb-incidence.json", {
     style: function (feature) {
         return {
             color: feature.properties.stroke,
@@ -25,7 +25,7 @@ var percLayer = new L.GeoJSON.AJAX("data/tb-prev.json", {
         };
     }
 }).addTo(map);
-var absLayer = new L.GeoJSON.AJAX("data/tb-prev-abs.json", {
+var absLayer = new L.GeoJSON.AJAX("data/tb-incidence-abs.json", {
     style: function (feature) {
         return {
             color: feature.properties.stroke,
@@ -76,19 +76,19 @@ var screening = new L.GeoJSON.AJAX("./data/screening.json", {
 
 
 var overlayLayers = {
-    "TB cases (abs)": absLayer,
-    "TB prevalence": percLayer,
+    "TB cases": absLayer,
+    "TB rate": percLayer,
     "Health Zones": hzLayer,
 };
 
 var control = L.control.layers(baseLayers, overlayLayers).addTo(map);
 
 map.on("overlayadd", function(eo) {
-    if (eo.name === "TB prevalence") {
+    if (eo.name === "TB rate") {
 	setTimeout(function() {
 	    map.removeLayer(absLayer)
 	}, 10);
-    } else if (eo.name === "TB cases (abs)") {
+    } else if (eo.name === "TB cases") {
 	setTimeout(function() {
 	    map.removeLayer(percLayer)
 	}, 10);
