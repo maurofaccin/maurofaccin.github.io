@@ -5,20 +5,20 @@ subtitle: Cartographie des zones à très haut risque de tuberculose
 type: codes
 layout: standalone
 addToHeader: |-
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
-        <link rel="stylesheet" href="tb_map/assets/css/map.css"/>
+        <link rel="stylesheet" href="tb_map/assets/leaflet.css"/>
+        <link rel="stylesheet" href="tb_map/assets/map.css"/>
 ---
 
 This is a work in progress.
 
 <div id="mapid" style="height: 50vh;"></div>
 <small>
-*La prévalence fait référence aux valeurs estimées par notre approche.*
+*L'incidence fait référence aux valeurs estimées par notre approche.*
 </small>
 
-<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
-<script type="text/javascript" src="tb_map/assets/js/leaflet-ajax.js"></script>
-<script type="text/javascript" src="tb_map/assets/js/map_front.js"></script>
+<script type="text/javascript" src="tb_map/assets/leaflet.js"></script>
+<script type="text/javascript" src="tb_map/countries.js"></script>
+<script type="text/javascript" src="tb_map/assets/map_front.js"></script>
 
 Grâce à un fond de recherche accordé par la Région Bruxelloise en Belgique ([Innoviris](https://www.innoviris.be)), un consortium d'Universités ([UCLouvain](https://uclouvain.be/) et [KULeuven](https://www.kuleuven.be)) et une start-up active dans le développement d'outils innovants pour la santé internationale ([Savics](http://www.savics/org)) développent des solutions innovantes permettant:
 

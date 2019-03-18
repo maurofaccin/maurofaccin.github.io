@@ -5,18 +5,18 @@ subtitle: Cartography of predicted tuberculosis in high burden settings
 type: codes
 layout: standalone
 addToHeader: |-
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
-        <link rel="stylesheet" href="tb_map/assets/css/map.css"/>
+        <link rel="stylesheet" href="tb_map/assets/leaflet.css"/>
+        <link rel="stylesheet" href="tb_map/assets/map.css"/>
 ---
 
 This is a work in progress.
 
 <div id="mapid" style="height: 50vh;"></div>
-<small>*Prevalence refers to the values estimated by our approach.*</small>
+<small>*Incidence refers to the values estimated by our approach.*</small>
 
-<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
-<script type="text/javascript" src="tb_map/assets/js/leaflet-ajax.js"></script>
-<script type="text/javascript" src="tb_map/assets/js/map_front.js"></script>
+<script type="text/javascript" src="tb_map/assets/leaflet.js"></script>
+<script type="text/javascript" src="tb_map/countries.js"></script>
+<script type="text/javascript" src="tb_map/assets/map_front.js"></script>
 
 Thanks to a research fund granted by the Brussels Region in Belgium ([Innoviris](https://www.innoviris.be)), a consortium of Universities ([UCLouvain](https://uclouvain.be/) and [KULeuven](https://www.kuleuven.be)) and a start-up active in the development of innovative tools for international health ([Savics](http://www.savics/org)) are developing innovative solutions to help:
 
