@@ -15,116 +15,116 @@ var baseLayers = {
 
 var overlayLayers = {};
 
-// function featStyle(feat, interactive=false) {
-//   return {
-//       color: feat.properties.stroke,
-//       fillOpacity: feat.properties["fill-opacity"],
-//       fillColor: feat.properties.fill,
-//       opacity: feat.properties["stroke-opacity"],
-//       weight: feat.properties["stroke-width"],
-//       interactive: interactive,
-//   };
-// };
+function featStyle(feat, interactive=false) {
+  return {
+      color: feat.properties.stroke,
+      fillOpacity: feat.properties["fill-opacity"],
+      fillColor: feat.properties.fill,
+      opacity: feat.properties["stroke-opacity"],
+      weight: feat.properties["stroke-width"],
+      interactive: interactive,
+  };
+};
 
-// if ( typeof TBIncidence != 'undefined' ) {
-// 	var TBInclayer = new L.GeoJSON(TBIncidence, {
-// 		style: function (feature) { return featStyle(feature) }
-// 	}).addTo(map);
-//   overlayLayers['TB Rate'] = TBInclayer;
-// }
+if ( typeof TBIncidence != 'undefined' ) {
+	var TBInclayer = new L.GeoJSON(TBIncidence, {
+		style: function (feature) { return featStyle(feature) }
+	}).addTo(map);
+  overlayLayers['TB Rate'] = TBInclayer;
+}
 
-// if ( typeof TBIncidenceAbs != 'undefined' ) {
-// 	var TBInclayerAbs = new L.GeoJSON(TBIncidenceAbs, {
-// 		style: function (feature) { return featStyle(feature) }
-// 	});
-//   overlayLayers['TB Cases'] = TBInclayerAbs;
-// }
+if ( typeof TBIncidenceAbs != 'undefined' ) {
+	var TBInclayerAbs = new L.GeoJSON(TBIncidenceAbs, {
+		style: function (feature) { return featStyle(feature) }
+	});
+  overlayLayers['TB Cases'] = TBInclayerAbs;
+}
 
-// if ( typeof hz != 'undefined' ) {
-//   var HZlayer = new L.GeoJSON(hz, {
-// 	style: function (feature) { return featStyle(feature, true) }
-//   }).bindTooltip(function (layer) {
-//     return "<b>" + layer.feature.properties.tbmap_name + "</b><br>" +
-//       "Incidence rate: " + layer.feature.properties.tbmap_incidence
-//   });
-//   overlayLayers['Health Zones'] = HZlayer;
-// }
+if ( typeof hz != 'undefined' ) {
+  var HZlayer = new L.GeoJSON(hz, {
+	style: function (feature) { return featStyle(feature, true) }
+  }).bindTooltip(function (layer) {
+    return "<b>" + layer.feature.properties.tbmap_name + "</b><br>" +
+      "Incidence rate: " + layer.feature.properties.tbmap_incidence
+  });
+  overlayLayers['Health Zones'] = HZlayer;
+}
 
-// if ( typeof screening != 'undefined' ){
-//   var screeningLayer = new L.GeoJSON(screening, {
-//       pointToLayer: function (feature, latlng) {
-//           var circ = L.circle(latlng, {
-//               radius: 2000,
-//               color: "blue",
-//               opacity: 0.8,
-//               weight: 1,
-//               fillColor: "blue",
-//               fillOpacity: 0.5
-//           }).bindPopup(
-//               "<b>" + feature.properties.name + "</b><br>" +
-//               "<b>POP:</b>" + feature.properties.pop + "<br>" +
-//               "<b>TB:</b>" + feature.properties.tb + "<br>" +
-//               "<b>NNS:</b>" + feature.properties.nns
-//           );
-//           circ.on('mouseover', function (e) {this.openPopup();});
-//           circ.on('mouseout', function (e) {this.closePopup();});
-//           return circ;
-//       }
-//   });
-//   overlayLayers['Screening'] = screeningLayer;
-// }
+if ( typeof screening != 'undefined' ){
+  var screeningLayer = new L.GeoJSON(screening, {
+      pointToLayer: function (feature, latlng) {
+          var circ = L.circle(latlng, {
+              radius: 2000,
+              color: "blue",
+              opacity: 0.8,
+              weight: 1,
+              fillColor: "blue",
+              fillOpacity: 0.5
+          }).bindPopup(
+              "<b>" + feature.properties.name + "</b><br>" +
+              "<b>POP:</b>" + feature.properties.pop + "<br>" +
+              "<b>TB:</b>" + feature.properties.tb + "<br>" +
+              "<b>NNS:</b>" + feature.properties.nns
+          );
+          circ.on('mouseover', function (e) {this.openPopup();});
+          circ.on('mouseout', function (e) {this.closePopup();});
+          return circ;
+      }
+  });
+  overlayLayers['Screening'] = screeningLayer;
+}
 
-// if ( typeof mines != 'undefined' ) {
-//   var minesLayer = new L.GeoJSON(mines, {
-//       pointToLayer: function (feature, latlng) {
-//           return L.circle(latlng, {
-//               radius: feature.properties.radius * 100,
-//               color: "black",
-//               opacity: 0.5,
-//               weight: 1,
-//               fillColor: "black",
-//               fillOpacity: 0.3
-//           });
-//       }
-//   });
-//   overlayLayers['Mines'] = minesLayer;
-// }
+if ( typeof mines != 'undefined' ) {
+  var minesLayer = new L.GeoJSON(mines, {
+      pointToLayer: function (feature, latlng) {
+          return L.circle(latlng, {
+              radius: feature.properties.radius * 100,
+              color: "black",
+              opacity: 0.5,
+              weight: 1,
+              fillColor: "black",
+              fillOpacity: 0.3
+          });
+      }
+  });
+  overlayLayers['Mines'] = minesLayer;
+}
 
-// if ( typeof hfacs != 'undefined' ) {
-//   var healthIcon = L.icon({
-//       iconUrl: '../assets/health-icon.png',
+if ( typeof hfacs != 'undefined' ) {
+  var healthIcon = L.icon({
+      iconUrl: '../assets/health-icon.png',
 
-//       iconSize:     [28, 40], // size of the icon
-//       iconAnchor:   [14, 40], // point of the icon which will correspond to marker's location
-//       popupAnchor:  [0, -46] // point from which the popup should open relative to the iconAnchor
-//   });
+      iconSize:     [28, 40], // size of the icon
+      iconAnchor:   [14, 40], // point of the icon which will correspond to marker's location
+      popupAnchor:  [0, -46] // point from which the popup should open relative to the iconAnchor
+  });
 
-//   var hfacsLayer = new L.GeoJSON(hfacs, {
-//       pointToLayer: function (feature, latlng) {
-//           return L.marker(latlng, {
-//               icon: healthIcon
-//           }).bindPopup(
-//               "<b>" + feature.properties.name + "</b>"
-//           );
-//       }
-//   });
+  var hfacsLayer = new L.GeoJSON(hfacs, {
+      pointToLayer: function (feature, latlng) {
+          return L.marker(latlng, {
+              icon: healthIcon
+          }).bindPopup(
+              "<b>" + feature.properties.name + "</b>"
+          );
+      }
+  });
 
-//   overlayLayers['Health Facilities'] = hfacsLayer;
-// }
+  overlayLayers['Health Facilities'] = hfacsLayer;
+}
 
-// var control = L.control.layers(baseLayers, overlayLayers).addTo(map);
+var control = L.control.layers(baseLayers, overlayLayers).addTo(map);
 
-// map.on("overlayadd", function(eo) {
-//     if (eo.name === "TB Rate") {
-//         setTimeout(function() {
-//             map.removeLayer(TBInclayerAbs)
-//         }, 10);
-//     } else if (eo.name === "TB Cases") {
-//         setTimeout(function() {
-//             map.removeLayer(TBInclayer)
-//         }, 10);
-//     }
-// });
+map.on("overlayadd", function(eo) {
+    if (eo.name === "TB Rate") {
+        setTimeout(function() {
+            map.removeLayer(TBInclayerAbs)
+        }, 10);
+    } else if (eo.name === "TB Cases") {
+        setTimeout(function() {
+            map.removeLayer(TBInclayer)
+        }, 10);
+    }
+});
 
 for (i=0; i<missions.length; i++) {
   L.imageOverlay(
