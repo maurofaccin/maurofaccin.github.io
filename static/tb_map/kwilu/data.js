@@ -52,3 +52,4 @@ var hz = {
 ]
 }
 
+var missions = []
