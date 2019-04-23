@@ -78,36 +78,6 @@
   </url>
   
   <url>
-    <loc>https://maurofaccin.github.io/tb_map/</loc>
-    <lastmod>2016-10-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://maurofaccin.github.io/fr/tb_map/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://maurofaccin.github.io/tb_map/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://maurofaccin.github.io/tb_map/about/</loc>
-    <lastmod>2016-10-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://maurofaccin.github.io/fr/tb_map/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://maurofaccin.github.io/tb_map/about/"
-                />
-  </url>
-  
-  <url>
     <loc>https://maurofaccin.github.io/slides/2016-09-19-ccs2016/</loc>
     <lastmod>2016-09-19T00:00:00+00:00</lastmod>
   </url>
