@@ -6,40 +6,40 @@
     <description>Recent content in Tags on Mauro Faccin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://maurofaccin.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Beamer</title>
-      <link>https://maurofaccin.github.io/tags/beamer/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <title>networks</title>
+      <link>https://maurofaccin.github.io/tags/networks/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://maurofaccin.github.io/tags/beamer/</guid>
+      <guid>https://maurofaccin.github.io/tags/networks/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Chirality</title>
-      <link>https://maurofaccin.github.io/tags/chirality/</link>
-      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <title>quantum mechanics</title>
+      <link>https://maurofaccin.github.io/tags/quantum-mechanics/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://maurofaccin.github.io/tags/chirality/</guid>
+      <guid>https://maurofaccin.github.io/tags/quantum-mechanics/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Community</title>
-      <link>https://maurofaccin.github.io/tags/community/</link>
-      <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
+      <title>review</title>
+      <link>https://maurofaccin.github.io/tags/review/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://maurofaccin.github.io/tags/community/</guid>
+      <guid>https://maurofaccin.github.io/tags/review/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Data Mining</title>
+      <title>data mining</title>
       <link>https://maurofaccin.github.io/tags/data-mining/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -48,43 +48,7 @@
     </item>
     
     <item>
-      <title>Dynamics</title>
-      <link>https://maurofaccin.github.io/tags/dynamics/</link>
-      <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://maurofaccin.github.io/tags/dynamics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Entrograms</title>
-      <link>https://maurofaccin.github.io/tags/entrograms/</link>
-      <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://maurofaccin.github.io/tags/entrograms/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Experiment</title>
-      <link>https://maurofaccin.github.io/tags/experiment/</link>
-      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://maurofaccin.github.io/tags/experiment/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Latex</title>
-      <link>https://maurofaccin.github.io/tags/latex/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://maurofaccin.github.io/tags/latex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Map</title>
+      <title>map</title>
       <link>https://maurofaccin.github.io/tags/map/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
@@ -93,79 +57,7 @@
     </item>
     
     <item>
-      <title>Msms</title>
-      <link>https://maurofaccin.github.io/tags/msms/</link>
-      <pubDate>Fri, 12 Apr 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://maurofaccin.github.io/tags/msms/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Networks</title>
-      <link>https://maurofaccin.github.io/tags/networks/</link>
-      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://maurofaccin.github.io/tags/networks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Protein Folding</title>
-      <link>https://maurofaccin.github.io/tags/protein-folding/</link>
-      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://maurofaccin.github.io/tags/protein-folding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Protein Sequencing</title>
-      <link>https://maurofaccin.github.io/tags/protein-sequencing/</link>
-      <pubDate>Fri, 12 Apr 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://maurofaccin.github.io/tags/protein-sequencing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Quantum</title>
-      <link>https://maurofaccin.github.io/tags/quantum/</link>
-      <pubDate>Sun, 16 Feb 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://maurofaccin.github.io/tags/quantum/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Quantum Mechanics</title>
-      <link>https://maurofaccin.github.io/tags/quantum-mechanics/</link>
-      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://maurofaccin.github.io/tags/quantum-mechanics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Quantum Networks</title>
-      <link>https://maurofaccin.github.io/tags/quantum-networks/</link>
-      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://maurofaccin.github.io/tags/quantum-networks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Review</title>
-      <link>https://maurofaccin.github.io/tags/review/</link>
-      <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://maurofaccin.github.io/tags/review/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tuberculosis</title>
+      <title>tuberculosis</title>
       <link>https://maurofaccin.github.io/tags/tuberculosis/</link>
       <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
       
@@ -174,11 +66,119 @@
     </item>
     
     <item>
-      <title>Wsme</title>
+      <title>community</title>
+      <link>https://maurofaccin.github.io/tags/community/</link>
+      <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/tags/community/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dynamics</title>
+      <link>https://maurofaccin.github.io/tags/dynamics/</link>
+      <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/tags/dynamics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>entrograms</title>
+      <link>https://maurofaccin.github.io/tags/entrograms/</link>
+      <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/tags/entrograms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chirality</title>
+      <link>https://maurofaccin.github.io/tags/chirality/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/tags/chirality/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quantum-networks</title>
+      <link>https://maurofaccin.github.io/tags/quantum-networks/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/tags/quantum-networks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>beamer</title>
+      <link>https://maurofaccin.github.io/tags/beamer/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/tags/beamer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>latex</title>
+      <link>https://maurofaccin.github.io/tags/latex/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/tags/latex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>experiment</title>
+      <link>https://maurofaccin.github.io/tags/experiment/</link>
+      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/tags/experiment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>protein-folding</title>
+      <link>https://maurofaccin.github.io/tags/protein-folding/</link>
+      <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/tags/protein-folding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wsme</title>
       <link>https://maurofaccin.github.io/tags/wsme/</link>
       <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
       
       <guid>https://maurofaccin.github.io/tags/wsme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quantum</title>
+      <link>https://maurofaccin.github.io/tags/quantum/</link>
+      <pubDate>Sun, 16 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/tags/quantum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>msms</title>
+      <link>https://maurofaccin.github.io/tags/msms/</link>
+      <pubDate>Fri, 12 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/tags/msms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>protein-sequencing</title>
+      <link>https://maurofaccin.github.io/tags/protein-sequencing/</link>
+      <pubDate>Fri, 12 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/tags/protein-sequencing/</guid>
       <description></description>
     </item>
     
