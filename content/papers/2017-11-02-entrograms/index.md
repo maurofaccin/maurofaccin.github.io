@@ -2,7 +2,7 @@
 title: "Entrograms and coarse graining of dynamics on complex networks"
 date: 2017-11-02
 draft: false
-tags: 
+tags:
     - entrograms
     - community
     - dynamics
@@ -10,8 +10,8 @@ authors:
     - Faccin
     - Schaub
     - Delvenne
-journal: Journal of Complex Networks, cnx055
-journallink: https://academic.oup.com/comnet/article/4587985
+journal: Journal of Complex Networks, 6(5) p. 661-678 (2018)
+journallink: https://academic.oup.com/comnet/article-abstract/6/5/661/4587985
 pdf: 2017-11-02-entrograms.pdf
 image: fig_entrogram.svg
 arxiv: https://arxiv.org/abs/1711.01987
