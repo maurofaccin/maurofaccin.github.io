@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Slides and Posters on Mauro Faccin</title>
@@ -6,10 +6,28 @@
     <description>Recent content in Slides and Posters on Mauro Faccin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://maurofaccin.github.io/slides/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The variability of network structures inferred from time series data</title>
+      <link>https://maurofaccin.github.io/slides/2019-12-12-complexnetwork2019/</link>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/slides/2019-12-12-complexnetwork2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Autoinformation in non-Markovian diffusion systems</title>
+      <link>https://maurofaccin.github.io/slides/2019-12-10-complexnetwork2019/</link>
+      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/slides/2019-12-10-complexnetwork2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Variable aggregation on (broadcasting) networks</title>
@@ -116,7 +134,7 @@
       <pubDate>Wed, 08 Apr 2015 00:00:00 +0000</pubDate>
       
       <guid>https://maurofaccin.github.io/slides/2015-04-08-netsci2015/</guid>
-      <description>In June I will attend at NetSci 2015 in Zaragoza. I&amp;rsquo;ll give a talk about control over time varying networks in brain EEG.</description>
+      <description>In June I will attend at NetSci 2015 in Zaragoza. I&#39;ll give a talk about control over time varying networks in brain EEG.</description>
     </item>
     
     <item>
@@ -126,7 +144,7 @@
       
       <guid>https://maurofaccin.github.io/slides/2014-07-15-eccs2014/</guid>
       <description>In September I will give a talk at ECCS 2014. Hey, I gave a talk in a church!!! Look at this!
-{% from &amp;lsquo;macros.html&amp;rsquo; import figure %} {{ figure(&amp;lsquo;images/eccs14-photo.jpg&amp;rsquo;, alt=&amp;lsquo;Church speach&amp;rsquo;, caption=&amp;lsquo;The main session where held in S. Francesco church (1430), now location of IMT&amp;rsquo;, style=&amp;lsquo;width:20em; margin: 0 auto;&amp;lsquo;) }}</description>
+{% from &amp;lsquo;macros.html&amp;rsquo; import figure %} {{ figure(&amp;lsquo;images/eccs14-photo.jpg&amp;rsquo;, alt=&#39;Church speach&amp;rsquo;, caption=&#39;The main session where held in S. Francesco church (1430), now location of IMT&amp;rsquo;, style=&#39;width:20em; margin: 0 auto;&#39;) }}</description>
     </item>
     
     <item>
@@ -145,7 +163,7 @@
       
       <guid>https://maurofaccin.github.io/slides/2014-01-15-bifi2014/</guid>
       <description>In January I will give a talk at BIFI 2014
-Obviously it&amp;rsquo;s on Quantum Networks: Community Detection on Quantum Complex Systems</description>
+Obviously it&#39;s on Quantum Networks: Community Detection on Quantum Complex Systems</description>
     </item>
     
     <item>

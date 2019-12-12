@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://maurofaccin.github.io/</loc>
-    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-12T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -19,7 +19,17 @@
   
   <url>
     <loc>https://maurofaccin.github.io/slides/</loc>
-    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maurofaccin.github.io/slides/2019-12-12-complexnetwork2019/</loc>
+    <lastmod>2019-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maurofaccin.github.io/slides/2019-12-10-complexnetwork2019/</loc>
+    <lastmod>2019-12-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -33,14 +43,28 @@
   </url>
   
   <url>
+    <loc>https://maurofaccin.github.io/tags/networks/</loc>
+    <lastmod>2019-05-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://maurofaccin.github.io/papers/</loc>
+    <lastmod>2019-05-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maurofaccin.github.io/tags/quantum-mechanics/</loc>
+    <lastmod>2019-05-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maurofaccin.github.io/tags/review/</loc>
     <lastmod>2019-05-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://maurofaccin.github.io/tags/</loc>
     <lastmod>2019-05-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -51,24 +75,6 @@
                 hreflang="en"
                 href="https://maurofaccin.github.io/tags/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://maurofaccin.github.io/tags/networks/</loc>
-    <lastmod>2019-05-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://maurofaccin.github.io/tags/quantum-mechanics/</loc>
-    <lastmod>2019-05-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://maurofaccin.github.io/tags/review/</loc>
-    <lastmod>2019-05-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -89,13 +95,11 @@
   <url>
     <loc>https://maurofaccin.github.io/tags/data-mining/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://maurofaccin.github.io/tags/map/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -106,7 +110,6 @@
   <url>
     <loc>https://maurofaccin.github.io/tags/tuberculosis/</loc>
     <lastmod>2018-10-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -140,26 +143,23 @@
   </url>
   
   <url>
-    <loc>https://maurofaccin.github.io/papers/2017-11-02-entrograms/</loc>
-    <lastmod>2017-11-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://maurofaccin.github.io/tags/community/</loc>
     <lastmod>2017-11-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://maurofaccin.github.io/tags/dynamics/</loc>
     <lastmod>2017-11-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://maurofaccin.github.io/tags/entrograms/</loc>
     <lastmod>2017-11-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://maurofaccin.github.io/papers/2017-11-02-entrograms/</loc>
+    <lastmod>2017-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -205,13 +205,11 @@
   <url>
     <loc>https://maurofaccin.github.io/tags/chirality/</loc>
     <lastmod>2016-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://maurofaccin.github.io/tags/quantum-networks/</loc>
     <lastmod>2016-04-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -235,20 +233,23 @@
   </url>
   
   <url>
+    <loc>https://maurofaccin.github.io/tags/beamer/</loc>
+    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://maurofaccin.github.io/codes/beamer-mod/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://maurofaccin.github.io/tags/beamer/</loc>
+    <loc>https://maurofaccin.github.io/tags/latex/</loc>
     <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://maurofaccin.github.io/tags/latex/</loc>
-    <lastmod>2016-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://maurofaccin.github.io/tags/experiment/</loc>
+    <lastmod>2015-11-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -257,21 +258,13 @@
   </url>
   
   <url>
-    <loc>https://maurofaccin.github.io/tags/experiment/</loc>
-    <lastmod>2015-11-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://maurofaccin.github.io/tags/protein-folding/</loc>
     <lastmod>2015-11-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://maurofaccin.github.io/tags/wsme/</loc>
     <lastmod>2015-11-19T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -320,14 +313,13 @@
   </url>
   
   <url>
-    <loc>https://maurofaccin.github.io/codes/quebapp/</loc>
+    <loc>https://maurofaccin.github.io/tags/quantum/</loc>
     <lastmod>2014-02-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://maurofaccin.github.io/tags/quantum/</loc>
+    <loc>https://maurofaccin.github.io/codes/quebapp/</loc>
     <lastmod>2014-02-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -363,13 +355,11 @@
   <url>
     <loc>https://maurofaccin.github.io/tags/msms/</loc>
     <lastmod>2013-04-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://maurofaccin.github.io/tags/protein-sequencing/</loc>
     <lastmod>2013-04-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -399,7 +389,6 @@
   
   <url>
     <loc>https://maurofaccin.github.io/categories/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Codes on Mauro Faccin</title>
@@ -39,7 +39,8 @@
 For details see: here
   Dendrogram
   Requirements  Python3 (it should work in python2 too, not sure about that) matplotlib (only for dendrogram plots) numpy, scipy  Install Clone the repository somewhere
- git clone git@bitbucket.org:maurofaccin/quebapp.git  go to the folder</description>
+ git clone git@bitbucket.org:maurofaccin/quebapp.git  go to the folder
+ cd quebapp  install (use --user if you don&#39;t have root privileges or you want a local install)</description>
     </item>
     
     <item>

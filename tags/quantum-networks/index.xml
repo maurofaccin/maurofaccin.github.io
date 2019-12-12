@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>quantum-networks on Mauro Faccin</title>
@@ -47,7 +47,7 @@ A walker that obey quantum mechanics undergoes weird phenomena as interference, 
       <pubDate>Tue, 02 Jul 2013 00:00:00 +0000</pubDate>
       
       <guid>https://maurofaccin.github.io/papers/2013-07-02-chiral-walks/</guid>
-      <description>Traditionally, the probability for a quantum walker to reach a node j starting from a node i is symmetric in time, and can be shown that pi&amp;rarr;j(t)=pj&amp;rarr;i(t) for any t. In this article we introduce a family of topologies for which this symmetry if broken and we call them Chiral Quantum Walk. The introduction of complex terms in the Hamiltonian leads to sensible enhancement and suppression and directionality in the system transport.</description>
+      <description>Traditionally, the probability for a quantum walker to reach a node j starting from a node i is symmetric in time, and can be shown that pi→j(t)=pj→i(t) for any t. In this article we introduce a family of topologies for which this symmetry if broken and we call them Chiral Quantum Walk. The introduction of complex terms in the Hamiltonian leads to sensible enhancement and suppression and directionality in the system transport.</description>
     </item>
     
     <item>
