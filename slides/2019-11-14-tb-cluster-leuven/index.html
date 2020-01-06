@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      
+    <base href="https://maurofaccin.github.io">
+    <title>Data-driven active-case finding</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <link href="../../css/style.css" rel="stylesheet" media="screen">
+    <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon">
+
+
+  </head>
+
+  <body>
+      
+      
+    <nav>
+        <ul>
+            <a class='home' href="../../"><li><strong>Mauro Faccin</strong></li></a>
+            <input type="checkbox" name="MENU" id="MENU"/>
+            <label for="MENU">MENU</label>
+
+	
+	    
+
+	    
+	    <a href="../../papers/">
+		<li>Publications</li></a>
+	    
+	    <a href="../../slides/">
+		<li>Slides &amp; Posters</li></a>
+	    
+	    <a href="../../codes/">
+		<li>Codes</li></a>
+	    
+	    <a href="../../cv/">
+		<li>Curriculum Vitæ</li></a>
+	    
+	    <a href="../../contacts/">
+		<li>Contacts</li></a>
+	    
+        </ul>
+    </nav>
+
+      
+
+      
+      
+    <div class="jumbotron">
+	    <h1>Data-driven active-case finding</h1>
+	    
+	    <h4>TB cluster 2019 @ Leuven (Belgium)</h4>
+	     
+    </div>
+
+      
+
+      
+  <section>
+
+      <strong class='center'>  Get the PDF from
+          
+	  <a href="../../slides/2019-11-14-tb-cluster-leuven/slides.pdf">HERE</a>
+           
+      </strong>
+
+      <h1 id="tb-cluster-meeting">TB Cluster meeting</h1>
+<h3 id="rega-institute-leuven-14-nov-2019">REGA Institute (Leuven), 14 Nov. 2019</h3>
+<ul>
+<li>Axel Silroy on <em>&ldquo;The challenges of Mtb research in the age of cryo-EM&rdquo;</em></li>
+<li>Mauro Faccin on <em>&ldquo;Data-driven active-case finding&rdquo;</em></li>
+<li>Theresa Pattery on <em>&ldquo;Improving patient management and treatment adherence to TB with a differentiated service delivery model using Connect for Life(tm) mobile health (mhealth) platform&rdquo;</em></li>
+<li>Lies Laenen on <em>&ldquo;Implementing automated whole genome sequencing pipelines in the clinical environment&rdquo;</em></li>
+<li>Pieter Leyssen/Winston Chiu: <em>&ldquo;Next-generation phenotypic drug susceptibility testing for mycobacteria&rdquo;</em></li>
+</ul>
+
+      
+      
+      <img id='slideshow' width="100%" src="../../slides/2019-11-14-tb-cluster-leuven/slide-01.png" alt="Slides" />
+      
+
+  </section>
+
+
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+
+<script>
+    var x = 1;
+    function NextSlide(){
+	x++;
+	if (x >  16 )
+	    x = 1;
+	if (x < 10)
+	    src = "\/slides\/2019-11-14-tb-cluster-leuven\/slide-0"+x+".png";
+	else
+	    src = "\/slides\/2019-11-14-tb-cluster-leuven\/slide-"+x+".png";
+	document.getElementById("slideshow").src=src;
+    }
+    function PrevSlide(){
+	x--;
+	if (x <= 0)
+	    x =  16 ;
+	if (x < 10)
+            src = "\/slides\/2019-11-14-tb-cluster-leuven\/slide-0"+x+".png";
+	else
+	    src = "\/slides\/2019-11-14-tb-cluster-leuven\/slide-"+x+".png";
+	document.getElementById("slideshow").src=src;
+    }
+    document.addEventListener ("click", NextSlide, false);
+    document.onkeydown = function(evt) {
+	evt = evt || window.event;
+	switch (evt.keyCode) {
+	    case 37:
+		PrevSlide();
+		break;
+	    case 39:
+		NextSlide();
+		break;
+	}
+    };
+</script>
+
+
+  </body>
+</html>
+
