@@ -79,7 +79,7 @@ on its Hamiltonian, on the preferred basis.</p>
 <ul>
 <li><code>cd quebapp</code></li>
 </ul>
-<p>install (use <code>--user</code> if you don't have root privileges or you want a local
+<p>install (use <code>--user</code> if you don&rsquo;t have root privileges or you want a local
 install)</p>
 <ul>
 <li><code>./setup.py install [--user]</code></li>
@@ -87,7 +87,7 @@ install)</p>
 <h2 id="usage">Usage</h2>
 <p>Use <code>quebapp -h</code> for help.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">usage: quebapp <span style="color:#f92672">[</span>-h<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>--edgelist<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>-0<span style="color:#f92672">]</span> 
-               <span style="color:#f92672">[</span>-t <span style="color:#f92672">{</span>fidelity,transport,purity<span style="color:#f92672">}</span><span style="color:#f92672">]</span> <span style="color:#f92672">[</span>-d<span style="color:#f92672">]</span>
+               <span style="color:#f92672">[</span>-t <span style="color:#f92672">{</span>fidelity,transport,purity<span style="color:#f92672">}]</span> <span style="color:#f92672">[</span>-d<span style="color:#f92672">]</span>
                network
 
 QuEBApp: Quantum Community Detection
@@ -98,7 +98,7 @@ positional arguments:
 optional arguments:
   -h, --help            show this help message and exit
   --edgelist            Read Hamiltonian as list of edges <span style="color:#f92672">[</span>i j
-                        weight<span style="color:#f92672">(</span>optional<span style="color:#f92672">)</span><span style="color:#f92672">]</span>
+                        weight<span style="color:#f92672">(</span>optional<span style="color:#f92672">)]</span>
   -0, --time0           Closeness measure with short-time limit <span style="color:#f92672">[</span>default:
                         long-time limit<span style="color:#f92672">]</span>
   -t <span style="color:#f92672">{</span>fidelity,transport,purity<span style="color:#f92672">}</span>, --type <span style="color:#f92672">{</span>fidelity,transport,purity<span style="color:#f92672">}</span>
@@ -106,10 +106,10 @@ optional arguments:
   -d, --dendrogram      Outputs the resulting dendrogram and modularity
 </code></pre></div><p>The network representing the quantum system needs to be a Hermitian matrix
 (the Hamiltonian). It can be given in matrix form:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">h_11  h_12  h_13  <span style="color:#f92672">.</span><span style="color:#f92672">.</span><span style="color:#f92672">.</span>
-h_21  h_22  h_23  <span style="color:#f92672">.</span><span style="color:#f92672">.</span><span style="color:#f92672">.</span>
-h_31  h_32  h_33  <span style="color:#f92672">.</span><span style="color:#f92672">.</span><span style="color:#f92672">.</span>
-<span style="color:#f92672">.</span><span style="color:#f92672">.</span><span style="color:#f92672">.</span>   <span style="color:#f92672">.</span><span style="color:#f92672">.</span><span style="color:#f92672">.</span>   <span style="color:#f92672">.</span><span style="color:#f92672">.</span><span style="color:#f92672">.</span>   <span style="color:#f92672">.</span><span style="color:#f92672">.</span><span style="color:#f92672">.</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">h_11  h_12  h_13  <span style="color:#f92672">...</span>
+h_21  h_22  h_23  <span style="color:#f92672">...</span>
+h_31  h_32  h_33  <span style="color:#f92672">...</span>
+<span style="color:#f92672">...</span>   <span style="color:#f92672">...</span>   <span style="color:#f92672">...</span>   <span style="color:#f92672">...</span>
 </code></pre></div><p>with <code>h_ij</code> complex conjugate of <code>h_ji</code>.
 The matrix can be given as an edge list:</p>
 <pre><code>i    j    h_ij

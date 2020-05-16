@@ -6,17 +6,53 @@
     <description>Recent content in Tags on Mauro Faccin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://maurofaccin.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>communities</title>
+      <link>https://maurofaccin.github.io/tags/communities/</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/tags/communities/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dynamics</title>
+      <link>https://maurofaccin.github.io/tags/dynamics/</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/tags/dynamics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>networks</title>
       <link>https://maurofaccin.github.io/tags/networks/</link>
-      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://maurofaccin.github.io/tags/networks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>state-aggregation</title>
+      <link>https://maurofaccin.github.io/tags/state-aggregation/</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/tags/state-aggregation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quantum</title>
+      <link>https://maurofaccin.github.io/tags/quantum/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/tags/quantum/</guid>
       <description></description>
     </item>
     
@@ -71,15 +107,6 @@
       <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>https://maurofaccin.github.io/tags/community/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dynamics</title>
-      <link>https://maurofaccin.github.io/tags/dynamics/</link>
-      <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://maurofaccin.github.io/tags/dynamics/</guid>
       <description></description>
     </item>
     
@@ -152,15 +179,6 @@
       <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
       
       <guid>https://maurofaccin.github.io/tags/wsme/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>quantum</title>
-      <link>https://maurofaccin.github.io/tags/quantum/</link>
-      <pubDate>Sun, 16 Feb 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://maurofaccin.github.io/tags/quantum/</guid>
       <description></description>
     </item>
     

@@ -6,7 +6,7 @@
     <description>Recent content in quantum on Mauro Faccin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Feb 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://maurofaccin.github.io/tags/quantum/index.xml" rel="self" type="application/rss+xml" />
     
@@ -22,7 +22,7 @@ For details see: here
   Dendrogram
   Requirements  Python3 (it should work in python2 too, not sure about that) matplotlib (only for dendrogram plots) numpy, scipy  Install Clone the repository somewhere
  git clone git@bitbucket.org:maurofaccin/quebapp.git  go to the folder
- cd quebapp  install (use --user if you don&#39;t have root privileges or you want a local install)</description>
+ cd quebapp  install (use --user if you don&amp;rsquo;t have root privileges or you want a local install)</description>
     </item>
     
   </channel>
