@@ -6,11 +6,7 @@
     <description>Recent content in Codes on Mauro Faccin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://maurofaccin.github.io/codes/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://maurofaccin.github.io/codes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Carto TB</title>
       <link>https://maurofaccin.github.io/codes/tb_map/</link>

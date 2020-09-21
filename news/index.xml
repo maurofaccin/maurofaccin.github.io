@@ -6,11 +6,7 @@
     <description>Recent content in News on Mauro Faccin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Jul 2018 16:16:10 +0200</lastBuildDate>
-    
-	<atom:link href="https://maurofaccin.github.io/news/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 04 Jul 2018 16:16:10 +0200</lastBuildDate><atom:link href="https://maurofaccin.github.io/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CCS2018</title>
       <link>https://maurofaccin.github.io/news/CCS2018/</link>

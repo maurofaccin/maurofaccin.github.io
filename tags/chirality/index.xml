@@ -6,11 +6,7 @@
     <description>Recent content in chirality on Mauro Faccin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Apr 2016 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://maurofaccin.github.io/tags/chirality/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 01 Apr 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://maurofaccin.github.io/tags/chirality/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chiral Quantum Walks</title>
       <link>https://maurofaccin.github.io/papers/2016-04-01-chiral-circuits/</link>

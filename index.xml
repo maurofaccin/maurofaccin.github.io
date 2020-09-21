@@ -6,11 +6,7 @@
     <description>Recent content on Mauro Faccin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 May 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://maurofaccin.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 04 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://maurofaccin.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>State aggregations in Markov chains and block models of networks</title>
       <link>https://maurofaccin.github.io/papers/2020-05-04-state-aggregation-in-markov-chains/</link>
@@ -235,7 +231,7 @@ This international workshop on complex networks (CompleNet) aims at bringing tog
       <pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://maurofaccin.github.io/slides/2016-01-10-netscix2016/</guid>
-      <description>Heading up in Wrocław{: target=&amp;rsquo;_blank&amp;rsquo;} to give a talk on the last work on Communities and Markovian processes on networks.</description>
+      <description>Heading up in Wrocław{: target=&#39;_blank&#39;} to give a talk on the last work on Communities and Markovian processes on networks.</description>
     </item>
     
     <item>
@@ -314,7 +310,7 @@ To achieve the above goals we adapt traditional community detection methods that
       
       <guid>https://maurofaccin.github.io/slides/2014-07-15-eccs2014/</guid>
       <description>In September I will give a talk at ECCS 2014. Hey, I gave a talk in a church!!! Look at this!
-{% from &amp;lsquo;macros.html&amp;rsquo; import figure %} {{ figure(&amp;lsquo;images/eccs14-photo.jpg&amp;rsquo;, alt=&#39;Church speach&amp;rsquo;, caption=&#39;The main session where held in S. Francesco church (1430), now location of IMT&amp;rsquo;, style=&#39;width:20em; margin: 0 auto;&#39;) }}</description>
+{% from &amp;lsquo;macros.html&amp;rsquo; import figure %} {{ figure(&amp;lsquo;images/eccs14-photo.jpg&amp;rsquo;, alt=&amp;lsquo;Church speach&amp;rsquo;, caption=&amp;lsquo;The main session where held in S. Francesco church (1430), now location of IMT&amp;rsquo;, style=&amp;lsquo;width:20em; margin: 0 auto;&#39;) }}</description>
     </item>
     
     <item>

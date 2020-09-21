@@ -5,10 +5,6 @@
     <link>https://maurofaccin.github.io/fr/</link>
     <description>Recent content on Mauro Faccin</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://maurofaccin.github.io/fr/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://maurofaccin.github.io/fr/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
