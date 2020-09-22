@@ -6,7 +6,17 @@
     <description>Recent content in Slides and Posters on Mauro Faccin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://maurofaccin.github.io/slides/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://maurofaccin.github.io/slides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>State aggregation in non-Markovian systems by auto-information maximization</title>
+      <link>https://maurofaccin.github.io/slides/2020-09-22-netsci2020/</link>
+      <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://maurofaccin.github.io/slides/2020-09-22-netsci2020/</guid>
+      <description>See the intro video:
+  </description>
+    </item>
+    
     <item>
       <title>The variability of network structures inferred from time series data</title>
       <link>https://maurofaccin.github.io/slides/2019-12-12-complexnetwork2019/</link>
