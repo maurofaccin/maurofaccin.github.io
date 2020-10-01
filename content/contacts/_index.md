@@ -7,7 +7,7 @@ layout: page
 
 # Address:
 
-[ICTEAM][icteam] Euler Building<br/>
+ICTEAM Euler Building<br/>
 4, Avenue Georges Lemaître<br/>
 B-1348 Louvain-la-Neuve<br/>
 Belgium
@@ -23,7 +23,6 @@ Belgium
 # Web:
 
 - [Google Scholar Profile](http://scholar.google.it/citations?user=CbeKfM4AAAAJ)
-- [Bitbucket Repository](https://bitbucket.org/maurofaccin)
 - [GitHub Repository](https://www.github.com/maurofaccin)
 - [ResearchGate Profile](http://www.researchgate.net/profile/Mauro_Faccin)
 - [Frontiers (Review Editor)](http://community.frontiersin.org/people/MauroFaccin/104713)
