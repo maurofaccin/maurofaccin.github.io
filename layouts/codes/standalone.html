@@ -6,21 +6,21 @@
 
 {{ define "main" }}
 {{ if .IsTranslated }}
-    Lang: {{ range .Translations }} <a href="{{ .Permalink }}">[{{ .Lang }}]</a> {{ end}}
+Lang: {{ range .Translations }} <a href="{{ .Permalink }}">[{{ .Lang }}]</a> {{ end}}
 {{ end }}
 
-  <section>
+<section>
     {{ if isset .Params "image" }}
     <aside>
-	<figure>
+        <figure>
             <img width="100%" src="{{ .URL }}{{ .Params.image }}" alt="{{ .Title }}">
-	</figure>
+        </figure>
     </aside>
     {{ end }}
 
     <main>
-      {{ .Content }}
+        {{ .Content }}
     </main>
 
-  </section>
+</section>
 {{ end }}

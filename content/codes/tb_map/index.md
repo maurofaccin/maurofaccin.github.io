@@ -3,6 +3,7 @@ date: 2019-01-01
 title: Carto TB
 description: Design of a risk map for tuberculosis using available open data.
 image: risk_map.png
+outurl: "https://maurofaccin.github.io/cartotb"
 lang: LaTeX
 tags:
   - map

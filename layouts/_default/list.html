@@ -4,39 +4,43 @@
 <section>
     {{ if .IsTranslated }}
     <nav class="LangNav">
-    {{ range .Translations }}
+        {{ range .Translations }}
         <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
-    {{ end}}
+        {{ end}}
     </nav>
     {{ end }}
 
     {{ .Content }}
 
     <ul class='list'>
-      {{ range .Pages }}
+        {{ range .Pages }}
         <li>
+            {{ $linkurl := .Permalink }}
+            {{ if isset .Params "outurl" }}
+            {{ $linkurl = .Params.outurl }}
+            {{ end }}
             {{ if isset .Params "image" }}
             <aside class="onlybig">
-            <div class='oblo'>
-	    <a href="{{ .Permalink }}">
-		<img class='cover' src="{{ .URL }}{{ .Params.Image }}" alt="" />
-	    </a>
-            </div>
+                <div class='oblo'>
+                    <a href="{{ $linkurl }}">
+                        <img class='cover' src="{{ .URL }}{{ .Params.Image }}" alt="" />
+                    </a>
+                </div>
             </aside>
             {{ end }}
 
-	    <a href="{{ .Permalink }}">
-	    <h5>{{ .Title }}</h5>
-	    </a>
+            <a href="{{ $linkurl }}">
+                <h5>{{ .Title }}</h5>
+            </a>
 
-	    {{ partial "titles/authorlist.html" . }}
-	    {{ partial "titles/journal.html" . }}
+            {{ partial "titles/authorlist.html" . }}
+            {{ partial "titles/journal.html" . }}
 
-	    {{ $loc := ( dict "Params" .Params "Title" .Title "abstract" "true") }}
-	    {{ partial "buttons.html" $loc }}
+            {{ $loc := ( dict "Params" .Params "Title" .Title "abstract" "true") }}
+            {{ partial "buttons.html" $loc }}
 
-	    {{ with .Params.subtitle }}<b>{{ . }}</b>{{ end }}
-	    {{ with .Params.description }}{{ . }}{{ end }}
+            {{ with .Params.subtitle }}<b>{{ . }}</b>{{ end }}
+            {{ with .Params.description }}{{ . }}{{ end }}
         </li>
         {{ end }}
     </ul>
