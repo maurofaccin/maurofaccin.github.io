@@ -53,12 +53,12 @@
   </url>
   
   <url>
-    <loc>https://maurofaccin.github.io/papers/2020-05-04-state-aggregation-in-markov-chains/</loc>
+    <loc>https://maurofaccin.github.io/tags/state-aggregation/</loc>
     <lastmod>2020-05-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://maurofaccin.github.io/tags/state-aggregation/</loc>
+    <loc>https://maurofaccin.github.io/papers/2020-05-04-state-aggregation-in-markov-chains/</loc>
     <lastmod>2020-05-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -118,6 +118,11 @@
   </url>
   
   <url>
+    <loc>https://maurofaccin.github.io/codes/AISA/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://maurofaccin.github.io/codes/tb_map/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -133,7 +138,17 @@
   </url>
   
   <url>
+    <loc>https://maurofaccin.github.io/tags/entrogram/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://maurofaccin.github.io/tags/map/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://maurofaccin.github.io/tags/partition/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
