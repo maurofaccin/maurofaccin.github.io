@@ -1,5 +1,6 @@
 _build
 *.css
+*.pdfpc
 .sass-cache
 public
 cv/index.md
