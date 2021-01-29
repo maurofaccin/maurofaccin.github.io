@@ -29,7 +29,7 @@ For details see:
 
 Clone the repository somewhere
 
-- `git clone git@bitbucket.org:maurofaccin/quebapp.git`
+- `git clone https://bitbucket.org/maurofaccin/quebapp.git`
 
 go to the folder
 
