@@ -7,10 +7,10 @@ layout: page
 
 # Address:
 
-ICTEAM Euler Building<br/>
-4, Avenue Georges Lemaître<br/>
-B-1348 Louvain-la-Neuve<br/>
-Belgium
+Ceped<br/>
+Université de Paris - Campus St Germain des Prés<br/>
+45 rue des Saints Pères<br/>
+75006 Paris, France
 
 # Email:
 

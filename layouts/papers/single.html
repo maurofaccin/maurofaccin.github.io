@@ -1,18 +1,18 @@
 {{ define "main" }}
-  <section>
+<section>
     <main>
 
-    {{ $loc := ( dict "Params" .Params "Title" .Title) }}
-    {{ partial "buttons.html" $loc }}
+        {{ $loc := ( dict "Params" .Params "Title" .Title) }}
+        {{ partial "buttons.html" $loc }}
 
-    {{ if isset .Params "image" }}
-    <aside><figure>
-	    <img width="100%" src="{{ .URL }}{{ .Params.image | urlize }}" alt="{{.Title}}" />
-    </figure></aside>
-    {{ end }}
+        {{ if isset .Params "image" }}
+        <aside><figure>
+                <img width="100%" src="{{ .Page.RelPermalink }}{{ .Params.image | urlize }}" alt="{{.Title}}" />
+            </figure></aside>
+            {{ end }}
 
-    <h3>Abstract:</h3>
-    {{ .Params.abstract }}
+            <h3>Abstract:</h3>
+            {{ .Params.abstract }}
     </main>
-  </section>
+</section>
 {{ end }}

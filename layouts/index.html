@@ -6,6 +6,7 @@
     <section>
     {{ .Content }}
 
+    {{ $currentPage := . }}
     <div class='blocks'>
         {{ range .Site.Menus.main}}
         <a href="{{ .URL }}" class='block'><h4>{{ .Name }}</h4></a>

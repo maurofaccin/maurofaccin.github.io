@@ -13,7 +13,7 @@ Lang: {{ range .Translations }} <a href="{{ .Permalink }}">[{{ .Lang }}]</a> {{ 
     {{ if isset .Params "image" }}
     <aside>
         <figure>
-            <img width="100%" src="{{ .URL }}{{ .Params.image }}" alt="{{ .Title }}">
+            <img width="100%" src="{{ .RelPermalink }}{{ .Params.image }}" alt="{{ .Title }}">
         </figure>
     </aside>
     {{ end }}
