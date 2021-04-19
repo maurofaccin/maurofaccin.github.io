@@ -1,3 +1,0 @@
-[submodule "src/cv"]
-	path = src/cv
-	url = git@bitbucket.org:maurofaccin/cv.git
