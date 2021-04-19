@@ -1,0 +1,36 @@
+
+{% for class in Content %}{% for title, content in class.items() %}
+
+<h1>{{ title }}</h1>
+
+<dl>
+  {% for item in content %}
+    <dt>{{ item.period }}</dt>
+  <dd><strong>
+  {% if item.url %} <a href="{{item.url}}">{{item.title}}</a>{% else %}{{item.title}}{% endif %}
+  </strong> <div class='right'>{{ item.location }}</div></dd>
+    <dd>{{ item.subtitle }}</dd>
+
+    {% if item.topics %}
+    <ul>
+      {% for i in item.topics %}
+        <li>{{ i }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  {% endfor %}
+</dl>
+{% endfor %}{% endfor %}
+
+
+{% for class in Tables %}{% for title,content in class.items()%}
+
+  <h1>{{ title }}</h1>
+
+  <dl>
+  {% for key, thelist in content.items() %}
+    <dt><strong>{{ key }}:</strong></dt>
+    <dd>{{ thelist|join(', ') }}</dd>
+  {% endfor %}
+  </dl>
+{% endfor %}{% endfor %}

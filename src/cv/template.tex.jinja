@@ -1,0 +1,43 @@
+\documentclass[10pt,a4paper]{memoir}
+
+\include{cv-template}
+
+\author{[[ name ]] [[ surname ]]}
+\def\authoremail{[[ email ]]}
+\def\authoraddress{[[% for key in address %]][[ key ]]\\[[% endfor %]]}
+\def\authorweb{[[ url ]]}
+\date{}
+
+\begin{document}
+
+\thetitle
+
+\bigskip
+
+[[% for class in Content %]][[% for title,content in class.items()%]]
+\section{[[ title ]]}
+[[% for item in content %]]
+\theitem{[[ item.period]]}{\href{[[ item.url ]]}{[[ item.title ]]}}{[[ item.location ]]}{[[ item.subtitle ]]}
+[[% if item.topics %]]
+\itemlist{}{
+\begin{itemize}
+[[% for i in item.topics %]]
+    \item [[ i ]]
+[[% endfor %]]
+\end{itemize}}
+[[% endif %]]
+[[% endfor %]]
+[[% endfor %]][[% endfor %]]
+
+
+[[% for class in Tables %]][[% for title,content in class.items()%]]
+\section{[[ title ]]}
+[[% for key, thelist in content.items() %]]
+\theitem{[[ key ]]}{[[ thelist|join(', ') ]]}
+[[% endfor %]]
+[[% endfor %]][[% endfor %]]
+
+\hfill \textit{\theauthor}\\
+
+\medskip
+\end{document}

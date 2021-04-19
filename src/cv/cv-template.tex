@@ -1,0 +1,109 @@
+%% 
+%  Template file for my cv
+%%
+
+%\usepackage{bibentry}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[margin=2cm]{geometry}
+\usepackage{longtable}
+\usepackage[bookmarks,
+            pdftex,bookmarksopen,bookmarksdepth=2
+            urlcolor=Green,
+            colorlinks=true]{hyperref}
+\setcounter{secnumdepth}{0}
+%% Fonts
+\usepackage{mathpazo}
+\linespread{1.05}
+\usepackage{microtype}
+\usepackage{fontspec}
+
+\makeatletter
+\let\theauthor\@author
+\makeatother
+
+% it seems that fancyhdr is deprecated (at least in memoir class)
+\usepackage{lastpage}
+\makepagestyle{cv}
+\makeevenfoot{cv}{\today}{}{Page \thepage\ of~\pageref{LastPage}}
+\makeoddfoot {cv}{\today}{}{Page \thepage\ of~\pageref{LastPage}}
+\makeevenhead{cv}{}{}{\small\sffamily Curriculum Vit\ae\ of
+  {\scshape\theauthor}}
+\makeoddhead {cv}{}{}{\small\sffamily Curriculum Vit\ae\ of
+  {\scshape\theauthor}}
+\makeheadrule{cv}{\textwidth}{1pt}
+\makefootrule{cv}{\textwidth}{1pt}{3pt}
+\pagestyle{cv}
+
+\definecolor{lightgray}{gray}{0.8}
+\newcolumntype{L}{>{\raggedleft}p{0.19\textwidth}}
+\newcolumntype{R}{p{0.8\textwidth}}
+\newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
+
+\newcommand{\thetitle}{
+\thispagestyle{empty}\noindent
+\begin{minipage}{0.5\textwidth}
+  {\bfseries\Huge\scshape \theauthor}\\
+  {\bfseries\Large\color{gray} Curriculum Vit\ae}
+\end{minipage}
+\hfill
+\begin{minipage}{0.5\textwidth}
+  \begin{flushright}
+    \authoraddress
+    {\href{mailto:\authoremail}{\authoremail}}\\
+    {\href{\authorweb}{\authorweb}}
+  \end{flushright}
+\end{minipage}
+}
+
+
+ \setmainfont[BoldFont={Fira Sans}]{Fira Sans Light}%
+
+\newlength{\colone}
+\setlength{\colone}{0.2\textwidth}
+          
+\newlength{\colspace}
+\setlength{\colspace}{3mm}
+          
+\newlength{\coltwo}
+\setlength{\coltwo}{\textwidth}
+\addtolength{\coltwo}{-\colone}
+\addtolength{\coltwo}{-\colspace}
+
+\usepackage{enumitem}
+\setlist{nosep} 
+
+\usepackage{titlesec}
+\titleformat{\section}
+  {\normalfont\Large\bfseries\scshape}
+  {\thesection}{0.5em}
+  {\rule{\colone}{0.5\baselineskip}\hspace{\colspace}}%[{\titlerule[0.4pt]}]
+
+\usepackage{xparse}
+\usepackage{xifthen}% provides \isempty test
+\DeclareDocumentCommand{\theitem}{m m g g}
+  {%
+    \begin{minipage}[t]{\colone}
+      \raggedleft%
+      \ifthenelse{\isempty{#1}}%
+      {\bullet}{#1}
+    \end{minipage}\hfill
+    \begin{minipage}[t]{\coltwo}
+      {\textbf{#2}}
+      \IfValueT{#3}{%
+        {\hfill\allowbreak\null\nobreak\hspace{\fill} \mbox{#3}}
+      }% 
+      \IfValueT{#4}{%
+        \ifthenelse{\isempty{#4}}%
+        {}% if #1 is empty
+        {\\[-2pt] #4}% if #1 is not empty
+      }
+    \end{minipage}\\[2pt]
+  }
+\newcommand{\itemlist}[2]{%
+  \begin{minipage}[t]{\colone}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{\coltwo}
+    #2
+  \end{minipage}\\[2pt]
+}
+

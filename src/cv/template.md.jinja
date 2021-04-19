@@ -1,0 +1,29 @@
+
+{% for class in Content %}{% for title, content in class.items() %}
+
+# {{ title }}
+
+{% for item in content %}
+{{- item.period | default('•') }}
+:    **{% if item.url %}[{{ item.title }}]({{item.url}}){% else %}{{ item.title}}{% endif %}** <div class='right'>{{ item.location }}</div>
+:    {{ item.subtitle }}
+
+    {% if item.topics %}
+      {% for i in item.topics %}
+- {{ i }}
+      {% endfor %}
+
+    {% endif %}
+{% endfor %}
+{% endfor %} {% endfor %}
+
+
+{% for class in Tables %}{% for title,content in class.items()%}
+# {{ title }}
+
+  {% for key, thelist in content.items() %}
+**{{ key }}**:
+:    {{ thelist|join(', ') }}
+
+  {% endfor %}
+{% endfor %}{% endfor %}

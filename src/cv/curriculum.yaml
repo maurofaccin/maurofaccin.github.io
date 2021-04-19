@@ -1,0 +1,392 @@
+
+name: Mauro
+surname: Faccin
+address:
+    - Ceped
+    - Université de Paris - Campus St Germain des Prés
+    - 45 rue des Saints Pères
+    - 75006 Paris, France
+email: mauro.faccin@ird.fr
+url: https://maurofaccin.github.io
+
+
+# Here the content
+# for each entry: period, title, subtitle, location
+
+Content:
+  - Actual Position:
+    - title: CEPED and IRD
+      url: https://www.ceped.org
+      period: 2021 - today
+      employer: IRD
+      location: Université de Paris, France
+      subtitle: Interests/Research line
+      topics:
+        - Dynamical systems evolving on complex networks
+        - Mesoscopic structures and their influence on the dynamical system
+        - Applied data analysis for disease control
+        - Analysis of information dynamics in social networks
+    - title: ARC2S at Unito
+      subtitle: visitor
+      url: https://arcs.di.unito.it/
+  - Professional Experience:
+    - title: PostDoc
+      period: 2021 - today
+      subtitle: Université de Paris, (CEPED and IRD)
+      location: Paris, France
+      url: "https://www.ceped.org"
+    - title: PostDoc
+      period: 2015 - 2020
+      subtitle: Université Catholique de Louvain (ICTEAM)
+      location: Louvain la Neuve, Belgium
+      url: "https://uclouvain.be/en/research-institutes/icteam"
+    - title: PostDoc
+      period: 2011 - 2015
+      subtitle: ISI Fundation 
+      location: Torino, Italy
+      url: https://isi.it
+    - title: PhD
+      period: 2006 - 2011
+      subtitle: Bifi Institute
+      location: Zaragoza, Spain
+      url: https://www.bifi.es
+  - Fellowships and Projects:
+    - title: Innoviris Iris-TB (D1.31402.007-F)
+      period: 2017 - today
+      url: https://innoviris.brussels/
+    - title: MOVE-IN Louvain Fellowship (with support of Marie Curie Actions)
+      period: 2015 - 2017
+  - Membership:
+    - title: SICC - Italian Society for Chaos and Complexity
+      period: 2018 - today
+      url: https://www.sicc-it.org/en
+    - title: Network Science Society
+      period: 2015 - today
+      subtitle: Member
+    - title: Complex Systems Society
+      period: 2014 - today
+      subtitle: Member
+    - title: Frontiers in Quantum Computing
+      period: 2013 - today
+      subtitle: Review Editor
+  - Committees:
+    - title: Complex Networks 2020
+      period: 1 Dec 2020
+      subtitle: Program Committee
+      location: Madrid, Spain
+    - title: Complex Networks 2019
+      period: 10 Dec 2019
+      subtitle: Program Committee
+      location: Lisbon, Portugal
+    - title: BeNet 2019
+      period: 22 Feb 2019
+      subtitle: Program committee
+      location: Hasselt, Belgium
+      url: https://be-net.github.io/2019
+    - title: Complex Networks 2018
+      period: 11 Dec 2018
+      subtitle: Program Committee
+      location: Cambridge, UK
+    - title: Complex Networks 2017
+      period: 29 Nov 2017
+      subtitle: Program Committee
+      location: Lyon, France
+    - title: BeNet 2016
+      period: 15 Dec 2016
+      subtitle: Organizing committee
+      location: Louvain-la-Neuve, Belgium
+      url: https://be-net.github.io/2016
+    - title: Complex Networks 2016
+      period: 30 Nov 2016
+      subtitle: Program committee
+      location: Milan, Italy
+    - title: Coarse-graining of Complex Systems
+      period: 21 Sep 2016
+      subtitle: Organizing committee
+      location: CCS2016, Amsterdam, Netherlands
+    - title: Quantum Frontiers for Network Science
+      period: 2 Jun 2014
+      subtitle: Organizing committee
+      location: NetSci 2014, Berkeley, California
+  - Reviewer:
+    - title: Advances in Complex Systems
+    - title: Applied Network Science
+    - title: APS (Physical Review E)
+    - title: Journal of Complex Networks
+    - title: Journal of Statistical Mechanics
+    - title: Natural Computing
+    - title: PLOS ONE
+    - title: Science Advances
+    - title: Scientific Reports
+  - Teaching:
+    - title: LINMA2111 Algorithms and Complexity
+      period: 2015-2020
+      subtitle: Université Catholique de Louvain
+      location: Assistant Professor
+    - title: Physics and Math at primary school
+      period: 2005
+      subtitle: NEST
+      location: Hetauda, Nepal
+    - title: guide in Science Museum
+      period: 2004
+      subtitle: "Organizer: INFN"
+      location: Padova, Italy
+  - Education:
+    - title: 24CFU
+      period: 2020
+      location: Univestità telematica Pegaso
+      long: "Discipline antropo-psico-pedagogiche e in metodologie e tecnologie didattiche"
+    - title: PhD in Physics
+      period: 2011
+      location: University of Zaragoza
+      subtitle: "supervisor: Pierpaolo Bruscolini"
+      long: Analysis and Development of Algorithms
+        for the Characterization of Biopolymers and
+        Application to Protein Sequencing and Protein Folding
+      url: /files/thesis.pdf
+    - title: Master in Physics and Technology
+      period: 2007
+      subtitle: "supervisor: Pierpaolo Bruscolini"
+      location: University of Zaragoza
+      long: Coevolution of Strategy and Population Structure
+        in the Prisoner Dilemma
+    - title: MSc in Physics
+      period: 2005
+      subtitle: "supervisor: Enzo Orlandini"
+      location: University of Padova
+      long: Beris Edwards Model Simulations for Liquid Crystals 
+        in Oscillatory Poiseuille Flux
+  - Publications:
+    - title: "State aggregations in Markov chains and block models of networks"
+      subtitle: M. Faccin, M.T. Schaub and j.-C. Delvenne
+      location: ArXiv
+      url: https://arxiv.org/abs/2005.00337
+      arXiv: 2005.00337 [physics.soc-ph]
+    - title: "Complex Networks from Classical to Quantum"
+      subtitle: J. Biamonte, M. Faccin, M. De Domenico
+      location: Communications Physics 2-53 (2019)
+      url: https://www.nature.com/articles/s42005-019-0152-6
+      arXiv: 1702.08459 [quant-ph]
+    - title: "Outbreak of multidrug-resistant tuberculosis in South Africa undetected by WHO-endorsed commercial tests: an observational study"
+      subtitle: "Makhado, Matabane, Faccin, Pinçon, Jouet, Boutachkourt, Goeminne, Gaudin, Maphalala, Beckert, Niemann, Delvenne, Delmée, Razwiedani, Nchabeleng, Supply, de Jong, André"
+      location: The Lancet Infectious Diseases 2018
+      url: https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(18)30496-1/fulltext
+    - title: "Entrograms and coarse graining of dynamics on complex networks"
+      subtitle: M. Faccin, M.T. Schaub, J-C. Delvenne
+      location: Journal of Complex Networks 
+      url: https://academic.oup.com/comnet/article-abstract/doi/10.1093/comnet/cnx055/4587985
+      arXiv: 1711.01987
+    - title: Chiral Quantum Walks
+      subtitle: D. L. Lu, J. D. Biamonte, J. Li, H. Li, T. H. Johnson, V. Bergholm, M. Faccin, Z. Zimborás, R. Laflamme, J. Baugh, and S. Lloyd
+      location: Phys. Rev. A 93, 042302
+      doi: 10.1103/PhysRevA.93.042302
+      url: http://journals.aps.org/pra/abstract/10.1103/PhysRevA.93.042302
+      arXiv: 1405.6209 [quant-ph]
+    - title: Mapping the topography of a protein energy landscape
+      subtitle: R. D. Hutton, J. Wilkinson, M. Faccin, E. M. Sivertsson, A. Pelizzola, A. R. Lowe, P. Bruscolini, L. S. Itzhaki
+      location: J. Am. Chem. Soc., 2015, 137 (46), pp 14610–14625
+      doi: 10.1021/jacs.5b07370
+      url: http://pubs.acs.org/doi/abs/10.1021/jacs.5b07370
+    - title: Community Detection in Quantum Complex Networks
+      subtitle: M. Faccin, P. Migdał, T. H. Johnson, V. Bergholm, and J. D. Biamonte
+      location: Phys. Rev. X 4 (4 2014), p. 041012
+      doi: 10.1103/PhysRevX.4.041012
+      arXiv: 1310.6638 [quant-ph]
+      url: http://link.aps.org/doi/10.1103/PhysRevX.4.041012
+    - title: Degree Distribution in Quantum Walks on Complex Networks
+      subtitle: M. Faccin, T. Johnson, J. Biamonte, S. Kais, and P. Migdał
+      location: Phys. Rev. X 3 (4 2013), p. 041007
+      doi: 10.1103/PhysRevX.3.041007
+      arXiv: 1305.6078 [quant-ph]
+    - title: Quantum Transport Enhancement by Time-Reversal Symmetry Breaking
+      subtitle: Z. Zimboras, M. Faccin, Z. Kadar, J. Whitfield, B. Lanyon,
+        and J. Biamonte
+      location: Sci. Rep. 3 (2013). Ed. by NPG, p. 2361
+      doi : 10.1038/srep02361
+      arXiv: 1208.4049 [quant-ph]
+    - title: MS/MS Spectra Interpretation as a Statistical-Mechanics Problem
+      subtitle: M. Faccin and P. Bruscolini
+      location: Analytical Chemistry 85.10 (2013), pp. 4884–4892
+      doi: 10.1021/ac4005666
+    - title: Ground-state spin logic
+      subtitle: J. D. Whitfield, M. Faccin, and J. D. Biamonte
+      location: Europhysics Letters 99.5 (2012), p. 57004
+      doi: 10.1209/0295-5075/99/57004
+      arXiv: 1205.1742 [quant-ph]
+    - title: Analysis of the equilibrium and kinetics of the ankyrin repeat protein myotrophin
+      subtitle: M. Faccin, P. Bruscolini, and A. Pelizzola
+      location: The Journal of Chemical Physics 134.7, 075102 (2011), p. 075102
+      doi: 10.1063/1.3535562
+      arXiv: 1103.0216
+  - Conferences (Oral Contributions):
+    - title: "Using predictive models and risk assessment tools to find unreported TB cases"
+      subtitle: Global Digital Health Forum 2020
+      location: Washingthon DC, USA (online)
+      url: "https://www.globaldigitalhealthnetwork.org"
+      period: 7-9 Dec 2020
+    - title: "Data-driven TB active-case finding in South Kivu (DRC)"
+      subtitle: The Union 2020
+      location: Paris, France (online)
+      url: https://conf2020.theunion.org/
+      period: 20-24 Oct 2020
+    - title: "Auto-information in non-Markovian diffusion systems"
+      subtitle: Complex Networks 2019
+      location: Lisbon, Portugal
+      url: https://www.complexnetworks.org/
+      period: 10-12 Dec 2019
+    - title: "Variable aggregation for dynamical systems on networks"
+      subtitle: Benet 2019
+      location: Hasselt, Belgium
+      url: "https://be-net.github.io/2019/"
+      period: 22 Feb. 2019
+    - title: "A dynamical approach to block structure analysis"
+      subtitle: CCS 2018
+      location: Thessaloniki, Greece
+      url: "http://ccs2018.web.auth.gr/"
+      period: 23-28 Sept. 2018
+    - title: "Dynamical Markov Modules"
+      subtitle: Netsci 2018
+      location: Paris, France
+      url: "https://www.netsci2018.com/"
+      period: 11-15 Jun 2018
+    - title: "Community detection in networks with non-Markovian dynamics"
+      subtitle: CompleNet 2017
+      location: Dubrovnik, Croatia
+      url: "http://complenet.weebly.com"
+      period: 21-24 Mar 2017
+    - title: "Behind Communities: Dynamics Define Modules"
+      subtitle: ComplexNetworks 2016
+      location: Milan, Italy
+      period: 30 Nov-2 Dec 2016
+      url: "http://complexnetworks.org/index2016.html"
+    - title: "Beyond Communities: Dynamical Markov Modules"
+      subtitle: CCS 2016
+      location: Amsterdam, Netherlands
+      period: 19-22 Sep 2016
+    - title: Mesoscopic Structure And Diffusion Process Memory
+      subtitle: NetSci 2016
+      location: Seoul, Korea
+      period: May 30-June 3 2016
+    - title: Mesoscopic Structures and Diffusion Process Memory
+      subtitle: NetSci-X 2016
+      location: Wrocław, Poland
+      period: 10-15 Jan 2015
+    - title: Structural controllability of EEG temporal causal networks
+      subtitle: NetSci 2015
+      location: Zaragoza, Spain
+      period: 2-6 Jun 2015
+    - title: Quantum Approaches to Community Detection
+      subtitle: ECCS 2014
+      location: Lucca, Italy
+      period: 22-26 Sep 2014
+    - title: Community detection on quantum systems
+      subtitle: CompleNet 2014
+      location: Bologna, Italy
+      period: 12-14 Mar 2014
+    - title: Community Detection on Quantum Systems
+      subtitle: BIFI2014
+      location: Zaragoza, Spain
+      period: 22-24 Jan 2014
+    - title: Degree distribution in quantum complex networks
+      subtitle: IQC workshop on quantum computation and complex networks
+      location: Waterloo, Canada
+      period: 24-26 May 2013
+    - title: Ground state spin logic
+      subtitle: Tensor Network States and Algebraic Geometry Workshop
+      location: Torino, Italy
+      period: 6-8 Nov 2012
+    - title: Equilibrium and kinetics of the ankyrin repeat protein
+        Myotrophin through a simple statiscical mechanical model
+      subtitle: V BIFI National Conference
+      location: Zaragoza, Spain
+      period: 2-4 Feb 2011
+    - title: Bayesian Characterization of Protein Tandem Mass Spectra
+      subtitle: IV BIFI National Conference
+      location: Zaragoza, Spain
+      period: 5-7 Feb 2009
+    - title: Noise description in MSMS mass spectrometry,
+        looking for a de novo sequencing algorithm
+      subtitle: VI Jornadas Aragonesas de Estabilidad y Plegamiento de Proteínas
+      location: San Sebastian, Spain
+      period: 8-9 May 2008
+  - Conferences (Poster Contributions):
+    - title: "State aggregation in non-Markovian systems by auto-information maximization"
+      subtitle: Netsci 2020
+      location: Rome, Italy
+      period: 17-25 Sept 2020
+      url: https://netsci2020.netscisociety.net
+    - title: The variability of network structures inferred from time series data
+      subtitle: Netsci 2020
+      location: Rome, Italy
+      period: 17-25 Sept 2020
+      url: https://netsci2020.netscisociety.net
+    - title: The variability of network structures inferred from time series data
+      subtitle: Complex Networks 2019
+      location: Lisbon, Portugal
+      period: 10-12 Dec 2019
+      url: https://www.complexnetworks.org/
+    - title: Variable aggregation on (broadcasting) networks
+      subtitle: CCS/Italy 2019
+      location: Trento, Italy
+      period: 1-3 July 2019
+    - title: Memory and Mesoscopic Structures in Diffusion Processes
+      subtitle: Complenet 2016
+      location: Dijon, France
+      period: 23-25 Mar 2016
+    - title: Folding Pathways Characterization for Ankyrin Repeat
+        Protein Myotrophin
+      subtitle: IV Spanish Portuguese Biophysical Congress
+      location: Zaragoza, Spain
+      period: 7-10 Jul 2010
+    - title: Statistical characterization of fragment ions
+        in MSMS mass spectrometry
+      subtitle: "XXI Sitges Conference on Statistical Mechanics:
+        Statistical Mechanics of Molecular Biophysics"
+      location: Sitges, Spain
+      period: 2-6 Jun 2008
+
+Tables:
+  - Computer skills:
+            Coding:
+              - Python
+              - C
+              - C++
+              - Matlab
+              - Fortran
+            Shell:
+              - Bash
+              - iPython/Jupyter
+            Versioning:
+              - GIT
+              - Subversion
+              - Mercurial
+            Plotting:
+              - Gnuplot
+              - Matplotlib
+              - PGFPlots(latex)
+            Typesetting:
+              - Latex
+              - LibreOffice
+              - MSOffice
+              - Markdown
+            Imaging:
+              - Gimp (Raster)
+              - Inkscape (Vectorial)
+              - Rawtherapee (RAW)
+            Web:
+              - HTML5
+              - CSS/SCSS
+              - static site generators
+              - Wordpress
+
+  - Languages:
+            Italian:
+              - Mother tongue
+            English:
+              - Fluent
+            Spanish: 
+              - Fluent
+            French:
+              - Fair
+
+# vim: fdm=indent
