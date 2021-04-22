@@ -30,9 +30,9 @@ Content:
       subtitle: visitor
       url: https://arcs.di.unito.it/
   - Professional Experience:
-    - title: PostDoc
+    - title: Université de Paris, (CEPED and IRD)
+      subtitle: PostDoc
       period: 2021 - today
-      subtitle: Université de Paris, (CEPED and IRD)
       location: Paris, France
       url: "https://www.ceped.org"
     - title: PostDoc
@@ -40,14 +40,14 @@ Content:
       subtitle: Université Catholique de Louvain (ICTEAM)
       location: Louvain la Neuve, Belgium
       url: "https://uclouvain.be/en/research-institutes/icteam"
-    - title: PostDoc
+    - title: ISI Fundation
       period: 2011 - 2015
-      subtitle: ISI Fundation 
+      subtitle: PostDoc
       location: Torino, Italy
       url: https://isi.it
-    - title: PhD
+    - title: Bifi Institute
       period: 2006 - 2011
-      subtitle: Bifi Institute
+      subtitle: PhD
       location: Zaragoza, Spain
       url: https://www.bifi.es
   - Fellowships and Projects:
