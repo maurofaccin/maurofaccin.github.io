@@ -1,7 +1,9 @@
 ---
 date: 2016-10-11
 title: "Quantum Mechanics and Complex Networks"
-subtitle: ICTEAM seminar
-contrib: talk
+description: ICTEAM seminar
+extra:
+    contrib: slides
+    image: slide-01.png
 ---
 

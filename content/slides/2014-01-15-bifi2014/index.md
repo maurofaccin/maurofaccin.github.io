@@ -1,9 +1,10 @@
 ---
 title: Community Detection in Quantum Systems
-subtitle: Bifi 2014, Zaragoza (Spain)
-figure: logo-bifi.png
+description: Bifi 2014, Zaragoza (Spain)
 date: 2014-01-15
-contrib: talk
+extra:
+    contrib: slides
+    image: slide-01.png
 ---
 
 In January I will give a talk at [BIFI 2014](http://bifi.es/events/bifi2014/)

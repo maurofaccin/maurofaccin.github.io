@@ -1,10 +1,9 @@
 ---
 date: 2014-07-15
 title: Quantum Approaches to Community Detection
-subtitle: ECCS 2014, Lucca (Italy)
-figure: logo-eccs2014.png
-image: eccs14-photo.jpg
-contrib: talk
+description: ECCS 2014, Lucca (Italy)
+extra:
+    image: eccs14-photo.jpg
 ---
 
 In September I will give a talk at [ECCS 2014](http://www.eccs14.eu).

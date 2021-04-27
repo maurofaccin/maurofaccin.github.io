@@ -2,12 +2,11 @@
 title: QuEBApp
 description: A python module to find communities in complex quantum systems
 date: 2014-02-16
-image: quebapp.svg
-lang: Python
-tags:
-  - quantum
-  - community
-layout: standalone
+extra:
+    image: quebapp.svg
+    tags:
+      - quantum
+      - community
 ---
 
 Quantum Effects Based Approach to community detection.
@@ -17,7 +16,7 @@ on its Hamiltonian, on the preferred basis.
 For details see:
 [here](/papers/2014-10-21-communities)
 
-{{< figure src="codes/quebapp/quebapp-dendro-wide.png" caption="Dendrogram" alt="Community Detection Dendrogram" width="100%" >}}
+{{ figure(src="quebapp-dendro-wide.png" caption="Dendrogram of a small graph." alt="Community Detection Dendrogram" width="100%") }}
 
 ## Requirements
 

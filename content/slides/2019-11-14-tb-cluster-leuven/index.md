@@ -1,8 +1,10 @@
 ---
 date: 2019-11-14
 title: "Data-driven active-case finding"
-subtitle: TB cluster 2019 @ Leuven (Belgium)
-contrib: talk
+description: TB cluster 2019 @ Leuven (Belgium)
+extra:
+    contrib: slides
+    image: slide-01.png
 ---
 
 # TB Cluster meeting

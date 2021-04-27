@@ -18,7 +18,4 @@ Université de Paris - Campus St Germain des Prés<br/>
 
 # Web:
 
-- [Google Scholar Profile](http://scholar.google.it/citations?user=CbeKfM4AAAAJ)
-- [GitHub Repository](https://www.github.com/maurofaccin)
-- [ResearchGate Profile](http://www.researchgate.net/profile/Mauro_Faccin)
-- [Frontiers (Review Editor)](http://community.frontiersin.org/people/MauroFaccin/104713)
+{{ webpresence() }}

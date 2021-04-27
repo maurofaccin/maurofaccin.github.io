@@ -1,59 +1,33 @@
-baseURL = "https://maurofaccin.github.io"
+base_url = "https://maurofaccin.github.io"
 title = "Mauro Faccin"
-relativeURLs = "true"
-canonifyurls = true
-disablePathToLower = true
 
-languageCode = "en-us"
-DefaultContentLanguage = "en"
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
 
-[languages]
-  [languages.en]
-    languageName = "English"
-    weight = 1
-  [languages.fr]
-    languageName = "Français"
-    weight = 2
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
 
-[blackfriday]
-   plainIDAnchors = true
-   hrefTargetBlank = true
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+external_links_target_blank = false
+smart_punctuation = false
 
-[markup]
-    [markup.goldmark]
-        [markup.goldmark.extensions]
-            definitionList = true
-            footnote = true
-            linkify = true
-            strikethrough = true
-            table = true
-            taskList = true
-            typographer = true
-        [markup.goldmark.renderer]
-            unsafe = true
+[extra]
+# Put all your custom variables here
 
-[[menu.main]]
-  name = "Publications"
-  identifier = "pubs"
-  url = "/papers/"
-  weight = 110
-[[menu.main]]
-  name = "Slides & Posters"
-  identifier = "slides"
-  url = "/slides/"
-  weight = 110
-[[menu.main]]
-  name = "Codes"
-  identifier = "codes"
-  url = "/codes/"
-  weight = 111
-[[menu.main]]
-  name = "Curriculum Vitæ"
-  identifier = "cv"
-  url = "/cv/"
-  weight = 112
-[[menu.main]]
-  name = "Contacts"
-  identifier = "contacts"
-  url = "/contacts/"
-  weight = 113
+van = [
+    "/papers",
+    "/slides",
+    "/codes",
+    "/cv",
+    "/contacts"
+]
+
+[extra.nav]
+Publications = "/papers"
+"Slides & Posters" = "/slides"
+Codes = "/codes"
+"Curriculum Vitæ" = "/cv"
+Contacts = "/contacts"

@@ -1,8 +1,9 @@
 ---
 title: Variable aggregation on (broadcasting) networks
-subtitle: CCS/Italy, Trento (Italy)
+description: CCS/Italy, Trento (Italy)
 date: 2019-07-01
-contrib: poster
-image: circ.png
+extra:
+    image: circ.png
+    contrib: poster
 ---
 

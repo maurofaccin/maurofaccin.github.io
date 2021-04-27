@@ -1,9 +1,10 @@
 ---
 title: Community Detection in Quantum Systems
-subtitle: Complenet 2014, Bologna (Italy)
-figure: logo-complenet.png
+description: Complenet 2014, Bologna (Italy)
 date: 2014-03-14
-contrib: talk
+extra:
+    contrib: slides
+    image: slide-01.png
 ---
 
 I gave a talk in Bologna at the 
