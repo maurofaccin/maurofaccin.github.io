@@ -1,0 +1,19 @@
+[scholar]
+name = "Google Scholar"
+logo = "scholar.google.com.png"
+link = "http://scholar.google.it/citations?user=CbeKfM4AAAAJ"
+
+[orchid]
+name = "Orcid"
+logo = "orcid_16x16.png"
+link = "https://orcid.org/0000-0003-0706-3007"
+
+[github]
+name = "Github"
+logo = "github.com.png"
+link = "https://www.github.com/maurofaccin"
+
+[researchgate]
+name = "ResearchGate"
+logo = "www.researchgate.net.png"
+link = 'http://www.researchgate.net/profile/Mauro_Faccin'

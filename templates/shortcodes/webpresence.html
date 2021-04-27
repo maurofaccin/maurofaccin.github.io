@@ -1,0 +1,14 @@
+{% set data = load_data(path='data/webpresence.toml', format='toml') %}
+
+<ul>
+    {% for key, item in data %}
+    <li>
+        {% if item.logo %}
+        <a href="{{item.link}}" target="_blank">
+            <img src="{{ resize_image(path='../static/images/' ~ item.logo, width=16, height=16) }}" alt=""> {{ item.name }}</a>
+        {% else %}
+            <a href="{{item.link}}" target="_blank">{{ item.name }}</a>
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>

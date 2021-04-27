@@ -1,0 +1,136 @@
+@import "mvp";
+
+body {
+    padding: 0px;
+    width: 100%;
+    background-image: url("/images/bg-light-alpha.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-image: url("/images/bg-dark-alpha.png");
+    }
+}
+
+article {
+    width: 50%;
+    margin: auto;
+}
+
+h1, h2, h3, b {
+    font-family: var(--bold-font-family);
+    font-weight: 900;
+}
+
+details {
+    margin: 0.2em 0em;
+}
+
+nav {
+    background-color: var(--color-bg-secondary);
+    margin-top: 0px;
+    margin-bottom: 5em;
+    padding: 0px 3em;
+    ul {
+        li{
+            text-align: center;
+            a{
+                padding: 1em 3em;
+            }
+        }
+        li:hover {
+            background-color: var(--color-shadow);
+        }
+        padding: 0px;
+        overflow: hidden;
+        margin: 0px;
+    }
+}
+
+section {
+    margin: 1em 2em;
+}
+
+blockquote {
+    text-align: left;
+}
+
+.navbutton {
+    display: none;
+}
+
+.arxiv {
+    float: right;
+}
+
+.card {
+    background-color: var(--color-bg-secondary);
+    padding: 1em;
+    margin: 1em 0em;
+    border-radius: var(--border-radius)
+}
+
+.cardimage {
+    width: 20%;
+    display: inline-block;
+    vertical-align:middle;  // Align children to middle of line
+}
+
+.cardtext {
+    width: 79%;
+    display: inline-block;
+    vertical-align:middle;  // Align children to middle of line
+    h2 {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .cardimage {
+        display: none;
+    }
+
+    .cardtext {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    article {
+        width: 95%;
+    }
+
+    .navbutton {
+        display: inline-block;
+        cursor: pointer;
+    }
+    .navmenu {
+        position: relative;
+        display: inline-block;
+    }
+    nav ul{
+        display: none;
+        position: fixed;
+        margin-top: 1em;
+        z-index: 1;
+        width: calc(100% - 6em);
+        right: 3em;
+        background-color: var(--color-bg-secondary);
+        border-radius: var(--border-radius);
+        li {
+            margin: 0;
+            display: block;
+            a {
+                display: block;
+            }
+        }
+
+    }
+
+    .show {
+        display: block;
+    }
+}
