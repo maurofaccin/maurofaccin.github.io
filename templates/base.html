@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% block head %}
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>{{ config.title }}</title>
+        <link rel="stylesheet" href="/assets/style.css"/>
+        {% endblock head %}
+    </head>
+    <body>
+
+        {% block navigation %}
+        {% include "partials/nav.html" %}
+        {% endblock navigation %}
+
+        {% block content %}
+        {% endblock content %}
+
+        {% block footer %}
+        {% endblock footer %}
+    </body>
+
+{% block scripts %}
+<script charset="utf-8">
+function toggleMenu() {
+  document.getElementById("navmenu").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.navbutton')) {
+    var dropdowns = document.getElementById("navmenu");
+    dropdowns.classList.remove('show');
+  }
+}
+</script>
+{% endblock scripts %}
+</html>

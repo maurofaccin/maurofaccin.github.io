@@ -1,0 +1,67 @@
+{% extends "page.html" %}
+{% import "macros.html" as macros %}
+
+{% block content %}
+<article>
+    <h1>{{ page.title }}</h1>
+
+    {{ page.content | safe }}
+
+    {% set data = load_data(path="content/papers/mf.bib", format="bibtex") %}
+    {% set figs = load_data(path="data/paperfigs.toml", format="toml") %}
+
+    {% for paper in data.bibliographies | sort(attribute="tags.year") | reverse %}
+
+    <div class="card">
+        <div class="cardimage">
+            {% if paper.citation_key in figs %}
+            <img src="/papers/imgs/{{ figs[paper.citation_key] }}" alt=""/>
+            {% else %}
+            <img src="images/gicon.svg" alt=""/>
+            {% endif %}
+        </div>
+        <div class="cardtext">
+
+            <h2> {{ paper.tags.title }} </h2>
+            <small>
+                {{ macros::authorline(authors=paper.tags.author) }}
+            </small>
+            <a href="{{ macros::journalref(tags=paper.tags) }}" target="_blank">
+                {{ macros::journal(tags=paper.tags) }}
+            </a>
+
+            {% set arxiv = macros::arxivref(tags=paper.tags) %}
+            {% if arxiv and arxiv != "" %}
+            <a href="{{ arxiv }}" target="_blank" class="arxiv"><i>ArXiv</i></a>
+            {% endif %}
+
+            <details>
+                <summary>
+                    Abstract
+                </summary>
+                {{ paper.tags.abstract | default(value="") }}
+            </details>
+
+            <details>
+                <summary>
+                    BibTeX
+                </summary>
+            <pre>
+                <code>
+@{{ paper.entry_type | lower }}{ {{- paper.citation_key }},
+{%- for k, v in paper.tags -%}
+{% if k | lower != "abstract" %}
+    {{ k | lower }}: { {{- v -}} },
+{%- endif -%}
+{%- endfor %}
+}
+                </code>
+            </pre>
+            </details>
+        </div>
+
+    </div>
+
+    {% endfor %}
+</article>
+{% endblock content %}

@@ -1,0 +1,41 @@
+{% macro authorline(authors) %}
+    {% for author in authors | split(pat=" and ") %}
+    {{ self::authortext(author=author | trim) }}{%- if not loop.last %}, {% endif %}
+    {% endfor %}</br>
+{% endmacro authorline %}
+
+{% macro authortext(author) %}
+{% set collab = load_data(path="data/collaborators.toml", format="toml") %}
+{% set names = author | split(pat=',') %}
+{% set key = names.0 | lower %}
+{%- if key in collab -%}
+<a href="{{ collab[key].url }}" target="_blank">{{ collab[key].name }}</a>
+{%- else -%}
+{{ names.0 }}
+{%- endif -%}
+{% endmacro authortext %}
+
+{# return a string describing the reference #}
+{% macro journal(tags) %}
+{{ tags.journal | default(value="arxiv:" ~ tags.eprint) }},
+{{ tags.volume | default(value="") }}
+{%- if tags.number %}({{ tags.number }}){% endif %}
+{%- if tags.issue %}({{ tags.issue }}){% endif %}
+{% if tags.pages %} p.{{ tags.pages }}{% endif %}
+({{ tags.year }})
+{% endmacro journal %}
+
+{# return the link of the journal #}
+{% macro journalref(tags, arxiv=false) %}
+{% if tags.url %} {{ tags.url }}
+{% elif tags.doi %} https://doi.org/{{ tags.doi }}
+{% else %}self::arxivref(tags=tags)
+{% endif %}
+{% endmacro journalref %}
+
+{# return the link of arxiv #}
+{% macro arxivref(tags) %}
+{%- if tags.eprinttype and tags.eprinttype == "arxiv" and tags.eprint -%}
+    https://arxiv.org/abs/{{ tags.eprint }}
+{%- endif -%}
+{% endmacro arxivref %}

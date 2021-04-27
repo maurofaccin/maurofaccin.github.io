@@ -1,0 +1,16 @@
+<nav>
+    <a href="/">HOME</a>
+
+    <div class='navmenu'>
+    <button onclick="toggleMenu()" class='navbutton'>Menu</button>
+    <ul id="navmenu">
+        {% for url in config.extra.van %}
+        <li>
+            <a href="{{ url }}">
+                {{ url }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+    </div>
+</nav>

@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block content %}
+        <article>
+        <h1>{{ section.title }}</h1>
+
+        {{ section.content | safe }}
+
+        {% for page in section.pages | sort(attribute="date") | reverse %}
+        <div class="card">
+            <div class="cardimage">
+                {% if page.extra.image %}
+                <img src="{{ page.path }}{{ page.extra.image }}" alt=""/>
+                {% else %}
+                <img src="images/gicon.svg" alt=""/>
+                {% endif %}
+            </div>
+            <div class="cardtext">
+
+                {# link to the page or to the website #}
+                {% if page.extra.outurl %}
+                <h2> <a href="{{ page.extra.outurl | safe }}" target="_blank">{{ page.title }}</a> </h2>
+                {% else %}
+                <h2> <a href="{{ page.path | safe }}">{{ page.title }}</a> </h2>
+                {% endif %}
+                {{ page.description | default(value="") }}</br>
+                <small>{{ page.date | default(value="1970-01-01") }}</small>
+
+            </div>
+
+        </div>
+        {% endfor %}
+
+        </article>
+{% endblock content %}
