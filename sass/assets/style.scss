@@ -1,3 +1,45 @@
+@font-face {
+    font-family: system;
+    font-style: normal;
+    src:
+        local(".SFNSText-Light"),
+        local(".HelveticaNeueDeskInterface-Light"),
+        local(".LucidaGrandeUI"),
+        local("Ubuntu Light"),
+        local("Segoe UI Light"),
+        local("Roboto-Light"),
+        local("DroidSans"),
+        local("Tahoma");
+}
+@font-face {
+    font-family: system-title;
+    font-style: normal;
+    font-weight: bold;
+    src:
+        local(".SFNSText"),
+        local(".HelveticaNeueDeskInterface"),
+        local(".LucidaGrandeUI"),
+        local("Ubuntu Condensed"),
+        local("Segoe UI"),
+        local("Roboto Condensed"),
+        local("DroidSans"),
+        local("Tahoma");
+}
+@font-face {
+    font-family: system-mono;
+    font-style: normal;
+    src:
+        local("Iosevka Slab"),
+        local(".SFMono-Regular"),
+        local("Consolas"),
+        local("Liberation Mono"),
+        local("Roboto Mono"),
+        local("Courier New"),
+        local("Menlo"),
+        local("monospace");
+}
+
+
 @import "mvp";
 
 body {
@@ -20,8 +62,19 @@ article {
     margin: auto;
 }
 
+tt,
+pre,
+code {
+    font-family: var(--font-family-mono);
+}
+
+pre code {
+    overflow: scroll;
+    white-space: pre;
+}
+
 h1, h2, h3, b {
-    font-family: var(--bold-font-family);
+    font-family: var(--font-family-bold);
     font-weight: 900;
 }
 
