@@ -17,3 +17,8 @@ link = "https://www.github.com/maurofaccin"
 name = "ResearchGate"
 logo = "www.researchgate.net.png"
 link = 'http://www.researchgate.net/profile/Mauro_Faccin'
+
+[arxiv]
+name = "arXiv"
+logo = "arxiv.org.png"
+link = "https://arxiv.org/a/faccin_m_1.html"
