@@ -7,7 +7,7 @@
 
     {{ page.content | safe }}
 
-    {% set data = load_data(path="content/papers/mf.bib", format="bibtex") %}
+    {% set data = load_data(path="src/cv/mf.bib", format="bibtex") %}
     {% set figs = load_data(path="data/paperfigs.toml", format="toml") %}
 
     {% for paper in data.bibliographies | sort(attribute="tags.year") | reverse %}
