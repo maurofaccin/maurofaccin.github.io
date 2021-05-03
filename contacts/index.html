@@ -1,103 +1,136 @@
 <!DOCTYPE html>
 <html>
-  <head>
-      
-    <base href="https://maurofaccin.github.io">
-    <title>Contacts</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-
-    <link href="../css/style.css" rel="stylesheet" media="screen">
-    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
-
-
-  </head>
-
-  <body>
-      
-      
-<nav>
-    <ul>
-        <a class='home' href="../"><li><strong>Mauro Faccin</strong></li></a>
-        <input type="checkbox" name="MENU" id="MENU"/>
-        <label for="MENU">MENU</label>
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Mauro Faccin</title>
+        <link rel="stylesheet" href="/assets/style.css"/>
+        
+    </head>
+    <body>
 
         
+        <nav>
+    <a href="/">HOME</a>
 
+    <div class='navmenu'>
+    <button onclick="toggleMenu()" class='navbutton'>Menu</button>
+    <ul id="navmenu">
         
-        <a href="../papers/">
-            <li>Publications</li></a>
+        <li>
+            <a href="&#x2F;papers">
+                &#x2F;papers
+            </a>
+        </li>
         
-        <a href="../slides/">
-            <li>Slides &amp; Posters</li></a>
+        <li>
+            <a href="&#x2F;slides">
+                &#x2F;slides
+            </a>
+        </li>
         
-        <a href="../codes/">
-            <li>Codes</li></a>
+        <li>
+            <a href="&#x2F;codes">
+                &#x2F;codes
+            </a>
+        </li>
         
-        <a href="../cv/">
-            <li>Curriculum Vitæ</li></a>
+        <li>
+            <a href="&#x2F;cv">
+                &#x2F;cv
+            </a>
+        </li>
         
-        <a href="../contacts/">
-            <li class="active">Contacts</li></a>
+        <li>
+            <a href="&#x2F;contacts">
+                &#x2F;contacts
+            </a>
+        </li>
         
     </ul>
+    </div>
 </nav>
 
-      
+        
 
-      
-      
-    <div class="jumbotron">
-	    <h1>Contacts</h1>
-	    
-	    <i><h4>
+        
+        <article>
+        <h1>Contacts</h1>
 
-
-
-
-
-</h4></i>
-	    <h4> 
-<br> </h4>
-	     
-    </div>
-
-      
-
-      
-
-<section>
-    
-
-    <h1 id="address">Address:</h1>
+        <h1 id="address">Address:</h1>
 <p>Ceped<br/>
 Université de Paris - Campus St Germain des Prés<br/>
 45 rue des Saints Pères<br/>
 75006 Paris, France</p>
 <h1 id="email">Email:</h1>
-<img src='../files/email.png' style='max-width:20em;'>
+<img src='/files/email.png' style='max-width:20em;'>
 <h1 id="web">Web:</h1>
 <ul>
-<li><a href="http://scholar.google.it/citations?user=CbeKfM4AAAAJ">Google Scholar Profile</a></li>
-<li><a href="https://www.github.com/maurofaccin">GitHub Repository</a></li>
-<li><a href="http://www.researchgate.net/profile/Mauro_Faccin">ResearchGate Profile</a></li>
-<li><a href="http://community.frontiersin.org/people/MauroFaccin/104713">Frontiers (Review Editor)</a></li>
+    
+    <li>
+        
+        <a href="https:&#x2F;&#x2F;arxiv.org&#x2F;a&#x2F;faccin_m_1.html" target="_blank">
+            <img src="https:&#x2F;&#x2F;maurofaccin.github.io&#x2F;processed_images&#x2F;52e751cb554bfa3e00.png" alt=""> arXiv</a>
+        
+    </li>
+    
+    <li>
+        
+        <a href="https:&#x2F;&#x2F;www.github.com&#x2F;maurofaccin" target="_blank">
+            <img src="https:&#x2F;&#x2F;maurofaccin.github.io&#x2F;processed_images&#x2F;ad85b1896e0a2a9500.png" alt=""> Github</a>
+        
+    </li>
+    
+    <li>
+        
+        <a href="https:&#x2F;&#x2F;orcid.org&#x2F;0000-0003-0706-3007" target="_blank">
+            <img src="https:&#x2F;&#x2F;maurofaccin.github.io&#x2F;processed_images&#x2F;16f01d7ae689cdb400.png" alt=""> Orcid</a>
+        
+    </li>
+    
+    <li>
+        
+        <a href="http:&#x2F;&#x2F;www.researchgate.net&#x2F;profile&#x2F;Mauro_Faccin" target="_blank">
+            <img src="https:&#x2F;&#x2F;maurofaccin.github.io&#x2F;processed_images&#x2F;5d157e8a0a3e543f00.png" alt=""> ResearchGate</a>
+        
+    </li>
+    
+    <li>
+        
+        <a href="http:&#x2F;&#x2F;scholar.google.it&#x2F;citations?user=CbeKfM4AAAAJ" target="_blank">
+            <img src="https:&#x2F;&#x2F;maurofaccin.github.io&#x2F;processed_images&#x2F;ff1830ede9db437900.png" alt=""> Google Scholar</a>
+        
+    </li>
+    
 </ul>
 
 
-    <ul class='list'>
         
-    </ul>
-</section>
+
+        </article>
 
 
-      
-          <footer>
-    </footer>
+        
+        <footer>
+        </footer>
+        
+    </body>
 
 
 
-      
-  </body>
+
+<script charset="utf-8">
+function toggleMenu() {
+  document.getElementById("navmenu").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.navbutton')) {
+    var dropdowns = document.getElementById("navmenu");
+    dropdowns.classList.remove('show');
+  }
+}
+</script>
 </html>
-

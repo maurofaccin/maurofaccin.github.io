@@ -1,37 +1,64 @@
 <!DOCTYPE html>
 <html>
-  <head>
-	<meta name="generator" content="Hugo 0.82.0" />
-      
-    <base href="https://maurofaccin.github.io">
-    <title>Mauro Faccin</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Mauro Faccin</title>
+        <link rel="stylesheet" href="/assets/style.css"/>
+        
+    </head>
+    <body>
 
-    <link href="./css/style.css" rel="stylesheet" media="screen">
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+        
+        <nav>
+    <a href="/">HOME</a>
 
-
-  </head>
-
-  <body>
-      
-
-
-
-      
-      
-    <div class="jumbotron">
-	    <h1>Mauro Faccin</h1>
-	    
-	    <h4>Academic Website</h4>
-	     
+    <div class='navmenu'>
+    <button onclick="toggleMenu()" class='navbutton'>Menu</button>
+    <ul id="navmenu">
+        
+        <li>
+            <a href="&#x2F;papers">
+                &#x2F;papers
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;slides">
+                &#x2F;slides
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;codes">
+                &#x2F;codes
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;cv">
+                &#x2F;cv
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;contacts">
+                &#x2F;contacts
+            </a>
+        </li>
+        
+    </ul>
     </div>
+</nav>
 
-      
+        
 
-      
-    <section>
+        
+<article>
+
+    <h1>Mauro Faccin</h1>
+
     <p>My main research interests include the analysis of dynamic systems that evolve and interact with complex topologies or networks.
 This includes a wide range of interdisciplinary scenarios, from physics (my personal background) to medicine, from sociology to technology.
 In particular, I focus on characterizing the topological features (such as community or other mesoscopic structures) of the underlying data that can be highlighted by the temporal evolution of the system.
@@ -40,35 +67,29 @@ I analyse those systems through the lenses of Information Theory, Statistical Ph
 I hold a visiting position in the <a href="https://arcs.di.unito.it/">ARCS group</a> in the <a href="https://www.unito.it">Università di Torino</a> department of informatics, Italy.</p>
 
 
-    
-    <div class='blocks'>
+</article>
+
+
         
-        <a href="./papers/" class='block'><h4>Publications</h4></a>
+        <footer>
+        </footer>
         
-        <a href="./slides/" class='block'><h4>Slides &amp; Posters</h4></a>
-        
-        <a href="./codes/" class='block'><h4>Codes</h4></a>
-        
-        <a href="./cv/" class='block'><h4>Curriculum Vitæ</h4></a>
-        
-        <a href="./contacts/" class='block'><h4>Contacts</h4></a>
-        
-    </div>
-
-    </section>
-
-    
-    
-    
-
-
-      
-          <footer>
-    </footer>
+    </body>
 
 
 
-      
-  </body>
+
+<script charset="utf-8">
+function toggleMenu() {
+  document.getElementById("navmenu").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.navbutton')) {
+    var dropdowns = document.getElementById("navmenu");
+    dropdowns.classList.remove('show');
+  }
+}
+</script>
 </html>
-

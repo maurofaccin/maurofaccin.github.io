@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Mauro Faccin</title>
+        <link rel="stylesheet" href="/assets/style.css"/>
+        
+    </head>
+    <body>
+
+        
+        <nav>
+    <a href="/">HOME</a>
+
+    <div class='navmenu'>
+    <button onclick="toggleMenu()" class='navbutton'>Menu</button>
+    <ul id="navmenu">
+        
+        <li>
+            <a href="&#x2F;papers">
+                &#x2F;papers
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;slides">
+                &#x2F;slides
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;codes">
+                &#x2F;codes
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;cv">
+                &#x2F;cv
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;contacts">
+                &#x2F;contacts
+            </a>
+        </li>
+        
+    </ul>
+    </div>
+</nav>
+
+        
+
+        
+        <article>
+        <h1>Degree distribution in quantum walks on complex networks</h1>
+
+        <p>The probability of finding a classical random walker, after a long time, on a node is proportional to the degree distribution of that node independently of the topology of the rest of the network.</p>
+<p>A walker that obey quantum mechanics undergoes weird phenomena as interference, fluctuation, initial state dependence. The difference of its probability distribution from the classical counterpart depends on the system energy and entropy.</p>
+
+
+        
+
+        </article>
+
+
+        
+        <footer>
+        </footer>
+        
+    </body>
+
+
+
+
+<script charset="utf-8">
+function toggleMenu() {
+  document.getElementById("navmenu").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.navbutton')) {
+    var dropdowns = document.getElementById("navmenu");
+    dropdowns.classList.remove('show');
+  }
+}
+</script>
+</html>

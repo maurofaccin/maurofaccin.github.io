@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Mauro Faccin</title>
+        <link rel="stylesheet" href="/assets/style.css"/>
+        
+    </head>
+    <body>
+
+        
+        <nav>
+    <a href="/">HOME</a>
+
+    <div class='navmenu'>
+    <button onclick="toggleMenu()" class='navbutton'>Menu</button>
+    <ul id="navmenu">
+        
+        <li>
+            <a href="&#x2F;papers">
+                &#x2F;papers
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;slides">
+                &#x2F;slides
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;codes">
+                &#x2F;codes
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;cv">
+                &#x2F;cv
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;contacts">
+                &#x2F;contacts
+            </a>
+        </li>
+        
+    </ul>
+    </div>
+</nav>
+
+        
+
+        
+        <article>
+        <h1>Data-driven active-case finding</h1>
+
+        <h1 id="tb-cluster-meeting">TB Cluster meeting</h1>
+<h3 id="rega-institute-leuven-14-nov-2019">REGA Institute (Leuven), 14 Nov. 2019</h3>
+<ul>
+<li>Axel Silroy on <em>&quot;The challenges of Mtb research in the age of cryo-EM&quot;</em></li>
+<li>Mauro Faccin on <em>&quot;Data-driven active-case finding&quot;</em></li>
+<li>Theresa Pattery on <em>&quot;Improving patient management and treatment adherence to TB with a differentiated service delivery model using Connect for Life(tm) mobile health (mhealth) platform&quot;</em></li>
+<li>Lies Laenen on <em>&quot;Implementing automated whole genome sequencing pipelines in the clinical environment&quot;</em></li>
+<li>Pieter Leyssen/Winston Chiu: <em>&quot;Next-generation phenotypic drug susceptibility testing for mycobacteria&quot;</em></li>
+</ul>
+
+
+        
+        <iframe
+            src="slides.pdf"
+            width="100%"
+            height="678"
+            >
+            <p>This browser does not support PDF!</p>
+        </iframe>
+        
+
+        </article>
+
+
+        
+        <footer>
+        </footer>
+        
+    </body>
+
+
+
+
+<script charset="utf-8">
+function toggleMenu() {
+  document.getElementById("navmenu").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.navbutton')) {
+    var dropdowns = document.getElementById("navmenu");
+    dropdowns.classList.remove('show');
+  }
+}
+</script>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Mauro Faccin</title>
+        <link rel="stylesheet" href="/assets/style.css"/>
+        
+    </head>
+    <body>
+
+        
+        <nav>
+    <a href="/">HOME</a>
+
+    <div class='navmenu'>
+    <button onclick="toggleMenu()" class='navbutton'>Menu</button>
+    <ul id="navmenu">
+        
+        <li>
+            <a href="&#x2F;papers">
+                &#x2F;papers
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;slides">
+                &#x2F;slides
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;codes">
+                &#x2F;codes
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;cv">
+                &#x2F;cv
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;contacts">
+                &#x2F;contacts
+            </a>
+        </li>
+        
+    </ul>
+    </div>
+</nav>
+
+        
+
+        
+        <article>
+        <h1>NetSci 2015 @ Zaragoza</h1>
+
+        <p>In June I will attend at <a href="http://netsci2015.net/">NetSci 2015</a> in Zaragoza.</p>
+<p>I'll give a talk about control over time varying networks in brain EEG.</p>
+<p><a href="/files/talk-netsci-2015.pdf">Here</a> you can find the slides of my
+talk.</p>
+
+
+        
+
+        </article>
+
+
+        
+        <footer>
+        </footer>
+        
+    </body>
+
+
+
+
+<script charset="utf-8">
+function toggleMenu() {
+  document.getElementById("navmenu").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.navbutton')) {
+    var dropdowns = document.getElementById("navmenu");
+    dropdowns.classList.remove('show');
+  }
+}
+</script>
+</html>

@@ -1,69 +1,74 @@
 <!DOCTYPE html>
 <html>
-  <head>
-      
-    <base href="https://maurofaccin.github.io">
-    <title>QuEBApp</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Mauro Faccin</title>
+        <link rel="stylesheet" href="/assets/style.css"/>
+        
+    </head>
+    <body>
 
-    <link href="../../css/style.css" rel="stylesheet" media="screen">
-    <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon">
+        
+        <nav>
+    <a href="/">HOME</a>
 
-
-  </head>
-
-  <body>
-      
-<a href="../../">
-    <img src="../../images/home.svg" alt="Home" style='width:3em; padding:6px;'/>
-</a>
-
-
-      
-      
-    <div class="jumbotron">
-	    <h1>QuEBApp</h1>
-	    
-	    <i><h4>
-
-
-
-
-
-</h4></i>
-	    <h4> 
-<br> </h4>
-	     
+    <div class='navmenu'>
+    <button onclick="toggleMenu()" class='navbutton'>Menu</button>
+    <ul id="navmenu">
+        
+        <li>
+            <a href="&#x2F;papers">
+                &#x2F;papers
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;slides">
+                &#x2F;slides
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;codes">
+                &#x2F;codes
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;cv">
+                &#x2F;cv
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;contacts">
+                &#x2F;contacts
+            </a>
+        </li>
+        
+    </ul>
     </div>
+</nav>
 
-      
+        
 
-      
+        
+        <article>
+        <h1>QuEBApp</h1>
 
-
-<section>
-    
-    <aside>
-        <figure>
-            <img width="100%" src="../../codes/quebapp/quebapp.svg" alt="QuEBApp">
-        </figure>
-    </aside>
-    
-
-    <main>
         <p>Quantum Effects Based Approach to community detection.
 This sofware compute the community structure of a Quantum System based
 on its Hamiltonian, on the preferred basis.</p>
 <p>For details see:
-<a href="../../papers/2014-10-21-communities">here</a></p>
+<a href="/papers/2014-10-21-communities">here</a></p>
 <figure>
-    <img src="codes/quebapp/quebapp-dendro-wide.png"
-         alt="Community Detection Dendrogram" width="100%"/> <figcaption>
-            <p>Dendrogram</p>
-        </figcaption>
+    <img src="quebapp-dendro-wide.png" alt="Community Detection Dendrogram" width="100%"/>
+    <figcaption>
+    Dendrogram of a small graph.
+    </figcaption>
 </figure>
-
 <h2 id="requirements">Requirements</h2>
 <ul>
 <li>Python3 (it should work in python2 too, not sure about that)</li>
@@ -79,42 +84,48 @@ on its Hamiltonian, on the preferred basis.</p>
 <ul>
 <li><code>cd quebapp</code></li>
 </ul>
-<p>install (use <code>--user</code> if you don&rsquo;t have root privileges or you want a local
+<p>install (use <code>--user</code> if you don't have root privileges or you want a local
 install)</p>
 <ul>
 <li><code>./setup.py install [--user]</code></li>
 </ul>
 <h2 id="usage">Usage</h2>
 <p>Use <code>quebapp -h</code> for help.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">usage: quebapp <span style="color:#f92672">[</span>-h<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>--edgelist<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>-0<span style="color:#f92672">]</span> 
-               <span style="color:#f92672">[</span>-t <span style="color:#f92672">{</span>fidelity,transport,purity<span style="color:#f92672">}]</span> <span style="color:#f92672">[</span>-d<span style="color:#f92672">]</span>
-               network
+<pre style="background-color:#2b303b;">
+<code class="language-bash" data-lang="bash"><span style="color:#bf616a;">usage:</span><span style="color:#c0c5ce;"> quebapp </span><span style="color:#b48ead;">[</span><span style="color:#c0c5ce;">-h</span><span style="color:#b48ead;">] [</span><span style="color:#c0c5ce;">--edgelist</span><span style="color:#b48ead;">] [</span><span style="color:#c0c5ce;">-0</span><span style="color:#b48ead;">] 
+               </span><span style="color:#bf616a;">[-t </span><span style="color:#c0c5ce;">{fidelity,transport,purity}] </span><span style="color:#b48ead;">[</span><span style="color:#c0c5ce;">-d</span><span style="color:#b48ead;">]
+               </span><span style="color:#bf616a;">network
 
-QuEBApp: Quantum Community Detection
+QuEBApp:</span><span style="color:#c0c5ce;"> Quantum Community Detection
 
-positional arguments:
-  network               Network file <span style="color:#f92672">[</span>default<span style="color:#f92672">=</span>Hamiltonian matrix<span style="color:#f92672">]</span>
+</span><span style="color:#bf616a;">positional</span><span style="color:#c0c5ce;"> arguments:
+  </span><span style="color:#bf616a;">network</span><span style="color:#c0c5ce;">               Network file </span><span style="color:#b48ead;">[</span><span style="color:#c0c5ce;">default=Hamiltonian matrix</span><span style="color:#b48ead;">]
 
-optional arguments:
-  -h, --help            show this help message and exit
-  --edgelist            Read Hamiltonian as list of edges <span style="color:#f92672">[</span>i j
-                        weight<span style="color:#f92672">(</span>optional<span style="color:#f92672">)]</span>
-  -0, --time0           Closeness measure with short-time limit <span style="color:#f92672">[</span>default:
-                        long-time limit<span style="color:#f92672">]</span>
-  -t <span style="color:#f92672">{</span>fidelity,transport,purity<span style="color:#f92672">}</span>, --type <span style="color:#f92672">{</span>fidelity,transport,purity<span style="color:#f92672">}</span>
-                        Use a specific closeness measure <span style="color:#f92672">[</span>default: fidelity<span style="color:#f92672">]</span>
-  -d, --dendrogram      Outputs the resulting dendrogram and modularity
-</code></pre></div><p>The network representing the quantum system needs to be a Hermitian matrix
+</span><span style="color:#bf616a;">optional</span><span style="color:#c0c5ce;"> arguments:
+  </span><span style="color:#bf616a;">-h, --help</span><span style="color:#c0c5ce;">            show this help message and exit
+  </span><span style="color:#bf616a;">--edgelist</span><span style="color:#c0c5ce;">            Read Hamiltonian as list of edges [i j
+                        </span><span style="color:#bf616a;">weight</span><span style="color:#c0c5ce;">(optional)</span><span style="color:#bf616a;">]
+  -0, --time0</span><span style="color:#c0c5ce;">           Closeness measure with short-time limit [default:
+                        </span><span style="color:#bf616a;">long-time</span><span style="color:#c0c5ce;"> limit]
+  </span><span style="color:#bf616a;">-t </span><span style="color:#c0c5ce;">{fidelity,transport,purity},</span><span style="color:#bf616a;"> --type </span><span style="color:#c0c5ce;">{fidelity,transport,purity}
+                        </span><span style="color:#bf616a;">Use</span><span style="color:#c0c5ce;"> a specific closeness measure </span><span style="color:#b48ead;">[</span><span style="color:#c0c5ce;">default: fidelity</span><span style="color:#b48ead;">]
+  </span><span style="color:#bf616a;">-d, --dendrogram</span><span style="color:#c0c5ce;">      Outputs the resulting dendrogram and modularity
+</span></code></pre>
+<p>The network representing the quantum system needs to be a Hermitian matrix
 (the Hamiltonian). It can be given in matrix form:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">h_11  h_12  h_13  <span style="color:#f92672">...</span>
-h_21  h_22  h_23  <span style="color:#f92672">...</span>
-h_31  h_32  h_33  <span style="color:#f92672">...</span>
-<span style="color:#f92672">...</span>   <span style="color:#f92672">...</span>   <span style="color:#f92672">...</span>   <span style="color:#f92672">...</span>
-</code></pre></div><p>with <code>h_ij</code> complex conjugate of <code>h_ji</code>.
+<pre style="background-color:#2b303b;">
+<code class="language-python" data-lang="python"><span style="color:#c0c5ce;">h_11  h_12  h_13  </span><span style="color:#d08770;">...
+</span><span style="color:#c0c5ce;">h_21  h_22  h_23  </span><span style="color:#d08770;">...
+</span><span style="color:#c0c5ce;">h_31  h_32  h_33  </span><span style="color:#d08770;">...
+...   ...   ...   ...
+</span></code></pre>
+<p>with <code>h_ij</code> complex conjugate of <code>h_ji</code>.
 The matrix can be given as an edge list:</p>
-<pre><code>i    j    h_ij
+<pre style="background-color:#2b303b;">
+<code><span style="color:#c0c5ce;">i    j    h_ij
 ...  ...  ...
-</code></pre><p>where <code>i</code> and <code>j</code> are indexes and <code>h_ij</code> the Hamiltonian entry (<code>h_ji</code> will
+</span></code></pre>
+<p>where <code>i</code> and <code>j</code> are indexes and <code>h_ij</code> the Hamiltonian entry (<code>h_ji</code> will
 be computed automatically).</p>
 <h2 id="license">License</h2>
 <p>Copyright: Mauro Faccin (2014)</p>
@@ -128,18 +139,32 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.</p>
 <p>Check LICENSE.txt for details.</p>
 
-    </main>
 
-</section>
+        
 
-
-      
-          <footer>
-    </footer>
+        </article>
 
 
+        
+        <footer>
+        </footer>
+        
+    </body>
 
-      
-  </body>
+
+
+
+<script charset="utf-8">
+function toggleMenu() {
+  document.getElementById("navmenu").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.navbutton')) {
+    var dropdowns = document.getElementById("navmenu");
+    dropdowns.classList.remove('show');
+  }
+}
+</script>
 </html>
-

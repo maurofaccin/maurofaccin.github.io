@@ -1,74 +1,94 @@
 <!DOCTYPE html>
 <html>
-  <head>
-      
-    <base href="https://maurofaccin.github.io">
-    <title>Beamer Theme MOD</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Mauro Faccin</title>
+        <link rel="stylesheet" href="/assets/style.css"/>
+        
+    </head>
+    <body>
 
-    <link href="../../css/style.css" rel="stylesheet" media="screen">
-    <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon">
+        
+        <nav>
+    <a href="/">HOME</a>
 
-
-  </head>
-
-  <body>
-      
-<a href="../../">
-    <img src="../../images/home.svg" alt="Home" style='width:3em; padding:6px;'/>
-</a>
-
-
-      
-      
-    <div class="jumbotron">
-	    <h1>Beamer Theme MOD</h1>
-	    
-	    <i><h4>
-
-
-
-
-
-</h4></i>
-	    <h4> 
-<br> </h4>
-	     
+    <div class='navmenu'>
+    <button onclick="toggleMenu()" class='navbutton'>Menu</button>
+    <ul id="navmenu">
+        
+        <li>
+            <a href="&#x2F;papers">
+                &#x2F;papers
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;slides">
+                &#x2F;slides
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;codes">
+                &#x2F;codes
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;cv">
+                &#x2F;cv
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;contacts">
+                &#x2F;contacts
+            </a>
+        </li>
+        
+    </ul>
     </div>
+</nav>
 
-      
+        
 
-      
+        
+        <article>
+        <h1>Beamer Theme MOD</h1>
 
-
-<section>
-    
-    <aside>
-        <figure>
-            <img width="100%" src="../../codes/beamer-mod/slide-01.png" alt="Beamer Theme MOD">
-        </figure>
-    </aside>
-    
-
-    <main>
         <p>This is a DIY theme I managed to write for LaTeX/Beamer which I use to design
 some of my slides and posters (yes, it should work with beamerposter straight
 away).
 <a href="https://gitlab.com/maurofaccin/beamerthememod">BeamerThemeMOD</a>.</p>
 
-    </main>
 
-</section>
+        
 
-
-      
-          <footer>
-    </footer>
+        </article>
 
 
+        
+        <footer>
+        </footer>
+        
+    </body>
 
-      
-  </body>
+
+
+
+<script charset="utf-8">
+function toggleMenu() {
+  document.getElementById("navmenu").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.navbutton')) {
+    var dropdowns = document.getElementById("navmenu");
+    dropdowns.classList.remove('show');
+  }
+}
+</script>
 </html>
-
