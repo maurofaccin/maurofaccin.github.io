@@ -3,17 +3,10 @@ BUILD_DIR=public/
 
 CV_SRC=./src/cv/
 
-SASS_SRC=./src/sass/
-SASS_STC=./static/css/
-
 all: build
 
-build: sassc cv
-	hugo
-
-sassc:
-	mkdir -p $(SASS_STC)
-	sassc -t compressed $(SASS_SRC)style.scss $(SASS_STC)style.css
+build: cv
+	zola build
 
 cv:
 	$(MAKE) -C $(CV_SRC)
@@ -29,11 +22,10 @@ deploy: clean build
 	bash _deploy.sh -c .env-gh
 
 clean:
-	rm -rf $(SASS_STC)
 	rm -rf $(BUILD_DIR)
 
-serve: 
+serve:
 	@ echo "Serving on port 8000"
-	vex uru urubu serve
+	zola serve
 
-.PHONY: all build sassc clean serve
+.PHONY: all build clean serve deploy
