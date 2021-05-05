@@ -11,6 +11,20 @@
         local("DroidSans"),
         local("Tahoma");
 }
+
+@font-face {
+    font-family: system-bold;
+    font-style: normal;
+    src:
+        local(".SFNSText"),
+        local(".HelveticaNeueDeskInterface"),
+        local(".LucidaGrandeUI"),
+        local("Ubuntu"),
+        local("Segoe UI"),
+        local("Roboto"),
+        local("DroidSans"),
+        local("Tahoma");
+}
 @font-face {
     font-family: system-title;
     font-style: normal;
@@ -25,6 +39,7 @@
         local("DroidSans"),
         local("Tahoma");
 }
+
 @font-face {
     font-family: system-mono;
     font-style: normal;
@@ -38,7 +53,6 @@
         local("Menlo"),
         local("monospace");
 }
-
 
 @import "mvp";
 
@@ -60,6 +74,19 @@ body {
 article {
     width: 50%;
     margin: auto;
+}
+
+strong,
+summary,
+a {
+    color: var(--color-text);
+    font-family: system-bold;
+}
+
+summary:hover,
+a:hover {
+    color: var(--color);
+    text-decoration: underline;
 }
 
 tt,
