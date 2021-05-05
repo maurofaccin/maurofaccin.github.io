@@ -122,6 +122,9 @@ nav {
     margin-top: 0px;
     margin-bottom: 5em;
     padding: 0px 3em;
+    a {
+        color: var(--color);
+    }
     ul {
         li{
             text-align: center;
@@ -136,6 +139,7 @@ nav {
         overflow: hidden;
         margin: 0px;
     }
+    box-shadow: var(--box-shadow) var(--color-bg);
 }
 
 section {
@@ -154,11 +158,17 @@ blockquote {
     float: right;
 }
 
+.right {
+    float: right;
+}
+
+.cv_block,
 .card {
     background-color: var(--color-bg-secondary);
-    padding: 1em;
+    padding: 1em 1em;
     margin: 1em 0em;
-    border-radius: var(--border-radius)
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow) var(--color-bg);
 }
 
 .cardimage {
@@ -173,6 +183,7 @@ blockquote {
     vertical-align:middle;  // Align children to middle of line
     h2 {
         margin-bottom: 0px;
+        margin-top: 0px;
     }
 }
 
