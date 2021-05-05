@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-from yaml import load
-from jinja2 import Environment
 from sys import argv
+
+from jinja2 import Environment
+from yaml import load
 
 yam = argv[1]
 tmp = argv[2]
