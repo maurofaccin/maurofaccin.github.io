@@ -22,7 +22,7 @@
         </div>
         <div class="cardtext">
 
-            <h2> {{ paper.tags.title }} </h2>
+            <h2> {{ paper.tags.title | replace(from='{', to='') | replace(from='}', to='') }} </h2>
             <small>
                 {{ macros::authorline(authors=paper.tags.author) }}
             </small>
