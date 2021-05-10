@@ -23,7 +23,7 @@
                 {% else %}
                 <h2> <a href="{{ page.path | safe }}">{{ page.title }}</a> </h2>
                 {% endif %}
-                {{ page.description | default(value="") }}</br>
+                {% if page.description %}<big>{{ page.description }}</big></br>{% endif %}
                 <small>{{ page.date | default(value="1970-01-01") }}</small>
 
             </div>
