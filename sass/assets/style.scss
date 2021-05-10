@@ -175,10 +175,11 @@ blockquote {
     width: 20%;
     display: inline-block;
     vertical-align:middle;  // Align children to middle of line
+    margin-right: 1rem;
 }
 
 .cardtext {
-    width: 79%;
+    width: 75%;
     display: inline-block;
     vertical-align:middle;  // Align children to middle of line
     h2 {
@@ -198,8 +199,18 @@ blockquote {
 }
 
 @media screen and (max-width: 1000px) {
+
     article {
-        width: 95%;
+        width: 100%;
+        >*{
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+    }
+
+    .cv_block,
+    .card {
+        border-radius: 0;
     }
 
     .navbutton {
