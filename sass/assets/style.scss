@@ -74,6 +74,7 @@ body {
 article {
     width: 50%;
     margin: auto;
+    margin-top: 8rem;
 }
 
 strong,
@@ -119,8 +120,10 @@ details {
 
 nav {
     background-color: var(--color-nav-secondary);
-    margin-top: 0px;
-    margin-bottom: 5em;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
     padding: 0px 1rem;
     a {
         color: var(--color);
@@ -139,7 +142,6 @@ nav {
         overflow: hidden;
         margin: 0px;
     }
-    box-shadow: var(--box-shadow) var(--color-bg);
 }
 
 section {
