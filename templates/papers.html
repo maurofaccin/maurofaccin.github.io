@@ -39,7 +39,7 @@
                 <summary>
                     Abstract
                 </summary>
-                {{ paper.tags.abstract | default(value="No Abstract available.") | markdown(inline=true) }}
+                {{ paper.tags.abstract | default(value="No Abstract available.") | markdown(inline=true) | safe }}
             </details>
 
             <details>
