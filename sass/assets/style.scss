@@ -88,6 +88,7 @@ summary:hover,
 a:hover {
     color: var(--color);
     text-decoration: underline;
+    transition: 0.2s;
 }
 
 tt,
@@ -137,6 +138,7 @@ nav {
         }
         li:hover {
             background-color: var(--color-shadow);
+            transition: 0.4s;
         }
         padding: 0px;
         overflow: hidden;
