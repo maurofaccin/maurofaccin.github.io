@@ -94,39 +94,36 @@ install)</p>
 </ul>
 <h2 id="usage">Usage</h2>
 <p>Use <code>quebapp -h</code> for help.</p>
-<pre style="background-color:#2b303b;">
-<code class="language-bash" data-lang="bash"><span style="color:#bf616a;">usage:</span><span style="color:#c0c5ce;"> quebapp </span><span style="color:#b48ead;">[</span><span style="color:#c0c5ce;">-h</span><span style="color:#b48ead;">] [</span><span style="color:#c0c5ce;">--edgelist</span><span style="color:#b48ead;">] [</span><span style="color:#c0c5ce;">-0</span><span style="color:#b48ead;">] 
-               </span><span style="color:#bf616a;">[-t </span><span style="color:#c0c5ce;">{fidelity,transport,purity}] </span><span style="color:#b48ead;">[</span><span style="color:#c0c5ce;">-d</span><span style="color:#b48ead;">]
-               </span><span style="color:#bf616a;">network
-
-QuEBApp:</span><span style="color:#c0c5ce;"> Quantum Community Detection
-
-</span><span style="color:#bf616a;">positional</span><span style="color:#c0c5ce;"> arguments:
-  </span><span style="color:#bf616a;">network</span><span style="color:#c0c5ce;">               Network file </span><span style="color:#b48ead;">[</span><span style="color:#c0c5ce;">default=Hamiltonian matrix</span><span style="color:#b48ead;">]
-
-</span><span style="color:#bf616a;">optional</span><span style="color:#c0c5ce;"> arguments:
-  </span><span style="color:#bf616a;">-h, --help</span><span style="color:#c0c5ce;">            show this help message and exit
-  </span><span style="color:#bf616a;">--edgelist</span><span style="color:#c0c5ce;">            Read Hamiltonian as list of edges [i j
-                        </span><span style="color:#bf616a;">weight</span><span style="color:#c0c5ce;">(optional)</span><span style="color:#bf616a;">]
-  -0, --time0</span><span style="color:#c0c5ce;">           Closeness measure with short-time limit [default:
-                        </span><span style="color:#bf616a;">long-time</span><span style="color:#c0c5ce;"> limit]
-  </span><span style="color:#bf616a;">-t </span><span style="color:#c0c5ce;">{fidelity,transport,purity},</span><span style="color:#bf616a;"> --type </span><span style="color:#c0c5ce;">{fidelity,transport,purity}
-                        </span><span style="color:#bf616a;">Use</span><span style="color:#c0c5ce;"> a specific closeness measure </span><span style="color:#b48ead;">[</span><span style="color:#c0c5ce;">default: fidelity</span><span style="color:#b48ead;">]
-  </span><span style="color:#bf616a;">-d, --dendrogram</span><span style="color:#c0c5ce;">      Outputs the resulting dendrogram and modularity
+<pre data-lang="bash" style="background-color:#2b303b;color:#c0c5ce;" class="language-bash "><code class="language-bash" data-lang="bash"><span style="color:#bf616a;">usage:</span><span> quebapp </span><span style="color:#b48ead;">[</span><span>-h</span><span style="color:#b48ead;">] [</span><span>--edgelist</span><span style="color:#b48ead;">] [</span><span>-0</span><span style="color:#b48ead;">] 
+</span><span>               </span><span style="color:#bf616a;">[-t </span><span>{fidelity,transport,purity}] </span><span style="color:#b48ead;">[</span><span>-d</span><span style="color:#b48ead;">]
+</span><span>               </span><span style="color:#bf616a;">network
+</span><span>
+</span><span style="color:#bf616a;">QuEBApp:</span><span> Quantum Community Detection
+</span><span>
+</span><span style="color:#bf616a;">positional</span><span> arguments:
+</span><span>  </span><span style="color:#bf616a;">network</span><span>               Network file </span><span style="color:#b48ead;">[</span><span>default=Hamiltonian matrix</span><span style="color:#b48ead;">]
+</span><span>
+</span><span style="color:#bf616a;">optional</span><span> arguments:
+</span><span>  </span><span style="color:#bf616a;">-h, --help</span><span>            show this help message and exit
+</span><span>  </span><span style="color:#bf616a;">--edgelist</span><span>            Read Hamiltonian as list of edges [i j
+</span><span>                        </span><span style="color:#bf616a;">weight</span><span>(optional)</span><span style="color:#bf616a;">]
+</span><span>  </span><span style="color:#bf616a;">-0, --time0</span><span>           Closeness measure with short-time limit [default:
+</span><span>                        </span><span style="color:#bf616a;">long-time</span><span> limit]
+</span><span>  </span><span style="color:#bf616a;">-t </span><span>{fidelity,transport,purity},</span><span style="color:#bf616a;"> --type </span><span>{fidelity,transport,purity}
+</span><span>                        </span><span style="color:#bf616a;">Use</span><span> a specific closeness measure </span><span style="color:#b48ead;">[</span><span>default: fidelity</span><span style="color:#b48ead;">]
+</span><span>  </span><span style="color:#bf616a;">-d, --dendrogram</span><span>      Outputs the resulting dendrogram and modularity
 </span></code></pre>
 <p>The network representing the quantum system needs to be a Hermitian matrix
 (the Hamiltonian). It can be given in matrix form:</p>
-<pre style="background-color:#2b303b;">
-<code class="language-python" data-lang="python"><span style="color:#c0c5ce;">h_11  h_12  h_13  </span><span style="color:#d08770;">...
-</span><span style="color:#c0c5ce;">h_21  h_22  h_23  </span><span style="color:#d08770;">...
-</span><span style="color:#c0c5ce;">h_31  h_32  h_33  </span><span style="color:#d08770;">...
-...   ...   ...   ...
+<pre data-lang="python" style="background-color:#2b303b;color:#c0c5ce;" class="language-python "><code class="language-python" data-lang="python"><span>h_11  h_12  h_13  </span><span style="color:#d08770;">...
+</span><span>h_21  h_22  h_23  </span><span style="color:#d08770;">...
+</span><span>h_31  h_32  h_33  </span><span style="color:#d08770;">...
+</span><span style="color:#d08770;">...   ...   ...   ...
 </span></code></pre>
 <p>with <code>h_ij</code> complex conjugate of <code>h_ji</code>.
 The matrix can be given as an edge list:</p>
-<pre style="background-color:#2b303b;">
-<code><span style="color:#c0c5ce;">i    j    h_ij
-...  ...  ...
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>i    j    h_ij
+</span><span>...  ...  ...
 </span></code></pre>
 <p>where <code>i</code> and <code>j</code> are indexes and <code>h_ij</code> the Hamiltonian entry (<code>h_ji</code> will
 be computed automatically).</p>
