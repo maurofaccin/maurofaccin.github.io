@@ -154,13 +154,13 @@ Content:
       period: 2005
       subtitle: "supervisor: Enzo Orlandini"
       location: University of Padova
-      long: Beris Edwards Model Simulations for Liquid Crystals 
+      long: Beris Edwards Model Simulations for Liquid Crystals
         in Oscillatory Poiseuille Flux
   - Publications:
     - title: "State aggregations in Markov chains and block models of networks"
       subtitle: M. Faccin, M.T. Schaub and j.-C. Delvenne
-      location: ArXiv
-      url: https://arxiv.org/abs/2005.00337
+      location: PRL, 127, 078301 (2021)
+      url: https://doi.org/10.1103/PhysRevLett.127.078301
       arXiv: 2005.00337 [physics.soc-ph]
     - title: "Complex Networks from Classical to Quantum"
       subtitle: J. Biamonte, M. Faccin, M. De Domenico
@@ -173,7 +173,7 @@ Content:
       url: https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(18)30496-1/fulltext
     - title: "Entrograms and coarse graining of dynamics on complex networks"
       subtitle: M. Faccin, M.T. Schaub, J-C. Delvenne
-      location: Journal of Complex Networks 
+      location: Journal of Complex Networks
       url: https://academic.oup.com/comnet/article-abstract/doi/10.1093/comnet/cnx055/4587985
       arXiv: 1711.01987
     - title: Chiral Quantum Walks
@@ -384,7 +384,7 @@ Tables:
               - Mother tongue
             English:
               - Fluent
-            Spanish: 
+            Spanish:
               - Fluent
             French:
               - Fair
