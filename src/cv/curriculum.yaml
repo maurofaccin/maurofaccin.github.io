@@ -219,6 +219,16 @@ Content:
       doi: 10.1063/1.3535562
       arXiv: 1103.0216
   - Conferences (Oral Contributions):
+    - title: "Autoinformation state aggregation"
+      subtitle: Complex Networks 2021
+      location: Madrid (Spain)
+      url: https://complexnetworks.org
+      period: 2 Dec 2021
+    - title: "Vaccine-critical discourse on French-speaking Twitter and its outreach"
+      subtitle: Complex Networks 2021
+      location: Madrid (Spain)
+      url: https://complexnetworks.org
+      period: 30 Nov 2021
     - title: "State aggregation for dynamical systems: An information-theoretic approach"
       subtitle: Network Seminar 2021
       location: Math Dept, Oxford University, (UK -- Online)
@@ -315,6 +325,11 @@ Content:
       location: San Sebastian, Spain
       period: 8-9 May 2008
   - Conferences (Poster Contributions):
+    - title: "Directed hyper-graphs and dynamical systems"
+      subtitle: Complex Networks 2021
+      location: Madrid (Spain)
+      url: https://complexnetworks.org
+      period: 1 Dec 2021
     - title: "State aggregation in non-Markovian systems by auto-information maximization"
       subtitle: Netsci 2020
       location: Rome, Italy
