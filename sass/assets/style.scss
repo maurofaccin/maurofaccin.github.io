@@ -179,6 +179,9 @@ blockquote {
     width: 20%;
     display: inline-block;
     vertical-align:middle;  // Align children to middle of line
+    object {
+        width: 100%;
+    }
 }
 
 .cardtext {

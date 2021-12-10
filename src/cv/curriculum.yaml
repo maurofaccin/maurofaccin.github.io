@@ -157,6 +157,10 @@ Content:
       long: Beris Edwards Model Simulations for Liquid Crystals
         in Oscillatory Poiseuille Flux
   - Publications:
+    - title: "Data-driven identification of previously unrecognized communities with alarming levels of tuberculosis infection in the Democratic Republic of Congo."
+      subtitle: M. Faccin, O. Rusumba, A. Ushindi, M. Riziki, T. Habiragi, F. Boutachkourt, E. André
+      location: medRXiv
+      url: https://doi.org/10.1101/2021.12.09.21267511
     - title: "State aggregations in Markov chains and block models of networks"
       subtitle: M. Faccin, M.T. Schaub and j.-C. Delvenne
       location: Phys. Rev. Lett., 127, 078301 (2021)

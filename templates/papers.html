@@ -8,17 +8,14 @@
     {{ page.content | safe }}
 
     {% set data = load_data(path="src/cv/mf.bib", format="bibtex") %}
-    {% set figs = load_data(path="data/paperfigs.toml", format="toml") %}
 
     {% for paper in data.bibliographies | sort(attribute="tags.year") | reverse %}
 
     <div class="card">
         <div class="cardimage">
-            {% if paper.citation_key in figs %}
-            <img src="/papers/imgs/{{ figs[paper.citation_key] }}" alt=""/>
-            {% else %}
-            <img src="images/gicon.svg" alt=""/>
-            {% endif %}
+            <object data="/papers/imgs/{{ paper.citation_key }}.svg" type="image/svg+xml">
+                <img src="/papers/imgs/{{ paper.citation_key }}.png" alt="" onerror='this.error=null;this.src="/images/gicon.svg"'/>
+            </object>
         </div>
         <div class="cardtext">
 
