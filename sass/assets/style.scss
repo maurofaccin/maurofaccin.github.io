@@ -176,6 +176,7 @@ blockquote {
 
 .cv_block,
 .card {
+    display: table;
     background-color: var(--color-bg-secondary);
     padding: 1em 1em;
     margin: 1em 0em;
@@ -185,7 +186,7 @@ blockquote {
 
 .cardimage {
     width: 20%;
-    display: inline-block;
+    display: table-cell;
     vertical-align:middle;  // Align children to middle of line
     object {
         width: 100%;
@@ -193,8 +194,7 @@ blockquote {
 }
 
 .cardtext {
-    width: 77%;
-    display: inline-block;
+    display: table-cell;
     vertical-align:middle;  // Align children to middle of line
     padding-left: 1em;
     h2 {
