@@ -121,7 +121,8 @@ details {
 }
 
 nav {
-    background-color: var(--color-nav-secondary);
+    // background-color: var(--color-nav-secondary);
+    background: linear-gradient(0deg, var(--color-nav-secondary), var(--color-bg-secondary));
     position: fixed;
     top: 0px;
     left: 0px;
@@ -145,6 +146,7 @@ nav {
         overflow: hidden;
         margin: 0px;
     }
+    box-shadow: 0px 0px 2px var(--color-text-secondary), var(--box-shadow) var(--color-shadow);
 }
 
 section {
@@ -161,6 +163,11 @@ blockquote {
 
 .arxiv {
     float: right;
+    img {
+        width: 2em;
+        padding-right: 1em;
+        vertical-align: middle;
+    }
 }
 
 .right {
@@ -173,7 +180,7 @@ blockquote {
     padding: 1em 1em;
     margin: 1em 0em;
     border-radius: var(--border-radius);
-    box-shadow: var(--box-shadow) var(--color-bg);
+    box-shadow: 0px 0px 2px var(--color-text-secondary), var(--box-shadow) var(--color-shadow);
 }
 
 .cardimage {
