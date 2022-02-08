@@ -213,8 +213,7 @@ blockquote {
     }
 }
 
-@media screen and (max-width: 1000px) {
-
+@media screen and (max-width: 1200px) {
     article {
         width: 100%;
         >*{
@@ -258,5 +257,23 @@ blockquote {
 
     .show {
         display: block;
+    }
+}
+
+@media print {
+    body {
+        background-image: none;
+    }
+
+    .cv_block,
+    .card {
+        background-color: none;
+        background: none;
+    }
+    article {
+        width: 100%;
+    }
+    nav {
+        display: none;
     }
 }
