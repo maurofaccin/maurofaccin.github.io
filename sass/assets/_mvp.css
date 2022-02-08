@@ -1,18 +1,18 @@
 /* MVP.css v1.7.1 - https://github.com/andybrewer/mvp */
 
 :root {
-    --border-radius: 5px;
-    --box-shadow: 2px 2px 10px;
+    --border-radius: 0px;
+    --box-shadow: 1px 1px 10px 2px;
     --color: #48880E;
     --color-accent: #C89EFF;
-    --color-bg: #eee;
+    --color-bg: #EEEEEE;
     --color-bg-secondary: rgba(200, 200, 200, 0.7);
     --color-nav-secondary: rgba(200, 200, 200, 0.9);
     --color-secondary: #920de9;
     --color-secondary-accent: #920de9;
-    --color-shadow: #f4f4f4;
-    --color-text: #000;
-    --color-text-secondary: #444;
+    --color-shadow: #F4F4F4;
+    --color-text: #000000;
+    --color-text-secondary: #444444;
     --hover-brightness: 1.2;
     --font-family: system;
     --font-family-bold: system-title;
@@ -30,12 +30,12 @@
     :root {
         --color: #67B720;
         --color-accent: #664493;
-        --color-bg: #333;
+        --color-bg: #333333;
         --color-bg-secondary: rgba(100, 100, 100, 0.7);
         --color-nav-secondary: rgba(50, 50, 50, 0.9);
         --color-secondary: #e20de9;
         --color-secondary-accent: #e20de9;
-        --color-shadow: #666;
+        --color-shadow: #282828;
         --color-text: #ffffff;
         --color-text-secondary: #bbb;
     }
