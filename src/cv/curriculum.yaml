@@ -26,9 +26,6 @@ Content:
         - Mesoscopic structures and their influence on the dynamical system
         - Applied data analysis for disease control
         - Analysis of information dynamics in social networks
-    - title: ARC2S at Unito
-      subtitle: visitor
-      url: https://arcs.di.unito.it/
   - Professional Experience:
     - title: Université de Paris, (CEPED and IRD)
       subtitle: PostDoc
@@ -51,8 +48,11 @@ Content:
       location: Zaragoza, Spain
       url: https://www.bifi.es
   - Fellowships and Projects:
+    - title: TRACTRUST (ANR-20-COVI-0102)
+      period: 2021 - today
+      url: https://anr.fr/Project-ANR-20-COVI-0102
     - title: Innoviris Iris-TB (D1.31402.007-F)
-      period: 2017 - today
+      period: 2017 - 2021
       url: https://innoviris.brussels/
     - title: MOVE-IN Louvain Fellowship (with support of Marie Curie Actions)
       period: 2015 - 2017
@@ -70,6 +70,10 @@ Content:
       period: 2013 - today
       subtitle: Review Editor
   - Committees:
+    - title: Complex Networks 2021
+      period: 1 Dec 2021
+      subtitle: Program Committee
+      location: Madrid, Spain
     - title: Complex Networks 2020
       period: 1 Dec 2020
       subtitle: Program Committee
@@ -166,6 +170,8 @@ Content:
       location: Phys. Rev. Lett., 127, 078301 (2021)
       url: https://doi.org/10.1103/PhysRevLett.127.078301
       arXiv: 2005.00337 [physics.soc-ph]
+      topics:
+        - Figure selected for the journal cover
     - title: "Complex Networks from Classical to Quantum"
       subtitle: J. Biamonte, M. Faccin, M. De Domenico
       location: Communications Physics 2-53 (2019)
@@ -233,6 +239,8 @@ Content:
       location: Madrid (Spain)
       url: https://complexnetworks.org
       period: 30 Nov 2021
+      topics:
+        - Best lightning talk award
     - title: "State aggregation for dynamical systems: An information-theoretic approach"
       subtitle: Network Seminar 2021
       location: Math Dept, Oxford University, (UK -- Online)

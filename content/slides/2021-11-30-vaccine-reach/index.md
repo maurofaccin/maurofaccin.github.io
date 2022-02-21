@@ -5,5 +5,6 @@ description: Complex Networks 2021 @Madrid (Spain)
 extra:
     contrib: slides
     image: slide-01.png
+    awards: "Best lightning talk"
 ---
 

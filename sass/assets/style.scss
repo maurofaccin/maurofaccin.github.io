@@ -71,9 +71,11 @@ body {
     }
 }
 
+cv_block,
 article {
     width: 50%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 8rem;
 }
 
@@ -105,6 +107,11 @@ h1 {
     font-size: 28px;
     text-align: center;
     width: 100%;
+}
+
+.awards {
+    font-size: 10pt;
+    color: var(--color);
 }
 
 iframe {
@@ -177,6 +184,7 @@ blockquote {
 .cv_block,
 .card {
     display: table;
+    width: 100%;
     background-color: var(--color-bg-secondary);
     padding: 1em 1em;
     margin: 1em 0em;
@@ -216,10 +224,8 @@ blockquote {
 @media screen and (max-width: 1200px) {
     article {
         width: 100%;
-        >*{
-            padding-left: 1rem;
-            padding-right: 1rem;
-        }
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .cv_block,
