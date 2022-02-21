@@ -15,7 +15,8 @@
 
 <h1 id={{ title | lower | urlencode }}>{{ title }}</h1>
 
-<dl class='cv_block'>
+<div class='cv_block'>
+<dl class='cv_text'>
     {% for item in content %}
     <dt>{{ item.period }}</dt>
     <dd><strong>
@@ -30,8 +31,10 @@
         {% endfor %}
     </ul>
     {% endif %}
+    {% if item.extra %}<div class="awards">{{ item.extra }}</div>{% endif %}
     {% endfor %}
 </dl>
+</div>
 {% endfor %}{% endfor %}
 
 
@@ -39,10 +42,12 @@
 
 <h1 id={{ title | lower | urlencode }}>{{ title }}</h1>
 
-<dl class='cv_block'>
+<div class='cv_block'>
+<dl class='cv_text'>
     {% for key, thelist in content.items() %}
     <dt><strong>{{ key }}:</strong></dt>
     <dd>{{ thelist|join(', ') }}</dd>
     {% endfor %}
 </dl>
+</div>
 {% endfor %}{% endfor %}

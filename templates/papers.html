@@ -8,6 +8,7 @@
     {{ page.content | safe }}
 
     {% set data = load_data(path="src/cv/mf.bib", format="bibtex") %}
+    {% set awards = load_data(path="data/awards.toml", format="toml") %}
 
     {% for paper in data.bibliographies | sort(attribute="tags.year") | reverse %}
 
@@ -29,6 +30,7 @@
 
             {% set arxiv = macros::arxivref(tags=paper.tags) %}
             {% if arxiv and arxiv != "" %}
+            <!-- <a href="{{ arxiv }}" target="_blank" class="arxiv"><i><img src="/images/arxiv_logo_bw.svg" alt="">ArXiv</i></a> -->
             <a href="{{ arxiv }}" target="_blank" class="arxiv"><i>ArXiv</i></a>
             {% endif %}
 
@@ -55,6 +57,8 @@
                 </code>
             </pre>
             </details>
+
+            {% if paper.citation_key in awards %}<div class="awards">{{ awards[paper.citation_key] }}</div>{% endif %}
         </div>
 
     </div>

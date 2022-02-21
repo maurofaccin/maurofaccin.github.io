@@ -26,6 +26,7 @@
                 {% if page.description %}<big>{{ page.description }}</big></br>{% endif %}
                 <small>{{ page.date | default(value="1970-01-01") }}</small>
 
+                {% if page.extra.awards %}<div class="awards">{{ page.extra.awards }}</div>{% endif %}
             </div>
 
         </div>
