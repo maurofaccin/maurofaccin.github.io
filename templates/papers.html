@@ -30,7 +30,6 @@
 
             {% set arxiv = macros::arxivref(tags=paper.tags) %}
             {% if arxiv and arxiv != "" %}
-            <!-- <a href="{{ arxiv }}" target="_blank" class="arxiv"><i><img src="/images/arxiv_logo_bw.svg" alt="">ArXiv</i></a> -->
             <a href="{{ arxiv }}" target="_blank" class="arxiv"><i>ArXiv</i></a>
             {% endif %}
 
