@@ -58,6 +58,7 @@
 
 body {
     padding: 0px;
+    margin: 0px;
     width: 100%;
     background-image: url("/images/bg-light-small.png");
     background-size: 100% auto;
@@ -226,6 +227,9 @@ blockquote {
         width: 100%;
         margin-left: 0;
         margin-right: 0;
+        p {
+            padding: 0px 1rem;
+        }
     }
 
     .cv_block,
