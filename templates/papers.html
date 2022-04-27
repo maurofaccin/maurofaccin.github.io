@@ -49,7 +49,7 @@
 @{{ paper.entry_type | lower }}{ {{- paper.citation_key }},
 {%- for k, v in paper.tags -%}
 {% if k | lower != "abstract" %}
-    {{ k | lower }}: { {{- v -}} },
+    {{ k | lower }} = { {{- v -}} },
 {%- endif -%}
 {%- endfor %}
 }
