@@ -8,6 +8,7 @@ fi
 
 for f in *.png; do
     echo "$f"
+    convert "$f" "$f.webp"
     pngquant --output temp.png "$f"
     mv temp.png "$f"
 done
