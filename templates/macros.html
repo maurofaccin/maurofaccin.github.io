@@ -35,7 +35,11 @@
 
 {# return the link of arxiv #}
 {% macro arxivref(tags) %}
-{%- if tags.eprinttype and tags.eprinttype == "arxiv" and tags.eprint -%}
-    https://arxiv.org/abs/{{ tags.eprint }}
+{%- if tags.eprint and tags.archiveprefix %}
+    {%- if tags.archiveprefix | lower == "arxiv" %}
+        https://arxiv.org/abs/{{ tags.eprint }}
+    {%- elif  tags.archiveprefix | lower == "medrxiv" %}
+        https://www.medrxiv.org/content/{{ tags.eprint }}
+    {%- endif -%}
 {%- endif -%}
 {% endmacro arxivref %}
