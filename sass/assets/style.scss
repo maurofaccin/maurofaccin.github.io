@@ -106,7 +106,6 @@ pre code {
 
 h1 {
     font-size: 28px;
-    text-align: center;
     width: 100%;
 }
 
@@ -285,5 +284,30 @@ blockquote {
     }
     nav {
         display: none;
+    }
+}
+
+
+.slideshow-container {
+    position: relative;
+    .prev, .next {
+        position: absolute;
+        color: gray;
+        top: 50%;
+        width: auto;
+        margin-top: -42px;
+        padding: 32px 16px;
+        font-size: 18px;
+        transition: 0.3s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    /* Position the "next button" to the right */
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.7);
     }
 }

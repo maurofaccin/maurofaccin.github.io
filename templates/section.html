@@ -10,10 +10,20 @@
         <div class="card">
             <div class="cardimage">
                 {% if page.extra.image %}
-                <img src="{{ page.path }}{{ page.extra.image }}" alt=""/>
+                    {% set image = page.path ~ page.extra.image %}
                 {% else %}
-                <img src="images/gicon.svg" alt=""/>
+                    {% for asset_image in page.assets | sort %}
+                        {% if asset_image is matching(".*.(png|webp|jpg)$") %}
+                            {% set_global image = asset_image | split(pat='/') | last %}
+                            {% set_global image = page.path ~ image %}
+                            {% break %}
+                        {% endif %}
+                    {% endfor %}
+                    {% if not image %}
+                        {% set image = "images/gicon.svg" %}
+                    {% endif %}
                 {% endif %}
+                <img src="{{ image }}" alt=""/>
             </div>
             <div class="cardtext">
 
