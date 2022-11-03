@@ -58,7 +58,7 @@
         <article>
 
         <h1>Memory and Mesoscopic Structures in Diffusion Processes</h1>
-        <big>NetSciX 2016 @ Wrocław (Polland)</big></br>
+        <h4>NetSciX 2016 @ Wrocław (Polland)</h4></br>
 
         <p>Heading up in <a href="http://netsci-x.net">Wrocław</a>{: target='_blank'}
 to give a talk on the last work on Communities and
@@ -66,16 +66,176 @@ Markovian processes on networks.</p>
 
 
         
-        <iframe
-            src="slides.pdf"
-            width="100%"
-            height="678"
-            >
-            <p>This browser does not support PDF!</p>
-        </iframe>
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+        
+            
+                
+            
+
+            <p>Download the pdf <a href="slides.pdf">here</a></p>
+
+            <div class="slideshow-container">
+              
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-01.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-02.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-03.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-04.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-05.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-06.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-07.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-08.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-09.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-10.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+              
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
         
 
         </article>
+
+
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slides[slideIndex-1].style.display = "block";
+            }
+
+            document.onkeydown = function(event){
+                console.log(event.keyCode);
+                switch (event.keyCode){
+                    case 8:
+                        <!-- backspace -->
+                        plusSlides(-1);
+                        break;
+                    case 13:
+                        <!-- enter -->
+                        plusSlides(1);
+                        break;
+                    case 37:
+                        <!-- left arrow -->
+                        plusSlides(-1);
+                        break;
+                    case 39:
+                        <!-- right arrow -->
+                        plusSlides(1);
+                        break;
+                    <!-- case 36: -->
+                    <!--     <!-1- home -1-> -->
+                    <!--     showSlides(slideIndex = 1); -->
+                    <!--     break; -->
+                    case 72:
+                        <!-- h -->
+                        plusSlides(-1);
+                        break;
+                    case 76:
+                        <!-- l -->
+                        plusSlides(1);
+                        break;
+                    <!-- case 74: -->
+                    <!--     <!-1- j -1-> -->
+                    <!--     showSlides(slideIndex = 1); -->
+                    <!--     break; -->
+                }
+            }
+        </script>
 
 
         

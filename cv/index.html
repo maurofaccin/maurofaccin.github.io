@@ -73,6 +73,7 @@
     <li><a href="#reviewer">Reviewer</a></li>
     <li><a href="#teaching">Teaching</a></li>
     <li><a href="#education">Education</a></li>
+    <li><a href="#mainteined%20projects">Mainteined projects</a></li>
     <li><a href="#publications">Publications</a></li>
     <li><a href="#conferences%20%28oral%20contributions%29">Conferences (Oral Contributions)</a></li>
     <li><a href="#conferences%20%28poster%20contributions%29">Conferences (Poster Contributions)</a></li>
@@ -334,6 +335,23 @@ MSc in Physics    </strong> <div class='right'>University of Padova</div></dd>
 </dl>
 </div>
 
+<h1 id=mainteined%20projects>Mainteined projects</h1>
+
+<div class='cv_block'>
+<dl class='cv_text'>
+    <dt></dt>
+    <dd><strong>
+ <a href="https://maurofaccin.github.io/aisa/">AISA</a>    </strong> <div class='right'></div></dd>
+    <dd><small>Python module aimed at partitioning a network through Autoinformation maximization</small></dd>
+
+    <dt></dt>
+    <dd><strong>
+ <a href="https://maurofaccin.github.io/cartotb/">CartoTB</a>    </strong> <div class='right'></div></dd>
+    <dd><small>Cartography of predicted tuberculosis in high burden settings</small></dd>
+
+</dl>
+</div>
+
 <h1 id=publications>Publications</h1>
 
 <div class='cv_block'>
@@ -423,6 +441,21 @@ Analysis of the equilibrium and kinetics of the ankyrin repeat protein myotrophi
 
 <div class='cv_block'>
 <dl class='cv_text'>
+    <dt>9 Nov 2022</dt>
+    <dd><strong>
+ <a href="https://conf2022.theunion.org/">Data-driven mapping of tuberculosis incidence allows identifying communities with high circulation of tuberculosis in the Democratic Republic of Congo</a>    </strong> <div class='right'>Online</div></dd>
+    <dd><small>The Union Conference 2022</small></dd>
+
+    <dt>9 Nov 2022</dt>
+    <dd><strong>
+ <a href="https://conf2022.theunion.org/">Identification of urban areas presenting high incidence of tuberculosis using satellite images allows increasing the yield of active case finding in Kigali, Rwanda.</a>    </strong> <div class='right'>Online</div></dd>
+    <dd><small>The Union Conference 2022</small></dd>
+
+    <dt>17 Oct 2022</dt>
+    <dd><strong>
+ <a href="https://www.ccs2022.org/">Use of compartmental models to detect high TB incidence rates in South-Kivu (DRC)</a>    </strong> <div class='right'>Palma de Mallorca/Online</div></dd>
+    <dd><small>CCS 2022</small></dd>
+
     <dt>30 May 2022</dt>
     <dd><strong>
  <a href="https://complenet.weebly.com">Outreach of vaccine-critic content on French-speaking Twitter</a>    </strong> <div class='right'>Online</div></dd>
@@ -638,8 +671,75 @@ Statistical characterization of fragment ions in MSMS mass spectrometry    </str
 
 
         
+        
+        
 
         </article>
+
+
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slides[slideIndex-1].style.display = "block";
+            }
+
+            document.onkeydown = function(event){
+                console.log(event.keyCode);
+                switch (event.keyCode){
+                    case 8:
+                        <!-- backspace -->
+                        plusSlides(-1);
+                        break;
+                    case 13:
+                        <!-- enter -->
+                        plusSlides(1);
+                        break;
+                    case 37:
+                        <!-- left arrow -->
+                        plusSlides(-1);
+                        break;
+                    case 39:
+                        <!-- right arrow -->
+                        plusSlides(1);
+                        break;
+                    <!-- case 36: -->
+                    <!--     <!-1- home -1-> -->
+                    <!--     showSlides(slideIndex = 1); -->
+                    <!--     break; -->
+                    case 72:
+                        <!-- h -->
+                        plusSlides(-1);
+                        break;
+                    case 76:
+                        <!-- l -->
+                        plusSlides(1);
+                        break;
+                    <!-- case 74: -->
+                    <!--     <!-1- j -1-> -->
+                    <!--     showSlides(slideIndex = 1); -->
+                    <!--     break; -->
+                }
+            }
+        </script>
 
 
         

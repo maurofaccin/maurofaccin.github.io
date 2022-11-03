@@ -58,7 +58,7 @@
         <article>
 
         <h1>Beamer Theme MOD</h1>
-        <big>Beamer theme used to design some of my slides&#x2F;posters. Vaguely inspired by Material Design</big></br>
+        <h4>Beamer theme used to design some of my slides&#x2F;posters. Vaguely inspired by Material Design</h4></br>
 
         <p>This is a DIY theme I managed to write for LaTeX/Beamer which I use to design
 some of my slides and posters (yes, it should work with beamerposter straight
@@ -67,8 +67,77 @@ away).
 
 
         
+        
+            
+        
+        
 
         </article>
+
+
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slides[slideIndex-1].style.display = "block";
+            }
+
+            document.onkeydown = function(event){
+                console.log(event.keyCode);
+                switch (event.keyCode){
+                    case 8:
+                        <!-- backspace -->
+                        plusSlides(-1);
+                        break;
+                    case 13:
+                        <!-- enter -->
+                        plusSlides(1);
+                        break;
+                    case 37:
+                        <!-- left arrow -->
+                        plusSlides(-1);
+                        break;
+                    case 39:
+                        <!-- right arrow -->
+                        plusSlides(1);
+                        break;
+                    <!-- case 36: -->
+                    <!--     <!-1- home -1-> -->
+                    <!--     showSlides(slideIndex = 1); -->
+                    <!--     break; -->
+                    case 72:
+                        <!-- h -->
+                        plusSlides(-1);
+                        break;
+                    case 76:
+                        <!-- l -->
+                        plusSlides(1);
+                        break;
+                    <!-- case 74: -->
+                    <!--     <!-1- j -1-> -->
+                    <!--     showSlides(slideIndex = 1); -->
+                    <!--     break; -->
+                }
+            }
+        </script>
 
 
         

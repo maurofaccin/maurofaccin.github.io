@@ -58,21 +58,313 @@
         <article>
 
         <h1>Variable aggregation for dynamical systems on networks</h1>
-        <big>Benet 2019 @ Hasselt (Belgium)</big></br>
+        <h4>Benet 2019 @ Hasselt (Belgium)</h4></br>
 
         
 
         
-        <iframe
-            src="slides.pdf"
-            width="100%"
-            height="678"
-            >
-            <p>This browser does not support PDF!</p>
-        </iframe>
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+        
+            
+                
+            
+
+            <p>Download the pdf <a href="slides.pdf">here</a></p>
+
+            <div class="slideshow-container">
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-01.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-02.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-03.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-04.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-05.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-06.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-07.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-08.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-09.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-10.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-11.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-12.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-13.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-14.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-15.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-16.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-17.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-18.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-19.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-20.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-21.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-22.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-23.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-24.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-25.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-26.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-27.png" style="width:100%">
+                  </div>
+                  
+              
+                  
+              
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
         
 
         </article>
+
+
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slides[slideIndex-1].style.display = "block";
+            }
+
+            document.onkeydown = function(event){
+                console.log(event.keyCode);
+                switch (event.keyCode){
+                    case 8:
+                        <!-- backspace -->
+                        plusSlides(-1);
+                        break;
+                    case 13:
+                        <!-- enter -->
+                        plusSlides(1);
+                        break;
+                    case 37:
+                        <!-- left arrow -->
+                        plusSlides(-1);
+                        break;
+                    case 39:
+                        <!-- right arrow -->
+                        plusSlides(1);
+                        break;
+                    <!-- case 36: -->
+                    <!--     <!-1- home -1-> -->
+                    <!--     showSlides(slideIndex = 1); -->
+                    <!--     break; -->
+                    case 72:
+                        <!-- h -->
+                        plusSlides(-1);
+                        break;
+                    case 76:
+                        <!-- l -->
+                        plusSlides(1);
+                        break;
+                    <!-- case 74: -->
+                    <!--     <!-1- j -1-> -->
+                    <!--     showSlides(slideIndex = 1); -->
+                    <!--     break; -->
+                }
+            }
+        </script>
 
 
         

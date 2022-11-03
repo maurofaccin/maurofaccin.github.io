@@ -58,7 +58,7 @@
         <article>
 
         <h1>AISA</h1>
-        <big>A python module to perform Autoinformation State Aggregation and a helper to compute the Entrogram of an aggregated network.</big></br>
+        <h4>A python module to perform Autoinformation State Aggregation and a helper to compute the Entrogram of an aggregated network.</h4></br>
 
         <p><code>AISA</code> is a <code>python</code> module to perform state aggregation on graphs with associated dynamical systems.
 It also provide a friendly interface to compute the Entrogram, a compact mathematical tool to asses the alignment of a proposed partition of a graph and the dynamical process.</p>
@@ -66,8 +66,77 @@ It also provide a friendly interface to compute the Entrogram, a compact mathema
 
 
         
+        
+            
+        
+        
 
         </article>
+
+
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slides[slideIndex-1].style.display = "block";
+            }
+
+            document.onkeydown = function(event){
+                console.log(event.keyCode);
+                switch (event.keyCode){
+                    case 8:
+                        <!-- backspace -->
+                        plusSlides(-1);
+                        break;
+                    case 13:
+                        <!-- enter -->
+                        plusSlides(1);
+                        break;
+                    case 37:
+                        <!-- left arrow -->
+                        plusSlides(-1);
+                        break;
+                    case 39:
+                        <!-- right arrow -->
+                        plusSlides(1);
+                        break;
+                    <!-- case 36: -->
+                    <!--     <!-1- home -1-> -->
+                    <!--     showSlides(slideIndex = 1); -->
+                    <!--     break; -->
+                    case 72:
+                        <!-- h -->
+                        plusSlides(-1);
+                        break;
+                    case 76:
+                        <!-- l -->
+                        plusSlides(1);
+                        break;
+                    <!-- case 74: -->
+                    <!--     <!-1- j -1-> -->
+                    <!--     showSlides(slideIndex = 1); -->
+                    <!--     break; -->
+                }
+            }
+        </script>
 
 
         

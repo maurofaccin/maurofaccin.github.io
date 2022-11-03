@@ -58,7 +58,7 @@
         <article>
 
         <h1>TnovoMS</h1>
-        <big>T-novoMS is a combined de-novo&#x2F;database-search tool for MSMS tandem spectra identification.</big></br>
+        <h4>T-novoMS is a combined de-novo&#x2F;database-search tool for MSMS tandem spectra identification.</h4></br>
 
         <p>T-novoMS is a combined de-novo/database-search tool for MSMS tandem spectra identification.
 Providing one or a list of MSMS spectra (in &quot;dta&quot; format), you will receive an email message with the most-likely, de-novo predicted parent peptide, the best matching peptide found in uniprot, and a measure of the reliability of the de-novo and database-search predictions.</p>
@@ -70,8 +70,79 @@ Analytical Chemistry, 85(10) p.4884-4892 (2013)</p>
 
 
         
+        
+            
+        
+            
+        
+        
 
         </article>
+
+
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slides[slideIndex-1].style.display = "block";
+            }
+
+            document.onkeydown = function(event){
+                console.log(event.keyCode);
+                switch (event.keyCode){
+                    case 8:
+                        <!-- backspace -->
+                        plusSlides(-1);
+                        break;
+                    case 13:
+                        <!-- enter -->
+                        plusSlides(1);
+                        break;
+                    case 37:
+                        <!-- left arrow -->
+                        plusSlides(-1);
+                        break;
+                    case 39:
+                        <!-- right arrow -->
+                        plusSlides(1);
+                        break;
+                    <!-- case 36: -->
+                    <!--     <!-1- home -1-> -->
+                    <!--     showSlides(slideIndex = 1); -->
+                    <!--     break; -->
+                    case 72:
+                        <!-- h -->
+                        plusSlides(-1);
+                        break;
+                    case 76:
+                        <!-- l -->
+                        plusSlides(1);
+                        break;
+                    <!-- case 74: -->
+                    <!--     <!-1- j -1-> -->
+                    <!--     showSlides(slideIndex = 1); -->
+                    <!--     break; -->
+                }
+            }
+        </script>
 
 
         

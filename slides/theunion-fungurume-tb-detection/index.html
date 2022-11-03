@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Mauro Faccin</title>
+        <link rel="stylesheet" href="/assets/style.css"/>
+        
+    </head>
+    <body>
+
+        
+        <nav>
+    <a href="/">HOME</a>
+
+    <div class='navmenu'>
+    <button onclick="toggleMenu()" class='navbutton'>Menu</button>
+    <ul id="navmenu">
+        
+        <li>
+            <a href="&#x2F;papers">
+                &#x2F;papers
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;slides">
+                &#x2F;slides
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;codes">
+                &#x2F;codes
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;cv">
+                &#x2F;cv
+            </a>
+        </li>
+        
+        <li>
+            <a href="&#x2F;contacts">
+                &#x2F;contacts
+            </a>
+        </li>
+        
+    </ul>
+    </div>
+</nav>
+
+        
+
+        
+        <article>
+
+        <h1>Data-driven mapping of tuberculosis incidence allows identifying communities with high circulation of tuberculosis in the Democratic Republic of Congo</h1>
+        <h4>The Union Conf 2022 Live</h4></br>
+
+        
+
+        
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+        
+            
+                
+            
+
+            <p>Download the pdf <a href="slides.pdf">here</a></p>
+
+            <div class="slideshow-container">
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-01.webp" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-02.webp" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-03.webp" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-04.webp" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-05.webp" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-06.webp" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-07.webp" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-08.webp" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-09.webp" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-10.webp" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-11.webp" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-12.webp" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-13.webp" style="width:100%">
+                  </div>
+                  
+              
+                  
+                  <div class="mySlides">
+                      <img src="slide-14.webp" style="width:100%">
+                  </div>
+                  
+              
+                  
+              
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+        
+
+        </article>
+
+
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slides[slideIndex-1].style.display = "block";
+            }
+
+            document.onkeydown = function(event){
+                console.log(event.keyCode);
+                switch (event.keyCode){
+                    case 8:
+                        <!-- backspace -->
+                        plusSlides(-1);
+                        break;
+                    case 13:
+                        <!-- enter -->
+                        plusSlides(1);
+                        break;
+                    case 37:
+                        <!-- left arrow -->
+                        plusSlides(-1);
+                        break;
+                    case 39:
+                        <!-- right arrow -->
+                        plusSlides(1);
+                        break;
+                    <!-- case 36: -->
+                    <!--     <!-1- home -1-> -->
+                    <!--     showSlides(slideIndex = 1); -->
+                    <!--     break; -->
+                    case 72:
+                        <!-- h -->
+                        plusSlides(-1);
+                        break;
+                    case 76:
+                        <!-- l -->
+                        plusSlides(1);
+                        break;
+                    <!-- case 74: -->
+                    <!--     <!-1- j -1-> -->
+                    <!--     showSlides(slideIndex = 1); -->
+                    <!--     break; -->
+                }
+            }
+        </script>
+
+
+        
+        <footer>
+        </footer>
+        
+    </body>
+
+
+
+
+<script charset="utf-8">
+function toggleMenu() {
+  document.getElementById("navmenu").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.navbutton')) {
+    var dropdowns = document.getElementById("navmenu");
+    dropdowns.classList.remove('show');
+  }
+}
+</script>
+</html>
