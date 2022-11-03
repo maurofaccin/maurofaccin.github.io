@@ -160,6 +160,13 @@ Content:
       location: University of Padova
       long: Beris Edwards Model Simulations for Liquid Crystals
         in Oscillatory Poiseuille Flux
+  - Mainteined projects:
+    - title: AISA
+      url: https://maurofaccin.github.io/aisa/
+      subtitle: Python module aimed at partitioning a network through Autoinformation maximization
+    - title: CartoTB
+      url: https://maurofaccin.github.io/cartotb/
+      subtitle: Cartography of predicted tuberculosis in high burden settings
   - Publications:
     - title: "Measuring dynamical systems on directed hypergraphs"
       subtitle: "M. Faccin"
@@ -237,6 +244,21 @@ Content:
       doi: 10.1063/1.3535562
       arXiv: 1103.0216
   - Conferences (Oral Contributions):
+    - title: "Data-driven mapping of tuberculosis incidence allows identifying communities with high circulation of tuberculosis in the Democratic Republic of Congo"
+      subtitle: "The Union Conference 2022"
+      location: "Online"
+      url: "https://conf2022.theunion.org/"
+      period: "9 Nov 2022"
+    - title: "Identification of urban areas presenting high incidence of tuberculosis using satellite images allows increasing the yield of active case finding in Kigali, Rwanda."
+      subtitle: "The Union Conference 2022"
+      location: "Online"
+      url: "https://conf2022.theunion.org/"
+      period: "9 Nov 2022"
+    - title: "Use of compartmental models to detect high TB incidence rates in South-Kivu (DRC)"
+      subtitle: "CCS 2022"
+      location: "Palma de Mallorca/Online"
+      url: "https://www.ccs2022.org/"
+      period: "17 Oct 2022"
     - title: "Outreach of vaccine-critic content on French-speaking Twitter"
       subtitle: "Complenet 2022"
       location: "Online"
