@@ -3,9 +3,12 @@ BUILD_DIR=public/
 
 CV_SRC=./src/cv/
 
+BACKGROUND_SOURCES = $(wildcard src/bg-*-small.jpg)
+BACKGROUND_TARGETS = $(patsubst src/%.jpg,static/images/%.webp,$(BACKGROUND_SOURCES))
+
 all: build
 
-build: cv
+build: cv $(BACKGROUND_TARGETS)
 	zola build
 
 cv:
@@ -27,5 +30,18 @@ clean:
 serve:
 	@ echo "Serving on port 8000"
 	zola serve
+
+$(BACKGROUND_TARGETS): static/images/%.webp: src/%.jpg
+	@echo $^
+	@echo $@
+	convert "$^"\
+		-colorspace sRGB\
+		-alpha set -background none -channel A\
+		-sparse-color barycentric '0,0 white 0,%[h] none'\
+		+channel\
+		"$@"
+
+test: $(BACKGROUND_TARGETS)
+	@echo $(BACKGROUND_SOURCES)
 
 .PHONY: all build clean serve deploy
