@@ -60,7 +60,7 @@ body {
     padding: 0px;
     margin: 0px;
     width: 100%;
-    background-image: url("/images/bg-light-small.png");
+    background-image: url("/images/bg-light-small.webp");
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-attachment:fixed;
@@ -68,7 +68,7 @@ body {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-image: url("/images/bg-dark-small.png");
+        background-image: url("/images/bg-dark-small.webp");
     }
 }
 
