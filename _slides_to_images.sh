@@ -9,8 +9,9 @@ fi
 for f in *.png; do
     echo "$f"
     convert "${f}" "${f%.png}.webp"
-    pngquant --output temp.png "$f"
-    mv temp.png "$f"
+    # pngquant --output temp.png "$f"
+    # mv temp.png "$f"
+    rm temp.png
 done
 
 ls
