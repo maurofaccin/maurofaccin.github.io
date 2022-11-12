@@ -12,7 +12,7 @@ do
         -alpha set -background none -channel A\
         -sparse-color barycentric '0,0 white 0,%[h] none'\
         +channel\
-        "${DIR}/${fname%.jpg}.png"
+        "${DIR}/${fname%.jpg}.webp"
 done
 
 
