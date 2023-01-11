@@ -1,12 +1,7 @@
 
 name: Mauro
 surname: Faccin
-address:
-    - Ceped
-    - Université de Paris - Campus St Germain des Prés
-    - 45 rue des Saints Pères
-    - 75006 Paris, France
-email: mauro.faccin@ird.fr
+email: mauro.fccn@gmail.com
 url: https://maurofaccin.github.io
 
 
@@ -14,22 +9,22 @@ url: https://maurofaccin.github.io
 # for each entry: period, title, subtitle, location
 
 Content:
-  - Actual Position:
-    - title: CEPED and IRD
-      url: https://www.ceped.org
-      period: 2021 - today
-      employer: IRD
-      location: Université de Paris, France
-      subtitle: Interests/Research line
-      topics:
-        - Dynamical systems evolving on complex networks
-        - Mesoscopic structures and their influence on the dynamical system
-        - Applied data analysis for disease control
-        - Analysis of information dynamics in social networks
+  # - Actual Position:
+  #   - title: CEPED and IRD
+  #     url: https://www.ceped.org
+  #     period: 2021 - 2022
+  #     employer: IRD
+  #     location: Université de Paris, France
+  #     subtitle: Interests/Research line
+  #     topics:
+  #       - Dynamical systems evolving on complex networks
+  #       - Mesoscopic structures and their influence on the dynamical system
+  #       - Applied data analysis for disease control
+  #       - Analysis of information dynamics in social networks
   - Professional Experience:
     - title: Université de Paris, (CEPED and IRD)
       subtitle: PostDoc
-      period: 2021 - today
+      period: 2021 - 2022
       location: Paris, France
       url: "https://www.ceped.org"
     - title: Université Catholique de Louvain (ICTEAM)
@@ -49,7 +44,7 @@ Content:
       url: https://www.bifi.es
   - Fellowships and Projects:
     - title: TRACTRUST (ANR-20-COVI-0102)
-      period: 2021 - today
+      period: 2021 - 2022
       url: https://anr.fr/Project-ANR-20-COVI-0102
     - title: Innoviris Iris-TB (D1.31402.007-F)
       period: 2017 - 2021
