@@ -8,7 +8,7 @@ This includes a wide range of interdisciplinary scenarios, from physics (my pers
 In particular, I focus on characterizing the topological features (such as community or other mesoscopic structures) of the underlying data that emerge from the analysis of the dynamics.
 I analyze those systems through the lenses of Information Theory, Statistical Physics and Quantum Mechanics.
 
-Through many interesting collaborations, I helped:
+I'm involved in:
 
 - Estimating the Tuberculosis incidence rates in Sub-Saharan African regions (see [CartoTB](https://maurofaccin.github.io/cartotb))
 - Writing a python package that compute the *best* partition of a network according to autoinformation maximization (see [AISA](https://maurofaccin.github.io/aisa)).
