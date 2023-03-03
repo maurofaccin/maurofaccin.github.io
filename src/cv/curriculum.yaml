@@ -1,26 +1,24 @@
-
 name: Mauro
 surname: Faccin
 email: mauro.fccn@gmail.com
 url: https://maurofaccin.github.io
 
-
 # Here the content
 # for each entry: period, title, subtitle, location
 
 Content:
-  # - Actual Position:
-  #   - title: CEPED and IRD
-  #     url: https://www.ceped.org
-  #     period: 2021 - 2022
-  #     employer: IRD
-  #     location: Université de Paris, France
-  #     subtitle: Interests/Research line
-  #     topics:
-  #       - Dynamical systems evolving on complex networks
-  #       - Mesoscopic structures and their influence on the dynamical system
-  #       - Applied data analysis for disease control
-  #       - Analysis of information dynamics in social networks
+  - Actual Position:
+    - title: DIMEC at University of Bologna
+      url: https://www.dimec.unibo.it
+      period: 2023-today
+      employer: Unibo
+      location: University of Bologna, Italy
+      subtitle: Interests/Research line
+      topics:
+        - Use of complex systems and machine learning tools to detect antibiotic resitance
+        - Mesoscopic structures and their influence on the dynamical system
+        - Applied data analysis for disease control
+        - Analysis of information dynamics in social networks and medical systems
   - Professional Experience:
     - title: Université de Paris, (CEPED and IRD)
       subtitle: PostDoc
@@ -412,7 +410,6 @@ Tables:
             Coding:
               - Python
               - C
-              - C++
               - Matlab
               - Fortran
             Shell:
@@ -425,14 +422,15 @@ Tables:
             Plotting:
               - Gnuplot
               - Matplotlib
-              - PGFPlots(latex)
+              - PGFPlots(LaTeX)
             Typesetting:
-              - Latex
+              - LaTeX
               - LibreOffice
               - MSOffice
               - Markdown
             Imaging:
               - Gimp (Raster)
+              - Tikx (LaTeX)
               - Inkscape (Vectorial)
               - Rawtherapee (RAW)
             Web:
