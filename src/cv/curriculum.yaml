@@ -21,18 +21,18 @@ Content:
         - Analysis of information dynamics in social networks and medical systems
   - Professional Experience:
     - title: Université de Paris, (CEPED and IRD)
-      subtitle: PostDoc
+      subtitle: Postdoctoral researcher
       period: 2021 - 2022
       location: Paris, France
       url: "https://www.ceped.org"
     - title: Université Catholique de Louvain (ICTEAM)
       period: 2015 - 2020
-      subtitle: PostDoc
+      subtitle: MOVE IN Louvain Research Fellow
       location: Louvain la Neuve, Belgium
       url: "https://uclouvain.be/en/research-institutes/icteam"
     - title: ISI Fundation
       period: 2011 - 2015
-      subtitle: PostDoc
+      subtitle: Junior researcher
       location: Torino, Italy
       url: https://isi.it
     - title: Bifi Institute
@@ -62,49 +62,49 @@ Content:
     - title: Frontiers in Quantum Computing
       period: 2013 - today
       subtitle: Review Editor
-  - Committees:
+  - Program Committees:
     - title: Complex Networks 2021
       period: 1 Dec 2021
-      subtitle: Program Committee
       location: Madrid, Spain
     - title: Complex Networks 2020
       period: 1 Dec 2020
-      subtitle: Program Committee
       location: Madrid, Spain
     - title: Complex Networks 2019
       period: 10 Dec 2019
-      subtitle: Program Committee
       location: Lisbon, Portugal
     - title: BeNet 2019
       period: 22 Feb 2019
-      subtitle: Program committee
       location: Hasselt, Belgium
       url: https://be-net.github.io/2019
     - title: Complex Networks 2018
       period: 11 Dec 2018
-      subtitle: Program Committee
       location: Cambridge, UK
     - title: Complex Networks 2017
       period: 29 Nov 2017
-      subtitle: Program Committee
       location: Lyon, France
-    - title: BeNet 2016
-      period: 15 Dec 2016
-      subtitle: Organizing committee
-      location: Louvain-la-Neuve, Belgium
-      url: https://be-net.github.io/2016
     - title: Complex Networks 2016
       period: 30 Nov 2016
-      subtitle: Program committee
       location: Milan, Italy
-    - title: Coarse-graining of Complex Systems
+  - Organizing Committees:
+    - title: Network Reconstruction Science-athon
+      subtitle: Coorganized with Alexandre Bovet, Benjamin Chiem, Leo Gutierrez, Alexey Medvedev, Leto Peel, Mridul Seth
+      period: August 2019
+      location: Beaumont, Belgium
+    - title: Belgian Network Research Meeting (BeNet) 2016
+      subtitle: Coorganized with Sophie Béreau, Jean-Charles Delvenne, Yerali Gandica, Leo Gutierrez, Leto Peel, Michael Schaub
+      period: 15 Dec 2016
+      location: Louvain-la-Neuve, Belgium
+      url: https://be-net.github.io/2016
+    - title: Conference on Complex Systems 2016 workshop on Coarse-graining Complex Systems
       period: 21 Sep 2016
-      subtitle: Organizing committee
       location: CCS2016, Amsterdam, Netherlands
+      subtitle: Coorganized with Leto Peel, Renaud Lambiotte, Michael Schaub
+      url: https://michaelschaub.github.io/ccs_at_ccs_2016/
     - title: Quantum Frontiers for Network Science
+      subtitle: Coorganized with Filippo Radicchi and Zoltan Zimborás
       period: 2 Jun 2014
-      subtitle: Organizing committee
       location: NetSci 2014, Berkeley, California
+      url: https://www.isi.it/en/news-events/qnet-quantum-frontiers-in-network-science-netsci2014
   - Reviewer:
     - title: Advances in Complex Systems
     - title: Applied Network Science
@@ -128,6 +128,19 @@ Content:
       period: 2004
       subtitle: "Organizer: INFN"
       location: Padova, Italy
+  - Student advising:
+    - title: G. Izzi
+      subtitle: Computer Science (with A. Semeraro)
+      location: University of Turin
+      period: 2019
+    - title: H. Devillez
+      subtitle: Applied Maths (with L. Peel)
+      location: UCLouvain
+      period: 2016
+    - title: M. Huet
+      subtitle: Elec. Eng. (with L. Peel)
+      location: UCLouvain
+      period: 2016
   - Education:
     - title: 24CFU
       period: 2020
@@ -237,34 +250,43 @@ Content:
       doi: 10.1063/1.3535562
       arXiv: 1103.0216
   - Conferences (Oral Contributions):
+    - title: "Dynamical systems as a mean for complex systems analysis"
+      subtitle: M. Faccin
+      location: seminar at the University of Bologna
+      url: https://www.unibo.it
+      period: 7 March 2023
     - title: "Data-driven mapping of tuberculosis incidence allows identifying communities with high circulation of tuberculosis in the Democratic Republic of Congo"
-      subtitle: "The Union Conference 2022"
-      location: "Online"
+      subtitle: M. Faccin, C. Nsop Mulaj, E. Swana Kawana, T. Yav Ikum, E. Andé
+      location: "The Union Conference 2022 -- Online"
       url: "https://conf2022.theunion.org/"
       period: "9 Nov 2022"
     - title: "Identification of urban areas presenting high incidence of tuberculosis using satellite images allows increasing the yield of active case finding in Kigali, Rwanda."
-      subtitle: "The Union Conference 2022"
-      location: "Online"
+      location: "The Union Conference 2022 -- Online"
+      subtitle: M. Faccin, P Uwizeye, F. Nsabimana, P. Migambi, E. André
       url: "https://conf2022.theunion.org/"
       period: "9 Nov 2022"
     - title: "Use of compartmental models to detect high TB incidence rates in South-Kivu (DRC)"
-      subtitle: "CCS 2022"
-      location: "Palma de Mallorca/Online"
+      location: "CCS 2022 @ Palma de Mallorca/Online"
+      subtitle: M. Faccin, E. André
       url: "https://www.ccs2022.org/"
       period: "17 Oct 2022"
+    - title: "Reach of vaccine-critical content on Twitter during the COVID-19 pandemic"
+      location: "French Regional Conf. on Complex Systems (FRCCS) @ Paris"
+      subtitle: M. Faccin, F. Gargiulo
+      url: https://iscpif.fr/frccs2022/
     - title: "Outreach of vaccine-critic content on French-speaking Twitter"
-      subtitle: "Complenet 2022"
-      location: "Online"
+      location: "Complenet 2022 -- Online"
+      subtitle: M. Faccin, F. Gargiulo, J. Ward
       url: "https://complenet.weebly.com"
       period: "30 May 2022"
     - title: "Autoinformation state aggregation"
-      subtitle: Complex Networks 2021
-      location: Madrid (Spain)
+      location: Complex Networks 2021 @ Madrid (Spain)
+      subtitle: M. Faccin, M. T. Schaub, J-C. Delvenne
       url: https://complexnetworks.org
       period: 2 Dec 2021
     - title: "Vaccine-critical discourse on French-speaking Twitter and its outreach"
-      subtitle: Complex Networks 2021
-      location: Madrid (Spain)
+      location: Complex Networks 2021 @ Madrid (Spain)
+      subtitle: M. Faccin, F. Gargiulo, J. Ward
       url: https://complexnetworks.org
       period: 30 Nov 2021
       topics:
@@ -366,8 +388,8 @@ Content:
       period: 8-9 May 2008
   - Conferences (Poster Contributions):
     - title: "Directed hyper-graphs and dynamical systems"
-      subtitle: Complex Networks 2021
-      location: Madrid (Spain)
+      location: Complex Networks 2021 @ Madrid (Spain)
+      subtitle: M. Faccin, F. Gargiulo
       url: https://complexnetworks.org
       period: 1 Dec 2021
     - title: "State aggregation in non-Markovian systems by auto-information maximization"
