@@ -147,22 +147,22 @@ Content:
       location: Univestità telematica Pegaso
       long: "Discipline antropo-psico-pedagogiche e in metodologie e tecnologie didattiche"
     - title: PhD in Physics
-      period: 2011
+      period: 14 Sept 2012
       location: University of Zaragoza
-      subtitle: "supervisor: Pierpaolo Bruscolini"
+      subtitle: "supervisor: prof. Pierpaolo Bruscolini"
       long: Analysis and Development of Algorithms
         for the Characterization of Biopolymers and
         Application to Protein Sequencing and Protein Folding
       url: /files/thesis.pdf
     - title: Master in Physics and Technology
-      period: 2007
-      subtitle: "supervisor: Pierpaolo Bruscolini"
+      period: 15 Oct 2008
+      subtitle: "supervisor: prof. Pierpaolo Bruscolini"
       location: University of Zaragoza
       long: Coevolution of Strategy and Population Structure
         in the Prisoner Dilemma
     - title: MSc in Physics
-      period: 2005
-      subtitle: "supervisor: Enzo Orlandini"
+      period: 10 Oct 2005
+      subtitle: "supervisor: prof. Enzo Orlandini"
       location: University of Padova
       long: Beris Edwards Model Simulations for Liquid Crystals
         in Oscillatory Poiseuille Flux
@@ -191,8 +191,7 @@ Content:
       location: Phys. Rev. Lett., 127, 078301 (2021)
       url: https://doi.org/10.1103/PhysRevLett.127.078301
       arXiv: 2005.00337 [physics.soc-ph]
-      topics:
-        - Figure selected for the journal cover
+      long: Figure selected for the journal cover
     - title: "Complex Networks from Classical to Quantum"
       subtitle: J. Biamonte, M. Faccin, M. De Domenico
       location: Communications Physics 2-53 (2019)
@@ -289,8 +288,7 @@ Content:
       subtitle: M. Faccin, F. Gargiulo, J. Ward
       url: https://complexnetworks.org
       period: 30 Nov 2021
-      topics:
-        - Best lightning talk award
+      long: Best lightning talk award
     - title: "State aggregation for dynamical systems: An information-theoretic approach"
       subtitle: Network Seminar 2021
       location: Math Dept, Oxford University, (UK -- Online)
