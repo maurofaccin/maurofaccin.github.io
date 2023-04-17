@@ -1,3 +1,8 @@
+[andre]
+name = "André"
+fullname = "Emmanuel André"
+url = "https://twitter.com/Emmanuel_microb"
+
 [schaub]
 name = "Schaub"
 fullname = "Michael T. Schaub"
@@ -8,7 +13,7 @@ name = "Delvenne"
 fullname = "Jean-Charles Delvenne"
 url = "https://perso.uclouvain.be/jean-charles.delvenne/welcome.html"
 
-["de domenico"]
+[de-domenico]
 name = "De Domenico"
 fullname = "Manlio De Domenico"
 url = "https://about.me/manliodedomenico"
@@ -41,6 +46,7 @@ url = "https://maurofaccin.github.io/"
 [zimboras]
 fullname = "Zoltán Zimborás"
 name = "Zimborás"
+url = "https://qi.nemzetilabor.hu/people/zoltan-zimboras"
 
 [whitfield]
 fullname = "James Daniel Whitfield"
