@@ -7,9 +7,9 @@
 {% macro authortext(author) %}
 {% set collab = load_data(path="data/collaborators.toml", format="toml") %}
 {% set names = author | split(pat=',') %}
-{% set key = names.0 | lower %}
+{% set key = names.0 | lower | slugify %}
 {%- if key in collab -%}
-<a href="{{ collab[key].url }}" target="_blank">{{ collab[key].name }}</a>
+<a class="outlink" title="{{ collab[key].fullname }}" href="{{ collab[key].url }}" target="_blank">{{ collab[key].name }}</a>
 {%- else -%}
 {{ names.0 }}
 {%- endif -%}
