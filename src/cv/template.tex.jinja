@@ -18,6 +18,9 @@
 \section{[[ title ]]}
 [[% for item in content %]]
 \theitem{[[ item.period]]}{\href{[[ item.url ]]}{[[ item.title ]]}}{[[ item.location ]]}{[[ item.subtitle ]]}
+[[% if item.long %]]
+\theitem{\ }{\tiny\color{gray} [[ item.long ]]}{}{}
+[[% endif %]]
 [[% if item.topics %]]
 \itemlist{}{
 \begin{itemize}

@@ -20,9 +20,10 @@
     {% for item in content %}
     <dt>{{ item.period }}</dt>
     <dd><strong>
-        {% if item.url %} <a href="{{item.url}}">{{item.title}}</a>{% else %}{{item.title}}{% endif %}
+        {% if item.url %} <a class="outlink" href="{{item.url}}">{{item.title}}</a>{% else %}{{item.title}}{% endif %}
     </strong> <div class='right'>{{ item.location }}</div></dd>
     <dd><small>{{ item.subtitle }}</small></dd>
+    <dd><small>{{ item.long }}</small></dd>
 
     {% if item.topics %}
     <ul>
