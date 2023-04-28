@@ -19,7 +19,9 @@
             </object>
         </div>
         <div class="cardtext">
-            <h2> {{ paper.tags.title | replace(from='{', to='') | replace(from='}', to='') }} </h2>
+            <a href="{{ paper.tags.url }}">
+                <h2> {{ paper.tags.title | replace(from='{', to='') | replace(from='}', to='') }} </h2>
+            </a>
             <small>
                 {{ macros::authorline(authors=paper.tags.author) }}
             </small>
