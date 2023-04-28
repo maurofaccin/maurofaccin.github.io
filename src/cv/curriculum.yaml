@@ -1,3 +1,4 @@
+# yaml-language-server: $schema
 name: Mauro
 surname: Faccin
 email: mauro.fccn@gmail.com
@@ -173,6 +174,11 @@ Content:
     - title: CartoTB
       url: https://maurofaccin.github.io/cartotb/
       subtitle: Cartography of predicted tuberculosis in high burden settings
+  - Preprints:
+    - title: "Temporal and geographic analysis of the Hydroxychloroquine controversy in the French Twittosphere"
+      subtitle: "M. Faccin, E. Schultz and F. Gargiulo"
+      location: "arXiv:2304.14075"
+      url: "https://doi.org/10.48550/arXiv.2304.14075"
   - Publications:
     - title: "Measuring dynamical systems on directed hypergraphs"
       subtitle: "M. Faccin"
