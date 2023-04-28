@@ -199,7 +199,7 @@ blockquote {
 .cardimage {
     width: 20%;
     display: table-cell;
-    vertical-align:middle;  // Align children to middle of line
+    vertical-align:top;  // Align children to middle of line
     object {
         width: 100%;
     }
@@ -207,7 +207,7 @@ blockquote {
 
 .cardtext {
     display: table-cell;
-    vertical-align:middle;  // Align children to middle of line
+    vertical-align:top;  // Align children to middle of line
     padding-left: 1em;
     h2 {
         margin-bottom: 0px;

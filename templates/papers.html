@@ -21,18 +21,15 @@
         <div class="cardtext">
             <a href="{{ paper.tags.url }}">
                 <h2> {{ paper.tags.title | replace(from='{', to='') | replace(from='}', to='') }} </h2>
-            </a>
-            <small>
+            </a><br>
+
+            <!-- <small> -->
                 {{ macros::authorline(authors=paper.tags.author) }}
-            </small>
+            <!-- </small> -->
+
             <a href="{{ macros::journalref(tags=paper.tags) }}" target="_blank">
                 {{ macros::journal(tags=paper.tags) }}
             </a>
-
-            {% set arxiv = macros::arxivref(tags=paper.tags) %}
-            {% if arxiv and arxiv != "" %}
-            <a href="{{ arxiv }}" target="_blank" class="arxiv"><i>{{ paper.tags | get(key="archiveprefix", default="arXiv") | title }}</i></a>
-            {% endif %}
 
             <details>
                 <summary>
@@ -59,6 +56,11 @@
             </details>
 
             {% if paper.citation_key in awards %}<div class="awards">{{ awards[paper.citation_key] }}</div>{% endif %}
+
+            {% set arxiv = macros::arxivref(tags=paper.tags) %}
+            {% if arxiv and arxiv != "" %}
+            <a href="{{ arxiv }}" target="_blank" class="arxiv"><i>{{ paper.tags | get(key="archiveprefix", default="arXiv") | title }}</i></a>
+            {% endif %}
         </div>
 
     </div>
