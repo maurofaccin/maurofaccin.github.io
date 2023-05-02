@@ -1,24 +1,24 @@
 [scholar]
 name = "Google Scholar"
-logo = "scholar.google.com.png"
-link = "http://scholar.google.it/citations?user=CbeKfM4AAAAJ"
+logo = "logo_scholar.webp"
+url = "http://scholar.google.it/citations?user=CbeKfM4AAAAJ"
 
 [orchid]
 name = "Orcid"
-logo = "orcid_16x16.png"
-link = "https://orcid.org/0000-0003-0706-3007"
+logo = "logo_orcid.webp"
+url = "https://orcid.org/0000-0003-0706-3007"
 
 [github]
 name = "Github"
-logo = "github.com.png"
-link = "https://www.github.com/maurofaccin"
+logo = "logo_github.webp"
+url = "https://www.github.com/maurofaccin"
 
 [researchgate]
 name = "ResearchGate"
-logo = "www.researchgate.net.png"
-link = 'http://www.researchgate.net/profile/Mauro_Faccin'
+logo = "logo_researchgate.webp"
+url = 'http://www.researchgate.net/profile/Mauro_Faccin'
 
 [arxiv]
 name = "arXiv"
-logo = "arxiv.org.png"
-link = "https://arxiv.org/a/faccin_m_1.html"
+logo = "logo_arxiv.webp"
+url = "https://arxiv.org/a/faccin_m_1.html"

@@ -327,3 +327,32 @@ blockquote {
 .outlink:before {
     content: "↳";
 }
+
+.badge {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: var(--color-nav);
+
+    .badge-text,
+    .badge-logo {
+        display: inline-block;
+        padding: 1rem;
+        vertical-align:bottom;
+    }
+
+    .badge-logo {
+        background-color: gray;
+        width: 2rem;
+        height: 2rem;
+        img {
+            width: 2rem;
+        }
+        border-radius: 4px 0 0 4px;
+    }
+    .badge-text {
+        width: 8rem;
+        margin: auto;
+    }
+    margin: 0.5rem;
+    box-shadow: 5px 5px 10px var(--color-shadow);
+}
