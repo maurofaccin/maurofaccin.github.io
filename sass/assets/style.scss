@@ -75,7 +75,7 @@ body {
 .cv_block,
 .card,
 article {
-    box-sizing: border-box;
+    // box-sizing: border-box;
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -108,7 +108,7 @@ pre code {
 
 h1 {
     font-size: 28px;
-    width: 100%;
+    // width: 100%;
 }
 
 .awards {
@@ -222,6 +222,7 @@ blockquote {
 
     .cardtext {
         width: 100%;
+        padding-left: 0;
     }
 }
 
@@ -230,20 +231,23 @@ blockquote {
         width: 100%;
         margin-left: 0;
         margin-right: 0;
-        h1, h2, h3, h4, details {
-            margin-left: 1rem;
-        }
-        .cardtext h2{
-            margin-left: 0px;
-        }
-        p {
-            padding: 0px 1rem;
-        }
+        padding-left: 1rem;
+        padding-right: 1rem;
+        // h1, h2, h3, h4, details {
+        //     margin-left: 1rem;
+        // }
+        // .cardtext h2{
+        //     margin-left: 0px;
+        // }
+        // p {
+        //     padding: 0px 1rem;
+        // }
     }
 
     .cv_block,
     .card {
         border-radius: 0;
+        margin-left: -1rem;
     }
 
     .navbutton {
