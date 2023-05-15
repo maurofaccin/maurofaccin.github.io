@@ -72,10 +72,14 @@ body {
     }
 }
 
+article {
+    // the following is needed to get inner elements to get the full width.
+    box-sizing: border-box;
+}
+
 .cv_block,
 .card,
 article {
-    // box-sizing: border-box;
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
