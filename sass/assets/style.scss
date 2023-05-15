@@ -180,7 +180,7 @@ blockquote {
     float: right;
     img {
         width: 2em;
-        padding-right: 1em;
+        padding-right: var(--padding);
         vertical-align: middle;
     }
 }
@@ -194,7 +194,7 @@ blockquote {
     display: table;
     width: 100%;
     background-color: var(--color-bg-secondary);
-    padding: 1em 1em;
+    padding: var(--padding);
     margin: 1em 0em;
     border-radius: var(--border-radius);
     box-shadow: 0px 0px 2px var(--color-text-secondary), var(--box-shadow) var(--color-shadow);
@@ -212,7 +212,7 @@ blockquote {
 .cardtext {
     display: table-cell;
     vertical-align:top;  // Align children to middle of line
-    padding-left: 1em;
+    padding-left: var(--padding);
     h2 {
         margin-bottom: 0px;
         margin-top: 0px;
@@ -235,23 +235,14 @@ blockquote {
         width: 100%;
         margin-left: 0;
         margin-right: 0;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        // h1, h2, h3, h4, details {
-        //     margin-left: 1rem;
-        // }
-        // .cardtext h2{
-        //     margin-left: 0px;
-        // }
-        // p {
-        //     padding: 0px 1rem;
-        // }
+        padding-left: var(--padding);
+        padding-right: var(--padding);
     }
 
     .cv_block,
     .card {
         border-radius: 0;
-        margin-left: -1rem;
+        margin-left: calc(-1 * var(--padding));
     }
 
     .navbutton {
