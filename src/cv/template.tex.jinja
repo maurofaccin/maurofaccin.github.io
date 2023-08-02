@@ -6,6 +6,9 @@
 \def\authoremail{[[ email ]]}
 \def\authoraddress{[[% for key in address %]][[ key ]]\\[[% endfor %]]}
 \def\authorweb{[[ url ]]}
+[[% if pronouns %]]
+\def\authorpronouns{[[ pronouns ]]}
+[[% endif %]]
 \date{}
 
 \begin{document}
