@@ -7,10 +7,10 @@ layout: page
 
 ## Address:
 
-Ceped<br/>
-Université de Paris - Campus St Germain des Prés<br/>
-45 rue des Saints Pères<br/>
-75006 Paris, France
+Dip. di Scienze Mediche e Chirurgiche<br/>
+Via Massarenti 9<br/>
+40138, Bologna<br/>
+Italy
 
 ## Email:
 
