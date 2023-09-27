@@ -33,7 +33,7 @@
                 {% else %}
                 <h2> <a href="{{ page.path | safe }}">{{ page.title }}</a> </h2>
                 {% endif %}
-                {% if page.description %}<big>{{ page.description }}</big></br>{% endif %}
+                {% if page.description %}{{ page.description | markdown(inline=true) | safe }}</br>{% endif %}
                 <small>{{ page.date | default(value="1970-01-01") }}</small>
 
                 {% if page.extra.awards %}<div class="awards">{{ page.extra.awards }}</div>{% endif %}
