@@ -122,6 +122,10 @@ Content:
     - title: Science Advances
     - title: Scientific Reports
   - Teaching:
+    - title: DAT301 Social Network Analysis
+      period: 2023-2024
+      subtitle: University Mohammed VI Polytechnic
+      location: Teacher Assistant
     - title: LINMA2111 Algorithms and Complexity
       period: 2015-2020
       subtitle: Université Catholique de Louvain
@@ -135,8 +139,12 @@ Content:
       subtitle: "Organizer: INFN"
       location: Padova, Italy
   - Student advising:
+    - title: N. Barbieri
+      subtitle: Physics (tesi magistrale with F. Durazzi)
+      location: University of Bologna
+      period: 2024
     - title: G. Izzi
-      subtitle: Computer Science (with A. Semeraro)
+      subtitle: Computer Science (tesi magistrale with A. Semeraro)
       location: University of Turin
       period: 2019
     - title: H. Devillez
