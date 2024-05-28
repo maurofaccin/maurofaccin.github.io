@@ -21,31 +21,56 @@ Content:
       location: University of Bologna, Italy
       subtitle: Interests/Research line
       topics:
-        - Use of complex systems and machine learning tools to detect antibiotic resitance
-        - Mesoscopic structures and their influence on the dynamical system
-        - Applied data analysis for disease control
-        - Analysis of information dynamics in social networks and medical systems
+        - Use of complex systems and machine learning tools to detect antibiotic resitance.
+        - Analysis of medical data through the use of Machine learning and complex networks combined approaches.
+        - Mesoscopic structures and their influence on the dynamical system.
+        - Applied data analysis for disease control.
+        - Analysis of information dynamics in social networks and medical systems.
   - Professional Experience:
+    - title: Istituto Professionale Statale "G. B. Garbin"
+      subtitle: High school math teacher
+      period: 2022 - 2023
+      location: Schio, Italy
     - title: Université de Paris, (CEPED and IRD)
       subtitle: Postdoctoral researcher
       period: 2021 - 2022
       location: Paris, France
       url: "https://www.ceped.org"
+      topics:
+        - Vaccines hesitancy unveiled through hypergraph analysis.
+        - We analyse the discussion on bicroblogging services as a dynamical system spreading on a hypergraph.
+        - Analysis of the textual content and its dynamical and geographic properties.
+    - title: University of Turin (Computer Science)
+      period: 2020 - 2021
+      subtitle: Visiting
+      location: Torino (Italy)
     - title: Université Catholique de Louvain (ICTEAM)
       period: 2015 - 2020
       subtitle: MOVE IN Louvain Research Fellow
       location: Louvain la Neuve, Belgium
       url: "https://uclouvain.be/en/research-institutes/icteam"
+      topics:
+        - Interplay between complex networks and dynamical systems.
+        - Making use of mathematical tools from information theory we could analyse dynamical systems, their evolution and the emerging mesoscopic structures.
+        - We succesfully built a bridge between statistical inference and dynamical approaches in community or block detection.
+        - Development of a `python` library.
+        - Spatial analysis of disease spreading with compartmental models. (tuberculosis incidence inference in African countries)
     - title: ISI Fundation
       period: 2011 - 2015
       subtitle: Junior researcher
       location: Torino, Italy
       url: https://isi.it
+      topics:
+        - Quantum meets complex networks.
+        - I contributed to a multidisciplinary team interested in using tools from complex networks to study quantum system.
     - title: Bifi Institute
       period: 2006 - 2011
       subtitle: PhD
-      location: Zaragoza, Spain
       url: https://www.bifi.es
+      location: Zaragoza, Spain
+      topics:
+        - Use of Ising-like models to characterize biopolymers with application to protein folding and protein sequencing.
+        - Development and release of corresponding software
   - Fellowships and Projects:
     - title: TRACTRUST (ANR-20-COVI-0102)
       period: 2021 - 2022
@@ -55,19 +80,6 @@ Content:
       url: https://innoviris.brussels/
     - title: MOVE-IN Louvain Fellowship (with support of Marie Curie Actions)
       period: 2015 - 2017
-  - Membership:
-    - title: SICC - Italian Society for Chaos and Complexity
-      period: 2018 - today
-      url: https://www.sicc-it.org/en
-    - title: Network Science Society
-      period: 2015 - today
-      subtitle: Member
-    - title: Complex Systems Society
-      period: 2014 - today
-      subtitle: Member
-    - title: Frontiers in Quantum Computing
-      period: 2013 - today
-      subtitle: Review Editor
   - Program Committees:
     - title: Complex Networks 2021
       period: 1 Dec 2021
@@ -124,12 +136,12 @@ Content:
   - Teaching:
     - title: DAT301 Social Network Analysis
       period: 2023-2024
-      subtitle: University Mohammed VI Polytechnic
-      location: Teacher Assistant
+      subtitle: with F. Gargiulo and A. Apolloni
+      location: University Mohammed VI Polytechnic
     - title: LINMA2111 Algorithms and Complexity
       period: 2015-2020
-      subtitle: Université Catholique de Louvain
-      location: Assistant Professor
+      subtitle: with J-C Delvenne
+      location: Université Catholique de Louvain
     - title: Physics and Math at primary school
       period: 2005
       subtitle: NEST
@@ -140,19 +152,22 @@ Content:
       location: Padova, Italy
   - Student advising:
     - title: N. Barbieri
-      subtitle: Physics (tesi magistrale with F. Durazzi)
+      long: Integration of artificial intelligence and network approaches to classify data in social networks
+      url: https://amslaurea.unibo.it/31880/
+      subtitle: "**Corelatore** tesi magistrale with F. Durazzi and D. Remondini in Applied Physics"
       location: University of Bologna
       period: 2024
     - title: G. Izzi
-      subtitle: Computer Science (tesi magistrale with A. Semeraro)
+      long:  Analysis of temporal patterns and forecasting of popularity for programming languages on Stack Overflow platform
+      subtitle: Tesi magistrale with A. Semeraro and G. Ruffo (informal tutor). Computer Science
       location: University of Turin
       period: 2019
     - title: H. Devillez
-      subtitle: Applied Maths (with L. Peel)
+      subtitle: Applied Maths (project with L. Peel)
       location: UCLouvain
       period: 2016
     - title: M. Huet
-      subtitle: Elec. Eng. (with L. Peel)
+      subtitle: Elec. Eng. (project with L. Peel)
       location: UCLouvain
       period: 2016
   - Education:
@@ -459,8 +474,8 @@ Tables:
               - Subversion
               - Mercurial
             Plotting:
+              - Matplotlib (python)
               - Gnuplot
-              - Matplotlib
               - PGFPlots(LaTeX)
             Typesetting:
               - LaTeX
