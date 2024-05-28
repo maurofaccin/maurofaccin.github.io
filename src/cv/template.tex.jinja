@@ -20,16 +20,16 @@
 [[% for class in Content %]][[% for title,content in class.items()%]]
 \section{[[ title ]]}
 [[% for item in content %]]
-\theitem{[[ item.period]]}{\href{[[ item.url ]]}{[[ item.title ]]}}{[[ item.location ]]}{[[ item.subtitle ]]}
+\theitem{[[ item.period]]}{\href{[[ item.url ]]}{[[ item.title ]]}}{[[ item.location ]]}{[[ item.subtitle|md ]]}
 [[% if item.long %]]
-\theitem{\ }{\tiny\color{gray} [[ item.long ]]}{}{}
+\theitem{\ }{\footnotesize\color{gray} [[ item.long ]]}{}{}
 [[% endif %]]
 [[% if item.topics %]]
 \itemlist{}{
 \begin{itemize}
-[[% for i in item.topics %]]
-    \item [[ i ]]
-[[% endfor %]]
+	[[% for i in item.topics %]]
+	\item [[ i|md ]]
+	      [[% endfor %]]
 \end{itemize}}
 [[% endif %]]
 [[% endfor %]]
@@ -39,7 +39,7 @@
 [[% for class in Tables %]][[% for title,content in class.items()%]]
 \section{[[ title ]]}
 [[% for key, thelist in content.items() %]]
-\theitem{[[ key ]]}{[[ thelist|join(', ') ]]}
+\theitem{[[ key ]]}{[[ thelist|join(', ')|md ]]}
 [[% endfor %]]
 [[% endfor %]][[% endfor %]]
 

@@ -22,13 +22,13 @@
     <dd><strong>
         {% if item.url %} <a class="outlink" href="{{item.url}}">{{item.title}}</a>{% else %}{{item.title}}{% endif %}
     </strong> <div class='right'>{{ item.location }}</div></dd>
-    <dd><small>{{ item.subtitle }}</small></dd>
+    <dd><small>{{ item.subtitle|md }}</small></dd>
     <dd><small>{{ item.long }}</small></dd>
 
     {% if item.topics %}
     <ul>
         {% for i in item.topics %}
-        <li>{{ i }}</li>
+        <li>{{ i|md }}</li>
         {% endfor %}
     </ul>
     {% endif %}
@@ -47,7 +47,7 @@
 <dl class='cv_text'>
     {% for key, thelist in content.items() %}
     <dt><strong>{{ key }}:</strong></dt>
-    <dd>{{ thelist|join(', ') }}</dd>
+    <dd>{{ thelist|join(', ')|md }}</dd>
     {% endfor %}
 </dl>
 </div>
