@@ -100,10 +100,13 @@ a:hover {
     transition: 0.2s;
 }
 
-tt,
+var,
+kbd,
+samp,
 pre,
 code {
     font-family: var(--font-family-mono);
+    font-style: normal;
 }
 
 pre code {
