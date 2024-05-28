@@ -19,7 +19,7 @@ clear:
 	rm -r $(CMPLD)
 
 
-$(PDF): $(TEX) cv-template.tex curriculum.yaml
+$(PDF): $(TEX) cv-template.tex $(DATA)
 	latexmk -lualatex $<
 
 
@@ -27,5 +27,6 @@ templates: $(CMPLD) $(DATA)
 	@echo Compiling
 
 
-$(PREFIX)%: $(DATA) $(PRETMP)%.jinja curriculum.yaml
+$(PREFIX)%: $(DATA) $(PRETMP)%.jinja render_jinja.py
+	echo ciao $(PREFIX) $@
 	python render_jinja.py $^ > $@
