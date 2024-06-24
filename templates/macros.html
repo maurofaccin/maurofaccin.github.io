@@ -1,7 +1,13 @@
 {% macro authorline(authors) %}
-    {% for author in authors | split(pat=" and ") %}
-    {{ self::authortext(author=author | trim) }}{%- if not loop.last %}, {% endif %}
-    {% endfor %}</br>
+{% for author in authors | split(pat=" and ") %}
+{{ self::authortext(
+author=author | trim |
+replace(from="\'{e}", to="é") |
+replace(from="\c{c}", to="ç") |
+replace(from="\l{}", to="ł") |
+replace(from="\'{a}", to="á")) }}{%- if not
+loop.last %}, {% endif %}
+{% endfor %}</br>
 {% endmacro authorline %}
 
 {% macro authortext(author) %}
@@ -9,7 +15,8 @@
 {% set names = author | split(pat=',') %}
 {% set key = names.0 | lower | slugify %}
 {%- if key in collab -%}
-<a class="outlink" title="{{ collab[key].fullname }}" href="{{ collab[key].url }}" target="_blank">{{ collab[key].name }}</a>
+<a class="outlink" title="{{ collab[key].fullname }}" href="{{ collab[key].url }}" target="_blank">{{ collab[key].name
+    }}</a>
 {%- else -%}
 {{ names.0 }}
 {%- endif -%}
@@ -36,10 +43,10 @@
 {# return the link of arxiv #}
 {% macro arxivref(tags) %}
 {%- if tags.eprint and tags.archiveprefix %}
-    {%- if tags.archiveprefix | lower == "arxiv" %}
-        https://arxiv.org/abs/{{ tags.eprint }}
-    {%- elif  tags.archiveprefix | lower == "medrxiv" %}
-        https://www.medrxiv.org/content/{{ tags.eprint }}
-    {%- endif -%}
+{%- if tags.archiveprefix | lower == "arxiv" %}
+https://arxiv.org/abs/{{ tags.eprint }}
+{%- elif tags.archiveprefix | lower == "medrxiv" %}
+https://www.medrxiv.org/content/{{ tags.eprint }}
+{%- endif -%}
 {%- endif -%}
 {% endmacro arxivref %}

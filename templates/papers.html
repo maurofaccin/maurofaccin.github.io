@@ -20,6 +20,7 @@
         </div>
         <div class="cardtext">
             <a href="{{ paper.tags.url }}">
+                <div class='openaccess'>{%- if paper.tags.openaccess -%}Open Access{%- endif -%}</div>
                 <h2> {{ paper.tags.title | replace(from='{', to='') | replace(from='}', to='') }} </h2>
             </a><br>
 
