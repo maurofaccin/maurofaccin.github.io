@@ -38,7 +38,7 @@ Content:
       url: "https://www.ceped.org"
       topics:
         - Vaccines hesitancy unveiled through hypergraph analysis.
-        - We analyse the discussion on bicroblogging services as a dynamical system spreading on a hypergraph.
+        - We analyse the discussion on microblogging services as a dynamical system spreading on a hypergraph.
         - Analysis of the textual content and its dynamical and geographic properties.
     - title: University of Turin (Computer Science)
       period: 2020 - 2021
@@ -52,7 +52,7 @@ Content:
       topics:
         - Interplay between complex networks and dynamical systems.
         - Making use of mathematical tools from information theory we could analyse dynamical systems, their evolution and the emerging mesoscopic structures.
-        - We succesfully built a bridge between statistical inference and dynamical approaches in community or block detection.
+        - We successfully built a bridge between statistical inference and dynamical approaches in community or block detection.
         - Development of a `python` library.
         - Spatial analysis of disease spreading with compartmental models. (tuberculosis incidence inference in African countries)
     - title: ISI Fundation
