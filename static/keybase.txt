@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/maurofaccin
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://maurofaccin.github.io
+  * I am maurofaccin (https://keybase.io/maurofaccin) on keybase.
+  * I have a public key ASCRD53v9TnPoario6I2GFcn1XfjoYpUnh4X9j5bWXPMkAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120910f9deff539cfa1aae2a3a236185727d577e3a18a549e1e17f63e5b5973cc900a",
+      "host": "keybase.io",
+      "kid": "0120910f9deff539cfa1aae2a3a236185727d577e3a18a549e1e17f63e5b5973cc900a",
+      "uid": "2fc365047caa5ddf276a83dc52c68419",
+      "username": "maurofaccin"
+    },
+    "merkle_root": {
+      "ctime": 1725275554,
+      "hash": "d0b9d9930b0f4ac3ddd57e170c66f4691225d38771d05c4cea14b27ca8a40837f09cbefd2951bca43b199ee33bc28b83f840498521d99d0ace89df4747bd9331",
+      "hash_meta": "20c2fd341f4cbcfc0f6b1478038accb2430925b860339729f5c5bf2cc5f46d0b",
+      "seqno": 26065460
+    },
+    "service": {
+      "entropy": "tLRVSDKMl0dYPO0Jlq/Vi+Fs",
+      "hostname": "maurofaccin.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.4.0"
+  },
+  "ctime": 1725275626,
+  "expire_in": 504576000,
+  "prev": "229a049e126b346a7309c8a334eda3116ee1116650e87af8809040784142781b",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgkQ+d7/U5z6Gq4qOiNhhXJ9V346GKVJ4eF/Y+W1lzzJAKp3BheWxvYWTESpcCC8QgIpoEnhJrNGpzCcijNO2jEW7hEWZQ6Hr4gJBAeEFCeBvEILLbUZYZMto6vfSViruBWby4eAUmoxDvyOUElR5tdHURAgHCo3NpZ8RAkjTPDsyvtYhyCwinc0cHwwNgpaX+3A20IhE/q5Jn+qz1y6VWBP1z/vi6BhK/46YZBq2P+UGGhhZCpuvWBNabBKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILPEUgzGxLdmNIsf05vxXYiAP87Tuoz6vfnyH3s0F5UBo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/maurofaccin
+
+==================================================================
