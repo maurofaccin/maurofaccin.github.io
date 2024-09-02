@@ -3,7 +3,7 @@ title: Mauro Faccin
 subtitle: Academic Website
 ---
 
-I'm a PostDoc at he CommuneLab ([Department of Physics](https://dfa.unipd.it) of the[University of Padua](https://www.unipd.it)).
+I'm a PostDoc at the ComuneLab ([Department of Physics and Astronomy](https://dfa.unipd.it) of the [University of Padua](https://www.unipd.it)).
 
 My main research interests lie in the analysis of dynamical systems that evolve and interact with complex topologies or networks.
 This encompasses a wide range of interdisciplinary scenarios, from physics (my personal background) to medicine, from sociology to technology.
