@@ -5,7 +5,9 @@
 
     <h1>{{ config.title }}</h1>
 
-    {{ section.content | safe }}
+    <div class='card'>
+        {{ section.content | safe }}
+    </div>
 
 </article>
 {% endblock content %}
