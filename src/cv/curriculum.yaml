@@ -214,6 +214,10 @@ Content:
       location: "arXiv:2304.14075"
       url: "https://doi.org/10.48550/arXiv.2304.14075"
   - Publications:
+    - title: "Mapping of regions with low tuberculosis notification and estimation of diagnostic gaps in Cameroon evidence from OpenStreetMap and WorldPop data"
+      subtitle: "C.G. Jouego, T.N. Collins, B. Tegomoh, C. Geenen, P.M. Netongo, E. André, M. Faccin"
+      location: "Scientific Reports, 15, Article number: 4992 (2025)"
+      url: "https://doi.org/10.1038/s41598-025-87682-5"
     - title: "Measuring dynamical systems on directed hypergraphs"
       subtitle: "M. Faccin"
       location: "Phys Rev E, 106 (034306), 2022"
