@@ -3,9 +3,9 @@ name: Mauro
 surname: Faccin
 email: mauro.fccn@gmail.com
 address:
-  - Dip. di Scienze Mediche e Chirurgiche
-  - Via Massarenti 9
-  - 40138, Bologna
+  - Dip. Fisica e Astronomia
+  - Via Marzolo 8
+  - 35131 Padova
 url: https://maurofaccin.github.io
 pronouns: he/him
 
@@ -14,19 +14,25 @@ pronouns: he/him
 
 Content:
   - Actual Position:
-    - title: DIMEC at University of Bologna
-      url: https://www.dimec.unibo.it
-      period: 2023-today
-      employer: Unibo
-      location: University of Bologna, Italy
+    - title: DFA at University of Padova
+      url: https://www.dfa.unipd.it/
+      period: 2024-today
+      employer: UniPD
+      location: University of Padova, Italy
       subtitle: Interests/Research line
       topics:
-        - Use of complex systems and machine learning tools to detect antibiotic resitance.
-        - Analysis of medical data through the use of Machine learning and complex networks combined approaches.
+        - Analysis of climate data and their interaction with human made networks
         - Mesoscopic structures and their influence on the dynamical system.
-        - Applied data analysis for disease control.
-        - Analysis of information dynamics in social networks and medical systems.
   - Professional Experience:
+    - title: University of Bologna, (DIMEC and INFN)
+      subtitle: Postdoctoral researcher
+      period: 2023 - 2024
+      location: Bologna, Italy
+      url: "https://dimec.unibo.it/"
+      topics:
+        - Analysis of medical data through the use of Machine learning and complex networks combined approaches.
+        - Prediction of disease survival
+        - Analysis of information dynamics in social networks and medical systems.
     - title: Istituto Professionale Statale "G. B. Garbin"
       subtitle: High school math teacher
       period: 2022 - 2023

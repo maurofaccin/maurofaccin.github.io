@@ -7,9 +7,9 @@ layout: page
 
 ## Address:
 
-Dip. di Scienze Mediche e Chirurgiche<br/>
-Via Massarenti 9<br/>
-40138, Bologna<br/>
+Dip. Fisica e Astronomia<br/>
+Via Marzolo 8<br/>
+35131 Padova<br/>
 Italy
 
 ## Email:
