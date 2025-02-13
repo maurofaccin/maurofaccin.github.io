@@ -110,6 +110,11 @@ Content:
       period: 30 Nov 2016
       location: Milan, Italy
   - Organizing Committees:
+    - title: "Networks Days"
+      subtitle: "Local committee"
+      period: 25 Oct 2024
+      location: Padova, Italy
+      url: "https://github.com/Networks-Days/2024-10-Padua"
     - title: Network Reconstruction Science-athon
       subtitle: Coorganized with Alexandre Bovet, Benjamin Chiem, Leo Gutierrez, Alexey Medvedev, Leto Peel, Mridul Seth
       period: August 2019
