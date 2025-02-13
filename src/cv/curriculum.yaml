@@ -1,4 +1,4 @@
-# yaml-language-server: $schema
+# yaml-language-server: $schema=schema.yaml
 name: Mauro
 surname: Faccin
 email: mauro.fccn@gmail.com
@@ -154,11 +154,11 @@ Content:
       subtitle: with J-C Delvenne
       location: Université Catholique de Louvain
     - title: Physics and Math at primary school
-      period: 2005
+      period: "2005"
       subtitle: NEST
       location: Hetauda, Nepal
     - title: guide in Science Museum
-      period: 2004
+      period: "2004"
       subtitle: "Organizer: INFN"
       location: Padova, Italy
   - Student advising:
@@ -167,23 +167,23 @@ Content:
       url: https://amslaurea.unibo.it/31880/
       subtitle: "**Corelatore** tesi magistrale with F. Durazzi and D. Remondini in Applied Physics"
       location: University of Bologna
-      period: 2024
+      period: "2024"
     - title: G. Izzi
       long:  Analysis of temporal patterns and forecasting of popularity for programming languages on Stack Overflow platform
       subtitle: Tesi magistrale with A. Semeraro and G. Ruffo (informal tutor). Computer Science
       location: University of Turin
-      period: 2019
+      period: "2019"
     - title: H. Devillez
       subtitle: Applied Maths (project with L. Peel)
       location: UCLouvain
-      period: 2016
+      period: "2016"
     - title: M. Huet
       subtitle: Elec. Eng. (project with L. Peel)
       location: UCLouvain
-      period: 2016
+      period: "2016"
   - Education:
     - title: 24CFU
-      period: 2020
+      period: "2020"
       location: Univestità telematica Pegaso
       long: "Discipline antropo-psico-pedagogiche e in metodologie e tecnologie didattiche"
     - title: PhD in Physics
@@ -193,7 +193,7 @@ Content:
       long: Analysis and Development of Algorithms
         for the Characterization of Biopolymers and
         Application to Protein Sequencing and Protein Folding
-      url: /files/thesis.pdf
+      url: https://maurofaccin.github.io/files/thesis.pdf
     - title: Master in Physics and Technology
       period: 15 Oct 2008
       subtitle: "supervisor: prof. Pierpaolo Bruscolini"
@@ -259,19 +259,19 @@ Content:
       subtitle: D. L. Lu, J. D. Biamonte, J. Li, H. Li, T. H. Johnson, V. Bergholm, M. Faccin, Z. Zimborás, R. Laflamme, J. Baugh, and S. Lloyd
       location: Phys. Rev. A 93, 042302
       doi: 10.1103/PhysRevA.93.042302
-      url: http://journals.aps.org/pra/abstract/10.1103/PhysRevA.93.042302
+      url: https://journals.aps.org/pra/abstract/10.1103/PhysRevA.93.042302
       arXiv: 1405.6209 [quant-ph]
     - title: Mapping the topography of a protein energy landscape
       subtitle: R. D. Hutton, J. Wilkinson, M. Faccin, E. M. Sivertsson, A. Pelizzola, A. R. Lowe, P. Bruscolini, L. S. Itzhaki
       location: J. Am. Chem. Soc., 2015, 137 (46), pp 14610–14625
       doi: 10.1021/jacs.5b07370
-      url: http://pubs.acs.org/doi/abs/10.1021/jacs.5b07370
+      url: https://pubs.acs.org/doi/abs/10.1021/jacs.5b07370
     - title: Community Detection in Quantum Complex Networks
       subtitle: M. Faccin, P. Migdał, T. H. Johnson, V. Bergholm, and J. D. Biamonte
       location: Phys. Rev. X 4 (4 2014), p. 041012
       doi: 10.1103/PhysRevX.4.041012
       arXiv: 1310.6638 [quant-ph]
-      url: http://link.aps.org/doi/10.1103/PhysRevX.4.041012
+      url: https://link.aps.org/doi/10.1103/PhysRevX.4.041012
     - title: Degree Distribution in Quantum Walks on Complex Networks
       subtitle: M. Faccin, T. Johnson, J. Biamonte, S. Kais, and P. Migdał
       location: Phys. Rev. X 3 (4 2013), p. 041007
@@ -376,13 +376,13 @@ Content:
     - title: "Community detection in networks with non-Markovian dynamics"
       subtitle: CompleNet 2017
       location: Dubrovnik, Croatia
-      url: "http://complenet.weebly.com"
+      url: "https://complenet.weebly.com"
       period: 21-24 Mar 2017
     - title: "Behind Communities: Dynamics Define Modules"
       subtitle: ComplexNetworks 2016
       location: Milan, Italy
       period: 30 Nov-2 Dec 2016
-      url: "http://complexnetworks.org/index2016.html"
+      url: "https://complexnetworks.org/index2016.html"
     - title: "Beyond Communities: Dynamical Markov Modules"
       subtitle: CCS 2016
       location: Amsterdam, Netherlands

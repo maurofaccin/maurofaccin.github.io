@@ -1,0 +1,51 @@
+# YAML schema for the curriculum.yaml
+type: object
+properties:
+  name:
+    type: string
+    description: Your Name
+  surname:
+    type: string
+    description: Your Family Name
+  email:
+    type: string
+  url:
+    type: string
+    pattern: 'https://.*'
+
+  Content:
+    type: array
+    items:
+      type: object
+      additionalProperties:
+        type: array
+        items:
+          type: object
+          properties:
+            title:
+              type: string
+            url:
+              type: string
+              pattern: 'https://.*'
+            subtitle:
+              type: string
+            period:
+              type: string
+            location:
+              type: string
+            topics:
+              type: array
+          required: ['title']
+
+  Tables:
+    type: array
+    items:
+      type: object
+      additionalProperties:
+        type: object
+        additionalProperties:
+          type: array
+          items:
+            type: string
+
+
