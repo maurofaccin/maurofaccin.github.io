@@ -19,13 +19,13 @@ def md2tex(text: str, kind: str = "tex") -> str:
     if not isinstance(text, str):
         return text
     # code
-    newtext = re.sub("`([^`]*)`", MD[kind]["tt"], text)
+    newtext = re.sub(r"`([^`]*)`", MD[kind]["tt"], text)
     # bold
-    newtext = re.sub("\*\*([^\*]*)\*\*", MD[kind]["bd"], newtext)
-    newtext = re.sub("__([^\*]*)__", MD[kind]["bd"], newtext)
+    newtext = re.sub(r"\*\*([^\*]*)\*\*", MD[kind]["bd"], newtext)
+    newtext = re.sub(r"__([^\*]*)__", MD[kind]["bd"], newtext)
     # italic
-    newtext = re.sub("\*([^\*]*)\*", MD[kind]["it"], newtext)
-    newtext = re.sub("_([^\*]*)_", MD[kind]["it"], newtext)
+    newtext = re.sub(r"\*([^\*]*)\*", MD[kind]["it"], newtext)
+    newtext = re.sub(r"_([^\*]*)_", MD[kind]["it"], newtext)
     return newtext
 
 
