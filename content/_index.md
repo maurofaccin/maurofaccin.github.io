@@ -1,6 +1,7 @@
 ---
 title: Mauro Faccin
-subtitle: Academic Website
+extra:
+    subtitle: Academic Website
 ---
 
 I'm a PostDoc at the ComuneLab ([Department of Physics and Astronomy](https://dfa.unipd.it) of the [University of Padua](https://www.unipd.it)).

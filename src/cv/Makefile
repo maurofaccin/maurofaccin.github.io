@@ -29,4 +29,4 @@ templates: $(CMPLD) $(DATA)
 
 $(PREFIX)%: $(DATA) $(PRETMP)%.jinja render_jinja.py
 	echo ciao $(PREFIX) $@
-	python render_jinja.py $^ > $@
+	python3 render_jinja.py $^ > $@
