@@ -135,15 +135,36 @@ Content:
       location: NetSci 2014, Berkeley, California
       url: https://www.isi.it/en/news-events/qnet-quantum-frontiers-in-network-science-netsci2014
   - Reviewer:
-    - title: APS (PRA, PRB, PRE, PRX)
     - title: Advances in Complex Systems
+      subtitle: World Scientific
+      url: https://www.worldscientific.com/worldscinet/acs
     - title: Applied Network Science
+      subtitle: Springer Nature
+      url: https://appliednetsci.springeropen.com/
+    - title: Entropy
+      subtitle: Multidisciplinary Digital Publishing Institute (MDPI)
+      url: https://www.mdpi.com/journal/entropy
     - title: Journal of Complex Networks
+      subtitle: Oxford University Press
+      url: https://academic.oup.com/comnet/issue
     - title: Journal of Statistical Mechanics
+      url: https://iopscience.org/jstat
+      subtitle: IOP
     - title: Natural Computing
+      url: https://link.springer.com/journal/11047
+      subtitle: Springer Netherlands
     - title: PLOS ONE
+      url: https://journals.plos.org/plosone
+      subtitle: Public Library of Science (PLoS)
+    - title: PRA, PRB, PRE, PRX
+      subtitle: American Physical Society
+      url: https://journals.aps.org/
     - title: Science Advances
+      subtitle: American Association for the Advancement of Science
+      url: https://www.science.org/journal/sciadv
     - title: Scientific Reports
+      url: https://www.nature.com/srep
+      subtitle: Nature Portfolio
   - Teaching:
     - title: DAT301 Social Network Analysis
       period: 2023-2024
