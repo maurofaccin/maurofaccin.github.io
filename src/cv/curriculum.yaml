@@ -512,7 +512,7 @@ Tables:
             Plotting:
               - Matplotlib (python)
               - Gnuplot
-              - PGFPlots(LaTeX)
+              - PGFPlots (LaTeX)
             Typesetting:
               - LaTeX
               - LibreOffice
@@ -520,7 +520,7 @@ Tables:
               - Markdown
             Imaging:
               - Gimp (Raster)
-              - Tikx (LaTeX)
+              - Tikz (LaTeX)
               - Inkscape (Vectorial)
               - Rawtherapee (RAW)
             Web:
