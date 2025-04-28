@@ -17,11 +17,6 @@ cv:
 
 deploy: clean build
 	touch $(BUILD_DIR).nojekyll
-	# bash _deploy.sh
-	# rm -f $(BUILD_DIR)/CNAME
-	# echo maurofaccin.bitibucket.org > $(BUILD_DIR)/CNAME
-	# bash _deploy.sh -c .env-bb
-	# rm -f $(BUILD_DIR)/CNAME
 	bash _deploy.sh -c .env-gh
 
 clean:
