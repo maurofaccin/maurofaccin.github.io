@@ -327,12 +327,17 @@ Content:
       subtitle: M. Faccin, T. Scagliarini, M. De Domenico
       location: "StatPhys29 (Complex Networks)"
       url: "https://sites.google.com/view/complexnetworks-statphys29"
-      period: 22 July 2025
+      period: 22 Jul 2025
+    - title: "International topic distribution in the HCQ controversy on Twitter"
+      subtitle: M. Faccin, E. Schultz, F. Gargiulo
+      location: CCS/Italy @ Napoli (Italy)
+      url: "https://www.cnr.it/it/evento/18675/ccs-italy-2023"
+      period: 10 Oct 2023
     - title: "Dynamical systems as a mean for complex systems analysis"
       subtitle: M. Faccin
       location: seminar at the University of Bologna
       url: https://www.unibo.it
-      period: 7 March 2023
+      period: 7 Mar 2023
     - title: "Data-driven mapping of tuberculosis incidence allows identifying communities with high circulation of tuberculosis in the Democratic Republic of Congo"
       subtitle: M. Faccin, C. Nsop Mulaj, E. Swana Kawana, T. Yav Ikum, E. Andé
       location: "The Union Conference 2022 -- Online"
@@ -352,6 +357,8 @@ Content:
       location: "French Regional Conf. on Complex Systems (FRCCS) @ Paris"
       subtitle: M. Faccin, F. Gargiulo
       url: https://iscpif.fr/frccs2022/
+      period: 20 June 2022
+      long: Given by F. Gargiulo
     - title: "Outreach of vaccine-critic content on French-speaking Twitter"
       location: "Complenet 2022 -- Online"
       subtitle: M. Faccin, F. Gargiulo, J. Ward
