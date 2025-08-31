@@ -14,545 +14,549 @@ pronouns: he/him
 
 Content:
   - Actual Position:
-    - title: DFA at University of Padova
-      url: https://www.dfa.unipd.it/
-      period: 2024-today
-      employer: UniPD
-      location: University of Padova, Italy
-      subtitle: Interests/Research line
-      topics:
-        - Analysis of climate data and their interaction with human made networks
-        - Mesoscopic structures and their influence on the dynamical system.
+      - title: DFA at University of Padova
+        url: https://www.dfa.unipd.it/
+        period: 2024-today
+        employer: UniPD
+        location: University of Padova, Italy
+        subtitle: Interests/Research line
+        topics:
+          - Analysis of climate data and their interaction with human made networks
+          - Mesoscopic structures and their influence on the dynamical system.
   - Professional Experience:
-    - title: University of Bologna, (DIMEC and INFN)
-      subtitle: Postdoctoral researcher
-      period: 2023 - 2024
-      location: Bologna, Italy
-      url: "https://dimec.unibo.it/"
-      topics:
-        - Analysis of medical data through the use of Machine learning and complex networks combined approaches.
-        - Prediction of disease survival
-        - Analysis of information dynamics in social networks and medical systems.
-    - title: Istituto Professionale Statale "G. B. Garbin"
-      subtitle: High school math teacher
-      period: 2022 - 2023
-      location: Schio, Italy
-    - title: Université de Paris, (CEPED and IRD)
-      subtitle: Postdoctoral researcher
-      period: 2021 - 2022
-      location: Paris, France
-      url: "https://www.ceped.org"
-      topics:
-        - Vaccines hesitancy unveiled through hypergraph analysis.
-        - We analyse the discussion on microblogging services as a dynamical system spreading on a hypergraph.
-        - Analysis of the textual content and its dynamical and geographic properties.
-    - title: University of Turin (Computer Science)
-      period: 2020 - 2021
-      subtitle: Visiting
-      location: Torino (Italy)
-    - title: Université Catholique de Louvain (ICTEAM)
-      period: 2015 - 2020
-      subtitle: MOVE IN Louvain Research Fellow
-      location: Louvain la Neuve, Belgium
-      url: "https://uclouvain.be/en/research-institutes/icteam"
-      topics:
-        - Interplay between complex networks and dynamical systems.
-        - Making use of mathematical tools from information theory we could analyse dynamical systems, their evolution and the emerging mesoscopic structures.
-        - We successfully built a bridge between statistical inference and dynamical approaches in community or block detection.
-        - Development of a `python` library.
-        - Spatial analysis of disease spreading with compartmental models. (tuberculosis incidence inference in African countries)
-    - title: ISI Fundation
-      period: 2011 - 2015
-      subtitle: Junior researcher
-      location: Torino, Italy
-      url: https://isi.it
-      topics:
-        - Quantum meets complex networks.
-        - I contributed to a multidisciplinary team interested in using tools from complex networks to study quantum system.
-    - title: Bifi Institute
-      period: 2006 - 2011
-      subtitle: PhD
-      url: https://www.bifi.es
-      location: Zaragoza, Spain
-      topics:
-        - Use of Ising-like models to characterize biopolymers with application to protein folding and protein sequencing.
-        - Development and release of corresponding software
+      - title: University of Bologna, (DIMEC and INFN)
+        subtitle: Postdoctoral researcher
+        period: 2023 - 2024
+        location: Bologna, Italy
+        url: "https://dimec.unibo.it/"
+        topics:
+          - Analysis of medical data through the use of Machine learning and complex networks combined approaches.
+          - Prediction of disease survival
+          - Analysis of information dynamics in social networks and medical systems.
+      - title: Istituto Professionale Statale "G. B. Garbin"
+        subtitle: High school math teacher
+        period: 2022 - 2023
+        location: Schio, Italy
+      - title: Université de Paris, (CEPED and IRD)
+        subtitle: Postdoctoral researcher
+        period: 2021 - 2022
+        location: Paris, France
+        url: "https://www.ceped.org"
+        topics:
+          - Vaccines hesitancy unveiled through hypergraph analysis.
+          - We analyse the discussion on microblogging services as a dynamical system spreading on a hypergraph.
+          - Analysis of the textual content and its dynamical and geographic properties.
+      - title: University of Turin (Computer Science)
+        period: 2020 - 2021
+        subtitle: Visiting
+        location: Torino (Italy)
+      - title: Université Catholique de Louvain (ICTEAM)
+        period: 2015 - 2020
+        subtitle: MOVE IN Louvain Research Fellow
+        location: Louvain la Neuve, Belgium
+        url: "https://uclouvain.be/en/research-institutes/icteam"
+        topics:
+          - Interplay between complex networks and dynamical systems.
+          - Making use of mathematical tools from information theory we could analyse dynamical systems, their evolution and the emerging mesoscopic structures.
+          - We successfully built a bridge between statistical inference and dynamical approaches in community or block detection.
+          - Development of a `python` library.
+          - Spatial analysis of disease spreading with compartmental models. (tuberculosis incidence inference in African countries)
+      - title: ISI Fundation
+        period: 2011 - 2015
+        subtitle: Junior researcher
+        location: Torino, Italy
+        url: https://isi.it
+        topics:
+          - Quantum meets complex networks.
+          - I contributed to a multidisciplinary team interested in using tools from complex networks to study quantum system.
+      - title: Bifi Institute
+        period: 2006 - 2011
+        subtitle: PhD
+        url: https://www.bifi.es
+        location: Zaragoza, Spain
+        topics:
+          - Use of Ising-like models to characterize biopolymers with application to protein folding and protein sequencing.
+          - Development and release of corresponding software
   - Fellowships and Projects:
-    - title: TRACTRUST (ANR-20-COVI-0102)
-      period: 2021 - 2022
-      url: https://anr.fr/Project-ANR-20-COVI-0102
-    - title: Innoviris Iris-TB (D1.31402.007-F)
-      period: 2017 - 2021
-      url: https://innoviris.brussels/
-    - title: MOVE-IN Louvain Fellowship (with support of Marie Curie Actions)
-      period: 2015 - 2017
+      - title: TRACTRUST (ANR-20-COVI-0102)
+        period: 2021 - 2022
+        url: https://anr.fr/Project-ANR-20-COVI-0102
+      - title: Innoviris Iris-TB (D1.31402.007-F)
+        period: 2017 - 2021
+        url: https://innoviris.brussels/
+      - title: MOVE-IN Louvain Fellowship (with support of Marie Curie Actions)
+        period: 2015 - 2017
   - Program Committees:
-    - title: Complex Networks 2021
-      period: 1 Dec 2021
-      location: Madrid, Spain
-    - title: Complex Networks 2020
-      period: 1 Dec 2020
-      location: Madrid, Spain
-    - title: Complex Networks 2019
-      period: 10 Dec 2019
-      location: Lisbon, Portugal
-    - title: BeNet 2019
-      period: 22 Feb 2019
-      location: Hasselt, Belgium
-      url: https://be-net.github.io/2019
-    - title: Complex Networks 2018
-      period: 11 Dec 2018
-      location: Cambridge, UK
-    - title: Complex Networks 2017
-      period: 29 Nov 2017
-      location: Lyon, France
-    - title: Complex Networks 2016
-      period: 30 Nov 2016
-      location: Milan, Italy
+      - title: Complex Networks 2021
+        period: 1 Dec 2021
+        location: Madrid, Spain
+      - title: Complex Networks 2020
+        period: 1 Dec 2020
+        location: Madrid, Spain
+      - title: Complex Networks 2019
+        period: 10 Dec 2019
+        location: Lisbon, Portugal
+      - title: BeNet 2019
+        period: 22 Feb 2019
+        location: Hasselt, Belgium
+        url: https://be-net.github.io/2019
+      - title: Complex Networks 2018
+        period: 11 Dec 2018
+        location: Cambridge, UK
+      - title: Complex Networks 2017
+        period: 29 Nov 2017
+        location: Lyon, France
+      - title: Complex Networks 2016
+        period: 30 Nov 2016
+        location: Milan, Italy
   - Organizing Committees:
-    - title: "Networks Days"
-      subtitle: "Local committee"
-      period: 25 Oct 2024
-      location: Padova, Italy
-      url: "https://github.com/Networks-Days/2024-10-Padua"
-    - title: Network Reconstruction Science-athon
-      subtitle: Coorganized with Alexandre Bovet, Benjamin Chiem, Leo Gutierrez, Alexey Medvedev, Leto Peel, Mridul Seth
-      period: August 2019
-      location: Beaumont, Belgium
-    - title: Belgian Network Research Meeting (BeNet) 2016
-      subtitle: Coorganized with Sophie Béreau, Jean-Charles Delvenne, Yerali Gandica, Leo Gutierrez, Leto Peel, Michael Schaub
-      period: 15 Dec 2016
-      location: Louvain-la-Neuve, Belgium
-      url: https://be-net.github.io/2016
-    - title: Conference on Complex Systems 2016 workshop on Coarse-graining Complex Systems
-      period: 21 Sep 2016
-      location: CCS2016, Amsterdam, Netherlands
-      subtitle: Coorganized with Leto Peel, Renaud Lambiotte, Michael Schaub
-      url: https://michaelschaub.github.io/ccs_at_ccs_2016/
-    - title: Quantum Frontiers for Network Science
-      subtitle: Coorganized with Filippo Radicchi and Zoltan Zimborás
-      period: 2 Jun 2014
-      location: NetSci 2014, Berkeley, California
-      url: https://www.isi.it/en/news-events/qnet-quantum-frontiers-in-network-science-netsci2014
+      - title: "Networks Days"
+        subtitle: "Local committee"
+        period: 25 Oct 2024
+        location: Padova, Italy
+        url: "https://github.com/Networks-Days/2024-10-Padua"
+      - title: Network Reconstruction Science-athon
+        subtitle: Coorganized with Alexandre Bovet, Benjamin Chiem, Leo Gutierrez, Alexey Medvedev, Leto Peel, Mridul Seth
+        period: August 2019
+        location: Beaumont, Belgium
+      - title: Belgian Network Research Meeting (BeNet) 2016
+        subtitle: Coorganized with Sophie Béreau, Jean-Charles Delvenne, Yerali Gandica, Leo Gutierrez, Leto Peel, Michael Schaub
+        period: 15 Dec 2016
+        location: Louvain-la-Neuve, Belgium
+        url: https://be-net.github.io/2016
+      - title: Conference on Complex Systems 2016 workshop on Coarse-graining Complex Systems
+        period: 21 Sep 2016
+        location: CCS2016, Amsterdam, Netherlands
+        subtitle: Coorganized with Leto Peel, Renaud Lambiotte, Michael Schaub
+        url: https://michaelschaub.github.io/ccs_at_ccs_2016/
+      - title: Quantum Frontiers for Network Science
+        subtitle: Coorganized with Filippo Radicchi and Zoltan Zimborás
+        period: 2 Jun 2014
+        location: NetSci 2014, Berkeley, California
+        url: https://www.isi.it/en/news-events/qnet-quantum-frontiers-in-network-science-netsci2014
   - Reviewer:
-    - title: Advances in Complex Systems
-      subtitle: World Scientific
-      url: https://www.worldscientific.com/worldscinet/acs
-    - title: Applied Network Science
-      subtitle: Springer Nature
-      url: https://appliednetsci.springeropen.com/
-    - title: Entropy
-      subtitle: Multidisciplinary Digital Publishing Institute (MDPI)
-      url: https://www.mdpi.com/journal/entropy
-    - title: Journal of Complex Networks
-      subtitle: Oxford University Press
-      url: https://academic.oup.com/comnet/issue
-    - title: Journal of Statistical Mechanics
-      url: https://iopscience.org/jstat
-      subtitle: IOP
-    - title: Natural Computing
-      url: https://link.springer.com/journal/11047
-      subtitle: Springer Netherlands
-    - title: PLOS ONE
-      url: https://journals.plos.org/plosone
-      subtitle: Public Library of Science (PLoS)
-    - title: PRA, PRB, PRE, PRL, PRX
-      subtitle: American Physical Society
-      url: https://journals.aps.org/
-    - title: Science Advances
-      subtitle: American Association for the Advancement of Science
-      url: https://www.science.org/journal/sciadv
-    - title: Scientific Reports
-      url: https://www.nature.com/srep
-      subtitle: Nature Portfolio
+      - title: Advances in Complex Systems
+        subtitle: World Scientific
+        url: https://www.worldscientific.com/worldscinet/acs
+      - title: Applied Network Science
+        subtitle: Springer Nature
+        url: https://appliednetsci.springeropen.com/
+      - title: Entropy
+        subtitle: Multidisciplinary Digital Publishing Institute (MDPI)
+        url: https://www.mdpi.com/journal/entropy
+      - title: Journal of Complex Networks
+        subtitle: Oxford University Press
+        url: https://academic.oup.com/comnet/issue
+      - title: Journal of Statistical Mechanics
+        url: https://iopscience.org/jstat
+        subtitle: IOP
+      - title: Natural Computing
+        url: https://link.springer.com/journal/11047
+        subtitle: Springer Netherlands
+      - title: PLOS ONE
+        url: https://journals.plos.org/plosone
+        subtitle: Public Library of Science (PLoS)
+      - title: PRA, PRB, PRE, PRL, PRX
+        subtitle: American Physical Society
+        url: https://journals.aps.org/
+      - title: Science Advances
+        subtitle: American Association for the Advancement of Science
+        url: https://www.science.org/journal/sciadv
+      - title: Scientific Reports
+        url: https://www.nature.com/srep
+        subtitle: Nature Portfolio
   - Teaching:
-    - title: DAT301 Social Network Analysis
-      period: 2023-2024
-      subtitle: with F. Gargiulo and A. Apolloni
-      location: University Mohammed VI Polytechnic
-    - title: LINMA2111 Algorithms and Complexity
-      period: 2015-2020
-      subtitle: with J-C Delvenne
-      location: Université Catholique de Louvain
-    - title: Physics and Math at primary school
-      period: "2005"
-      subtitle: NEST
-      location: Hetauda, Nepal
-    - title: guide in Science Museum
-      period: "2004"
-      subtitle: "Organizer: INFN"
-      location: Padova, Italy
+      - title: DAT301 Social Network Analysis
+        period: 2023-2024
+        subtitle: with F. Gargiulo and A. Apolloni
+        location: University Mohammed VI Polytechnic
+      - title: LINMA2111 Algorithms and Complexity
+        period: 2015-2020
+        subtitle: with J-C Delvenne
+        location: Université Catholique de Louvain
+      - title: Physics and Math at primary school
+        period: "2005"
+        subtitle: NEST
+        location: Hetauda, Nepal
+      - title: guide in Science Museum
+        period: "2004"
+        subtitle: "Organizer: INFN"
+        location: Padova, Italy
   - Student advising:
-    - title: N. Barbieri
-      long: Integration of artificial intelligence and network approaches to classify data in social networks
-      url: https://amslaurea.unibo.it/31880/
-      subtitle: "**Corelatore** tesi magistrale with F. Durazzi and D. Remondini in Applied Physics"
-      location: University of Bologna
-      period: "2024"
-    - title: G. Izzi
-      long:  Analysis of temporal patterns and forecasting of popularity for programming languages on Stack Overflow platform
-      subtitle: Tesi magistrale with A. Semeraro and G. Ruffo (informal tutor). Computer Science
-      location: University of Turin
-      period: "2019"
-    - title: H. Devillez
-      subtitle: Applied Maths (project with L. Peel)
-      location: UCLouvain
-      period: "2016"
-    - title: M. Huet
-      subtitle: Elec. Eng. (project with L. Peel)
-      location: UCLouvain
-      period: "2016"
+      - title: N. Barbieri
+        long: Integration of artificial intelligence and network approaches to classify data in social networks
+        url: https://amslaurea.unibo.it/31880/
+        subtitle: "**Corelatore** tesi magistrale with F. Durazzi and D. Remondini in Applied Physics"
+        location: University of Bologna
+        period: "2024"
+      - title: G. Izzi
+        long: Analysis of temporal patterns and forecasting of popularity for programming languages on Stack Overflow platform
+        subtitle: Tesi magistrale with A. Semeraro and G. Ruffo (informal tutor). Computer Science
+        location: University of Turin
+        period: "2019"
+      - title: H. Devillez
+        subtitle: Applied Maths (project with L. Peel)
+        location: UCLouvain
+        period: "2016"
+      - title: M. Huet
+        subtitle: Elec. Eng. (project with L. Peel)
+        location: UCLouvain
+        period: "2016"
   - Education:
-    - title: 24CFU
-      period: "2020"
-      location: Univestità telematica Pegaso
-      long: "Discipline antropo-psico-pedagogiche e in metodologie e tecnologie didattiche"
-    - title: PhD in Physics
-      period: 14 Sept 2012
-      location: University of Zaragoza
-      subtitle: "supervisor: prof. Pierpaolo Bruscolini"
-      long: Analysis and Development of Algorithms
-        for the Characterization of Biopolymers and
-        Application to Protein Sequencing and Protein Folding
-      url: https://maurofaccin.github.io/files/thesis.pdf
-    - title: Master in Physics and Technology
-      period: 15 Oct 2008
-      subtitle: "supervisor: prof. Pierpaolo Bruscolini"
-      location: University of Zaragoza
-      long: Coevolution of Strategy and Population Structure
-        in the Prisoner Dilemma
-    - title: MSc in Physics
-      period: 10 Oct 2005
-      subtitle: "supervisor: prof. Enzo Orlandini"
-      location: University of Padova
-      long: Beris Edwards Model Simulations for Liquid Crystals
-        in Oscillatory Poiseuille Flux
+      - title: 24CFU
+        period: "2020"
+        location: Univestità telematica Pegaso
+        long: "Discipline antropo-psico-pedagogiche e in metodologie e tecnologie didattiche"
+      - title: PhD in Physics
+        period: 14 Sept 2012
+        location: University of Zaragoza
+        subtitle: "supervisor: prof. Pierpaolo Bruscolini"
+        long: Analysis and Development of Algorithms
+          for the Characterization of Biopolymers and
+          Application to Protein Sequencing and Protein Folding
+        url: https://maurofaccin.github.io/files/thesis.pdf
+      - title: Master in Physics and Technology
+        period: 15 Oct 2008
+        subtitle: "supervisor: prof. Pierpaolo Bruscolini"
+        location: University of Zaragoza
+        long: Coevolution of Strategy and Population Structure
+          in the Prisoner Dilemma
+      - title: MSc in Physics
+        period: 10 Oct 2005
+        subtitle: "supervisor: prof. Enzo Orlandini"
+        location: University of Padova
+        long: Beris Edwards Model Simulations for Liquid Crystals
+          in Oscillatory Poiseuille Flux
   - Mainteined projects:
-    - title: AISA
-      url: https://maurofaccin.github.io/aisa/
-      subtitle: Python module aimed at partitioning a network through Autoinformation maximization
-    - title: CartoTB
-      url: https://maurofaccin.github.io/cartotb/
-      subtitle: Cartography of predicted tuberculosis in high burden settings
+      - title: AISA
+        url: https://maurofaccin.github.io/aisa/
+        subtitle: Python module aimed at partitioning a network through Autoinformation maximization
+      - title: CartoTB
+        url: https://maurofaccin.github.io/cartotb/
+        subtitle: Cartography of predicted tuberculosis in high burden settings
   - Preprints:
-    - title: "Temporal and geographic analysis of the Hydroxychloroquine controversy in the French Twittosphere"
-      subtitle: "M. Faccin, E. Schultz and F. Gargiulo"
-      location: "arXiv:2304.14075"
-      url: "https://doi.org/10.48550/arXiv.2304.14075"
+      - title: "Temporal and geographic analysis of the Hydroxychloroquine controversy in the French Twittosphere"
+        subtitle: "M. Faccin, E. Schultz and F. Gargiulo"
+        location: "arXiv:2304.14075"
+        url: "https://doi.org/10.48550/arXiv.2304.14075"
   - Publications:
-    - title: "Analyzing Satellite Imagery to Target Tuberculosis Control Interventions in Densely Urbanized Areas of Kigali, Rwanda: Cross-Sectional Pilot Study"
-      subtitle: "M. Faccin, C. Geenen, M. Happaerts, S. Ombelet, P. Migambi, E. André"
-      location: JMIR Public Health Surveill 2025;11:e68355
-      url: https://doi.org/10.2196/68355
-    - title: "Mapping of regions with low tuberculosis notification and estimation of diagnostic gaps in Cameroon evidence from OpenStreetMap and WorldPop data"
-      subtitle: "C.G. Jouego, T.N. Collins, B. Tegomoh, C. Geenen, P.M. Netongo, E. André, M. Faccin"
-      location: "Scientific Reports, 15, Article number: 4992 (2025)"
-      url: "https://doi.org/10.1038/s41598-025-87682-5"
-    - title: "Measuring dynamical systems on directed hypergraphs"
-      subtitle: "M. Faccin"
-      location: "Phys Rev E, 106 (034306), 2022"
-      url: "https://doi.org/10.1103/PhysRevE.106.034306"
-    - title: "Assessing the influence of French vaccine critics during the two first years of the COVID-19 pandemic"
-      subtitle: "M. Faccin, F. Gargiulo, L. Atlani-Duault, J.K. Ward"
-      location: "PLOS ONE, 17(8): e0271157"
-      url: "https://doi.org/10.1371/journal.pone.0271157"
-    - title: "Data-driven identification of communities with high levels of tuberculosis infection in the Democratic Republic of Congo."
-      subtitle: M. Faccin, O. Rusumba, A. Ushindi, M. Riziki, T. Habiragi, F. Boutachkourt, E. André
-      location: "Sci Rep 12, 3912 (2022)"
-      url: "https://doi.org/10.1038/s41598-022-07633-2"
-    - title: "State aggregations in Markov chains and block models of networks"
-      subtitle: M. Faccin, M.T. Schaub and j.-C. Delvenne
-      location: Phys. Rev. Lett., 127, 078301 (2021)
-      url: https://doi.org/10.1103/PhysRevLett.127.078301
-      arXiv: 2005.00337 [physics.soc-ph]
-      long: Figure selected for the journal cover
-    - title: "Complex Networks from Classical to Quantum"
-      subtitle: J. Biamonte, M. Faccin, M. De Domenico
-      location: Communications Physics 2-53 (2019)
-      url: https://www.nature.com/articles/s42005-019-0152-6
-      arXiv: 1702.08459 [quant-ph]
-    - title: "Outbreak of multidrug-resistant tuberculosis in South Africa undetected by WHO-endorsed commercial tests: an observational study"
-      subtitle: "Makhado, Matabane, Faccin, Pinçon, Jouet, Boutachkourt, Goeminne, Gaudin, Maphalala, Beckert, Niemann, Delvenne, Delmée, Razwiedani, Nchabeleng, Supply, de Jong, André"
-      location: The Lancet Infectious Diseases 2018
-      url: https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(18)30496-1/fulltext
-    - title: "Entrograms and coarse graining of dynamics on complex networks"
-      subtitle: M. Faccin, M.T. Schaub, J-C. Delvenne
-      location: Journal of Complex Networks
-      url: https://academic.oup.com/comnet/article-abstract/doi/10.1093/comnet/cnx055/4587985
-      arXiv: 1711.01987
-    - title: Chiral Quantum Walks
-      subtitle: D. L. Lu, J. D. Biamonte, J. Li, H. Li, T. H. Johnson, V. Bergholm, M. Faccin, Z. Zimborás, R. Laflamme, J. Baugh, and S. Lloyd
-      location: Phys. Rev. A 93, 042302
-      doi: 10.1103/PhysRevA.93.042302
-      url: https://journals.aps.org/pra/abstract/10.1103/PhysRevA.93.042302
-      arXiv: 1405.6209 [quant-ph]
-    - title: Mapping the topography of a protein energy landscape
-      subtitle: R. D. Hutton, J. Wilkinson, M. Faccin, E. M. Sivertsson, A. Pelizzola, A. R. Lowe, P. Bruscolini, L. S. Itzhaki
-      location: J. Am. Chem. Soc., 2015, 137 (46), pp 14610–14625
-      doi: 10.1021/jacs.5b07370
-      url: https://pubs.acs.org/doi/abs/10.1021/jacs.5b07370
-    - title: Community Detection in Quantum Complex Networks
-      subtitle: M. Faccin, P. Migdał, T. H. Johnson, V. Bergholm, and J. D. Biamonte
-      location: Phys. Rev. X 4 (4 2014), p. 041012
-      doi: 10.1103/PhysRevX.4.041012
-      arXiv: 1310.6638 [quant-ph]
-      url: https://link.aps.org/doi/10.1103/PhysRevX.4.041012
-    - title: Degree Distribution in Quantum Walks on Complex Networks
-      subtitle: M. Faccin, T. Johnson, J. Biamonte, S. Kais, and P. Migdał
-      location: Phys. Rev. X 3 (4 2013), p. 041007
-      doi: 10.1103/PhysRevX.3.041007
-      arXiv: 1305.6078 [quant-ph]
-    - title: Quantum Transport Enhancement by Time-Reversal Symmetry Breaking
-      subtitle: Z. Zimboras, M. Faccin, Z. Kadar, J. Whitfield, B. Lanyon,
-        and J. Biamonte
-      location: Sci. Rep. 3 (2013). Ed. by NPG, p. 2361
-      doi : 10.1038/srep02361
-      arXiv: 1208.4049 [quant-ph]
-    - title: MS/MS Spectra Interpretation as a Statistical-Mechanics Problem
-      subtitle: M. Faccin and P. Bruscolini
-      location: Analytical Chemistry 85.10 (2013), pp. 4884–4892
-      doi: 10.1021/ac4005666
-    - title: Ground-state spin logic
-      subtitle: J. D. Whitfield, M. Faccin, and J. D. Biamonte
-      location: Europhysics Letters 99.5 (2012), p. 57004
-      doi: 10.1209/0295-5075/99/57004
-      arXiv: 1205.1742 [quant-ph]
-    - title: Analysis of the equilibrium and kinetics of the ankyrin repeat protein myotrophin
-      subtitle: M. Faccin, P. Bruscolini, and A. Pelizzola
-      location: The Journal of Chemical Physics 134.7, 075102 (2011), p. 075102
-      doi: 10.1063/1.3535562
-      arXiv: 1103.0216
+      - title: "Analyzing Satellite Imagery to Target Tuberculosis Control Interventions in Densely Urbanized Areas of Kigali, Rwanda: Cross-Sectional Pilot Study"
+        subtitle: "M. Faccin, C. Geenen, M. Happaerts, S. Ombelet, P. Migambi, E. André"
+        location: JMIR Public Health Surveill 2025;11:e68355
+        url: https://doi.org/10.2196/68355
+      - title: "Mapping of regions with low tuberculosis notification and estimation of diagnostic gaps in Cameroon evidence from OpenStreetMap and WorldPop data"
+        subtitle: "C.G. Jouego, T.N. Collins, B. Tegomoh, C. Geenen, P.M. Netongo, E. André, M. Faccin"
+        location: "Scientific Reports, 15, Article number: 4992 (2025)"
+        url: "https://doi.org/10.1038/s41598-025-87682-5"
+      - title: "Measuring dynamical systems on directed hypergraphs"
+        subtitle: "M. Faccin"
+        location: "Phys Rev E, 106 (034306), 2022"
+        url: "https://doi.org/10.1103/PhysRevE.106.034306"
+      - title: "Assessing the influence of French vaccine critics during the two first years of the COVID-19 pandemic"
+        subtitle: "M. Faccin, F. Gargiulo, L. Atlani-Duault, J.K. Ward"
+        location: "PLOS ONE, 17(8): e0271157"
+        url: "https://doi.org/10.1371/journal.pone.0271157"
+      - title: "Data-driven identification of communities with high levels of tuberculosis infection in the Democratic Republic of Congo."
+        subtitle: M. Faccin, O. Rusumba, A. Ushindi, M. Riziki, T. Habiragi, F. Boutachkourt, E. André
+        location: "Sci Rep 12, 3912 (2022)"
+        url: "https://doi.org/10.1038/s41598-022-07633-2"
+      - title: "State aggregations in Markov chains and block models of networks"
+        subtitle: M. Faccin, M.T. Schaub and j.-C. Delvenne
+        location: Phys. Rev. Lett., 127, 078301 (2021)
+        url: https://doi.org/10.1103/PhysRevLett.127.078301
+        arXiv: 2005.00337 [physics.soc-ph]
+        long: Figure selected for the journal cover
+      - title: "Complex Networks from Classical to Quantum"
+        subtitle: J. Biamonte, M. Faccin, M. De Domenico
+        location: Communications Physics 2-53 (2019)
+        url: https://www.nature.com/articles/s42005-019-0152-6
+        arXiv: 1702.08459 [quant-ph]
+      - title: "Outbreak of multidrug-resistant tuberculosis in South Africa undetected by WHO-endorsed commercial tests: an observational study"
+        subtitle: "Makhado, Matabane, Faccin, Pinçon, Jouet, Boutachkourt, Goeminne, Gaudin, Maphalala, Beckert, Niemann, Delvenne, Delmée, Razwiedani, Nchabeleng, Supply, de Jong, André"
+        location: The Lancet Infectious Diseases 2018
+        url: https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(18)30496-1/fulltext
+      - title: "Entrograms and coarse graining of dynamics on complex networks"
+        subtitle: M. Faccin, M.T. Schaub, J-C. Delvenne
+        location: Journal of Complex Networks
+        url: https://academic.oup.com/comnet/article-abstract/doi/10.1093/comnet/cnx055/4587985
+        arXiv: 1711.01987
+      - title: Chiral Quantum Walks
+        subtitle: D. L. Lu, J. D. Biamonte, J. Li, H. Li, T. H. Johnson, V. Bergholm, M. Faccin, Z. Zimborás, R. Laflamme, J. Baugh, and S. Lloyd
+        location: Phys. Rev. A 93, 042302
+        doi: 10.1103/PhysRevA.93.042302
+        url: https://journals.aps.org/pra/abstract/10.1103/PhysRevA.93.042302
+        arXiv: 1405.6209 [quant-ph]
+      - title: Mapping the topography of a protein energy landscape
+        subtitle: R. D. Hutton, J. Wilkinson, M. Faccin, E. M. Sivertsson, A. Pelizzola, A. R. Lowe, P. Bruscolini, L. S. Itzhaki
+        location: J. Am. Chem. Soc., 2015, 137 (46), pp 14610–14625
+        doi: 10.1021/jacs.5b07370
+        url: https://pubs.acs.org/doi/abs/10.1021/jacs.5b07370
+      - title: Community Detection in Quantum Complex Networks
+        subtitle: M. Faccin, P. Migdał, T. H. Johnson, V. Bergholm, and J. D. Biamonte
+        location: Phys. Rev. X 4 (4 2014), p. 041012
+        doi: 10.1103/PhysRevX.4.041012
+        arXiv: 1310.6638 [quant-ph]
+        url: https://link.aps.org/doi/10.1103/PhysRevX.4.041012
+      - title: Degree Distribution in Quantum Walks on Complex Networks
+        subtitle: M. Faccin, T. Johnson, J. Biamonte, S. Kais, and P. Migdał
+        location: Phys. Rev. X 3 (4 2013), p. 041007
+        doi: 10.1103/PhysRevX.3.041007
+        arXiv: 1305.6078 [quant-ph]
+      - title: Quantum Transport Enhancement by Time-Reversal Symmetry Breaking
+        subtitle: Z. Zimboras, M. Faccin, Z. Kadar, J. Whitfield, B. Lanyon,
+          and J. Biamonte
+        location: Sci. Rep. 3 (2013). Ed. by NPG, p. 2361
+        doi: 10.1038/srep02361
+        arXiv: 1208.4049 [quant-ph]
+      - title: MS/MS Spectra Interpretation as a Statistical-Mechanics Problem
+        subtitle: M. Faccin and P. Bruscolini
+        location: Analytical Chemistry 85.10 (2013), pp. 4884–4892
+        doi: 10.1021/ac4005666
+      - title: Ground-state spin logic
+        subtitle: J. D. Whitfield, M. Faccin, and J. D. Biamonte
+        location: Europhysics Letters 99.5 (2012), p. 57004
+        doi: 10.1209/0295-5075/99/57004
+        arXiv: 1205.1742 [quant-ph]
+      - title: Analysis of the equilibrium and kinetics of the ankyrin repeat protein myotrophin
+        subtitle: M. Faccin, P. Bruscolini, and A. Pelizzola
+        location: The Journal of Chemical Physics 134.7, 075102 (2011), p. 075102
+        doi: 10.1063/1.3535562
+        arXiv: 1103.0216
   - Conferences (Oral Contributions):
-    - title: "Climate-induced delay propagation in rail networks as a non-Markovian process"
-      subtitle: M. Faccin, T. Scagliarini, M. De Domenico
-      location: "StatPhys29 (Complex Networks)"
-      url: "https://sites.google.com/view/complexnetworks-statphys29"
-      period: 22 Jul 2025
-    - title: "International topic distribution in the HCQ controversy on Twitter"
-      subtitle: M. Faccin, E. Schultz, F. Gargiulo
-      location: CCS/Italy @ Napoli (Italy)
-      url: "https://www.cnr.it/it/evento/18675/ccs-italy-2023"
-      period: 10 Oct 2023
-    - title: "Dynamical systems as a mean for complex systems analysis"
-      subtitle: M. Faccin
-      location: seminar at the University of Bologna
-      url: https://www.unibo.it
-      period: 7 Mar 2023
-    - title: "Data-driven mapping of tuberculosis incidence allows identifying communities with high circulation of tuberculosis in the Democratic Republic of Congo"
-      subtitle: M. Faccin, C. Nsop Mulaj, E. Swana Kawana, T. Yav Ikum, E. Andé
-      location: "The Union Conference 2022 -- Online"
-      url: "https://conf2022.theunion.org/"
-      period: "9 Nov 2022"
-    - title: "Identification of urban areas presenting high incidence of tuberculosis using satellite images allows increasing the yield of active case finding in Kigali, Rwanda."
-      location: "The Union Conference 2022 -- Online"
-      subtitle: M. Faccin, P Uwizeye, F. Nsabimana, P. Migambi, E. André
-      url: "https://conf2022.theunion.org/"
-      period: "9 Nov 2022"
-    - title: "Use of compartmental models to detect high TB incidence rates in South-Kivu (DRC)"
-      location: "CCS 2022 @ Palma de Mallorca/Online"
-      subtitle: M. Faccin, E. André
-      url: "https://www.ccs2022.org/"
-      period: "17 Oct 2022"
-    - title: "Reach of vaccine-critical content on Twitter during the COVID-19 pandemic"
-      location: "French Regional Conf. on Complex Systems (FRCCS) @ Paris"
-      subtitle: M. Faccin, F. Gargiulo
-      url: https://iscpif.fr/frccs2022/
-      period: 20 June 2022
-      long: Given by F. Gargiulo
-    - title: "Outreach of vaccine-critic content on French-speaking Twitter"
-      location: "Complenet 2022 -- Online"
-      subtitle: M. Faccin, F. Gargiulo, J. Ward
-      url: "https://complenet.weebly.com"
-      period: "30 May 2022"
-    - title: "Autoinformation state aggregation"
-      location: Complex Networks 2021 @ Madrid (Spain)
-      subtitle: M. Faccin, M. T. Schaub, J-C. Delvenne
-      url: https://complexnetworks.org
-      period: 2 Dec 2021
-    - title: "Vaccine-critical discourse on French-speaking Twitter and its outreach"
-      location: Complex Networks 2021 @ Madrid (Spain)
-      subtitle: M. Faccin, F. Gargiulo, J. Ward
-      url: https://complexnetworks.org
-      period: 30 Nov 2021
-      long: Best lightning talk award
-    - title: "State aggregation for dynamical systems: An information-theoretic approach"
-      subtitle: Network Seminar 2021
-      location: Math Dept, Oxford University, (UK -- Online)
-      url: https://www.maths.ox.ac.uk/groups/networks/networks-seminar
-      period: 19 Oct 2021
-    - title: "Using predictive models and risk assessment tools to find unreported TB cases"
-      subtitle: Global Digital Health Forum 2020
-      location: Washingthon DC, USA (online)
-      url: "https://www.globaldigitalhealthnetwork.org"
-      period: 7-9 Dec 2020
-    - title: "Data-driven TB active-case finding in South Kivu (DRC)"
-      subtitle: The Union 2020
-      location: Paris, France (online)
-      url: https://conf2020.theunion.org/
-      period: 20-24 Oct 2020
-    - title: "Auto-information in non-Markovian diffusion systems"
-      subtitle: Complex Networks 2019
-      location: Lisbon, Portugal
-      url: https://www.complexnetworks.org/
-      period: 10-12 Dec 2019
-    - title: "Variable aggregation for dynamical systems on networks"
-      subtitle: Benet 2019
-      location: Hasselt, Belgium
-      url: "https://be-net.github.io/2019/"
-      period: 22 Feb. 2019
-    - title: "A dynamical approach to block structure analysis"
-      subtitle: CCS 2018
-      location: Thessaloniki, Greece
-      url: "http://ccs2018.web.auth.gr/"
-      period: 23-28 Sept. 2018
-    - title: "Dynamical Markov Modules"
-      subtitle: Netsci 2018
-      location: Paris, France
-      url: "https://www.netsci2018.com/"
-      period: 11-15 Jun 2018
-    - title: "Community detection in networks with non-Markovian dynamics"
-      subtitle: CompleNet 2017
-      location: Dubrovnik, Croatia
-      url: "https://complenet.weebly.com"
-      period: 21-24 Mar 2017
-    - title: "Behind Communities: Dynamics Define Modules"
-      subtitle: ComplexNetworks 2016
-      location: Milan, Italy
-      period: 30 Nov-2 Dec 2016
-      url: "https://complexnetworks.org/index2016.html"
-    - title: "Beyond Communities: Dynamical Markov Modules"
-      subtitle: CCS 2016
-      location: Amsterdam, Netherlands
-      period: 19-22 Sep 2016
-    - title: Mesoscopic Structure And Diffusion Process Memory
-      subtitle: NetSci 2016
-      location: Seoul, Korea
-      period: May 30-June 3 2016
-    - title: Mesoscopic Structures and Diffusion Process Memory
-      subtitle: NetSci-X 2016
-      location: Wrocław, Poland
-      period: 10-15 Jan 2015
-    - title: Structural controllability of EEG temporal causal networks
-      subtitle: NetSci 2015
-      location: Zaragoza, Spain
-      period: 2-6 Jun 2015
-    - title: Quantum Approaches to Community Detection
-      subtitle: ECCS 2014
-      location: Lucca, Italy
-      period: 22-26 Sep 2014
-    - title: Community detection on quantum systems
-      subtitle: CompleNet 2014
-      location: Bologna, Italy
-      period: 12-14 Mar 2014
-    - title: Community Detection on Quantum Systems
-      subtitle: BIFI2014
-      location: Zaragoza, Spain
-      period: 22-24 Jan 2014
-    - title: Degree distribution in quantum complex networks
-      subtitle: IQC workshop on quantum computation and complex networks
-      location: Waterloo, Canada
-      period: 24-26 May 2013
-    - title: Ground state spin logic
-      subtitle: Tensor Network States and Algebraic Geometry Workshop
-      location: Torino, Italy
-      period: 6-8 Nov 2012
-    - title: Equilibrium and kinetics of the ankyrin repeat protein
-        Myotrophin through a simple statiscical mechanical model
-      subtitle: V BIFI National Conference
-      location: Zaragoza, Spain
-      period: 2-4 Feb 2011
-    - title: Bayesian Characterization of Protein Tandem Mass Spectra
-      subtitle: IV BIFI National Conference
-      location: Zaragoza, Spain
-      period: 5-7 Feb 2009
-    - title: Noise description in MSMS mass spectrometry,
-        looking for a de novo sequencing algorithm
-      subtitle: VI Jornadas Aragonesas de Estabilidad y Plegamiento de Proteínas
-      location: San Sebastian, Spain
-      period: 8-9 May 2008
+      - title: "Climate-induced delay propagation in rail networks as a non-Markovian process"
+        subtitle: M. Faccin, T. Scagliarini, M. De Domenico
+        location: "CCS 2025"
+        url: "https://ccs25.cssociety.org/"
+        period: 2 Sept 2025
+      - title: "Climate-induced delay propagation in rail networks as a non-Markovian process"
+        subtitle: M. Faccin, T. Scagliarini, M. De Domenico
+        location: "StatPhys29 (Complex Networks)"
+        url: "https://sites.google.com/view/complexnetworks-statphys29"
+        period: 22 Jul 2025
+      - title: "International topic distribution in the HCQ controversy on Twitter"
+        subtitle: M. Faccin, E. Schultz, F. Gargiulo
+        location: CCS/Italy @ Napoli (Italy)
+        url: "https://www.cnr.it/it/evento/18675/ccs-italy-2023"
+        period: 10 Oct 2023
+      - title: "Dynamical systems as a mean for complex systems analysis"
+        subtitle: M. Faccin
+        location: seminar at the University of Bologna
+        url: https://www.unibo.it
+        period: 7 Mar 2023
+      - title: "Data-driven mapping of tuberculosis incidence allows identifying communities with high circulation of tuberculosis in the Democratic Republic of Congo"
+        subtitle: M. Faccin, C. Nsop Mulaj, E. Swana Kawana, T. Yav Ikum, E. Andé
+        location: "The Union Conference 2022 -- Online"
+        url: "https://conf2022.theunion.org/"
+        period: "9 Nov 2022"
+      - title: "Identification of urban areas presenting high incidence of tuberculosis using satellite images allows increasing the yield of active case finding in Kigali, Rwanda."
+        location: "The Union Conference 2022 -- Online"
+        subtitle: M. Faccin, P Uwizeye, F. Nsabimana, P. Migambi, E. André
+        url: "https://conf2022.theunion.org/"
+        period: "9 Nov 2022"
+      - title: "Use of compartmental models to detect high TB incidence rates in South-Kivu (DRC)"
+        location: "CCS 2022 @ Palma de Mallorca/Online"
+        subtitle: M. Faccin, E. André
+        url: "https://www.ccs2022.org/"
+        period: "17 Oct 2022"
+      - title: "Reach of vaccine-critical content on Twitter during the COVID-19 pandemic"
+        location: "French Regional Conf. on Complex Systems (FRCCS) @ Paris"
+        subtitle: M. Faccin, F. Gargiulo
+        url: https://iscpif.fr/frccs2022/
+        period: 20 June 2022
+        long: Given by F. Gargiulo
+      - title: "Outreach of vaccine-critic content on French-speaking Twitter"
+        location: "Complenet 2022 -- Online"
+        subtitle: M. Faccin, F. Gargiulo, J. Ward
+        url: "https://complenet.weebly.com"
+        period: "30 May 2022"
+      - title: "Autoinformation state aggregation"
+        location: Complex Networks 2021 @ Madrid (Spain)
+        subtitle: M. Faccin, M. T. Schaub, J-C. Delvenne
+        url: https://complexnetworks.org
+        period: 2 Dec 2021
+      - title: "Vaccine-critical discourse on French-speaking Twitter and its outreach"
+        location: Complex Networks 2021 @ Madrid (Spain)
+        subtitle: M. Faccin, F. Gargiulo, J. Ward
+        url: https://complexnetworks.org
+        period: 30 Nov 2021
+        long: Best lightning talk award
+      - title: "State aggregation for dynamical systems: An information-theoretic approach"
+        subtitle: Network Seminar 2021
+        location: Math Dept, Oxford University, (UK -- Online)
+        url: https://www.maths.ox.ac.uk/groups/networks/networks-seminar
+        period: 19 Oct 2021
+      - title: "Using predictive models and risk assessment tools to find unreported TB cases"
+        subtitle: Global Digital Health Forum 2020
+        location: Washingthon DC, USA (online)
+        url: "https://www.globaldigitalhealthnetwork.org"
+        period: 7-9 Dec 2020
+      - title: "Data-driven TB active-case finding in South Kivu (DRC)"
+        subtitle: The Union 2020
+        location: Paris, France (online)
+        url: https://conf2020.theunion.org/
+        period: 20-24 Oct 2020
+      - title: "Auto-information in non-Markovian diffusion systems"
+        subtitle: Complex Networks 2019
+        location: Lisbon, Portugal
+        url: https://www.complexnetworks.org/
+        period: 10-12 Dec 2019
+      - title: "Variable aggregation for dynamical systems on networks"
+        subtitle: Benet 2019
+        location: Hasselt, Belgium
+        url: "https://be-net.github.io/2019/"
+        period: 22 Feb. 2019
+      - title: "A dynamical approach to block structure analysis"
+        subtitle: CCS 2018
+        location: Thessaloniki, Greece
+        url: "http://ccs2018.web.auth.gr/"
+        period: 23-28 Sept. 2018
+      - title: "Dynamical Markov Modules"
+        subtitle: Netsci 2018
+        location: Paris, France
+        url: "https://www.netsci2018.com/"
+        period: 11-15 Jun 2018
+      - title: "Community detection in networks with non-Markovian dynamics"
+        subtitle: CompleNet 2017
+        location: Dubrovnik, Croatia
+        url: "https://complenet.weebly.com"
+        period: 21-24 Mar 2017
+      - title: "Behind Communities: Dynamics Define Modules"
+        subtitle: ComplexNetworks 2016
+        location: Milan, Italy
+        period: 30 Nov-2 Dec 2016
+        url: "https://complexnetworks.org/index2016.html"
+      - title: "Beyond Communities: Dynamical Markov Modules"
+        subtitle: CCS 2016
+        location: Amsterdam, Netherlands
+        period: 19-22 Sep 2016
+      - title: Mesoscopic Structure And Diffusion Process Memory
+        subtitle: NetSci 2016
+        location: Seoul, Korea
+        period: May 30-June 3 2016
+      - title: Mesoscopic Structures and Diffusion Process Memory
+        subtitle: NetSci-X 2016
+        location: Wrocław, Poland
+        period: 10-15 Jan 2015
+      - title: Structural controllability of EEG temporal causal networks
+        subtitle: NetSci 2015
+        location: Zaragoza, Spain
+        period: 2-6 Jun 2015
+      - title: Quantum Approaches to Community Detection
+        subtitle: ECCS 2014
+        location: Lucca, Italy
+        period: 22-26 Sep 2014
+      - title: Community detection on quantum systems
+        subtitle: CompleNet 2014
+        location: Bologna, Italy
+        period: 12-14 Mar 2014
+      - title: Community Detection on Quantum Systems
+        subtitle: BIFI2014
+        location: Zaragoza, Spain
+        period: 22-24 Jan 2014
+      - title: Degree distribution in quantum complex networks
+        subtitle: IQC workshop on quantum computation and complex networks
+        location: Waterloo, Canada
+        period: 24-26 May 2013
+      - title: Ground state spin logic
+        subtitle: Tensor Network States and Algebraic Geometry Workshop
+        location: Torino, Italy
+        period: 6-8 Nov 2012
+      - title: Equilibrium and kinetics of the ankyrin repeat protein
+          Myotrophin through a simple statiscical mechanical model
+        subtitle: V BIFI National Conference
+        location: Zaragoza, Spain
+        period: 2-4 Feb 2011
+      - title: Bayesian Characterization of Protein Tandem Mass Spectra
+        subtitle: IV BIFI National Conference
+        location: Zaragoza, Spain
+        period: 5-7 Feb 2009
+      - title: Noise description in MSMS mass spectrometry,
+          looking for a de novo sequencing algorithm
+        subtitle: VI Jornadas Aragonesas de Estabilidad y Plegamiento de Proteínas
+        location: San Sebastian, Spain
+        period: 8-9 May 2008
   - Conferences (Poster Contributions):
-    - title: "Directed hyper-graphs and dynamical systems"
-      location: Complex Networks 2021 @ Madrid (Spain)
-      subtitle: M. Faccin, F. Gargiulo
-      url: https://complexnetworks.org
-      period: 1 Dec 2021
-    - title: "State aggregation in non-Markovian systems by auto-information maximization"
-      subtitle: Netsci 2020
-      location: Rome, Italy
-      period: 17-25 Sept 2020
-      url: https://netsci2020.netscisociety.net
-    - title: The variability of network structures inferred from time series data
-      subtitle: Netsci 2020
-      location: Rome, Italy
-      period: 17-25 Sept 2020
-      url: https://netsci2020.netscisociety.net
-    - title: The variability of network structures inferred from time series data
-      subtitle: Complex Networks 2019
-      location: Lisbon, Portugal
-      period: 10-12 Dec 2019
-      url: https://www.complexnetworks.org/
-    - title: Variable aggregation on (broadcasting) networks
-      subtitle: CCS/Italy 2019
-      location: Trento, Italy
-      period: 1-3 July 2019
-    - title: Memory and Mesoscopic Structures in Diffusion Processes
-      subtitle: Complenet 2016
-      location: Dijon, France
-      period: 23-25 Mar 2016
-    - title: Folding Pathways Characterization for Ankyrin Repeat
-        Protein Myotrophin
-      subtitle: IV Spanish Portuguese Biophysical Congress
-      location: Zaragoza, Spain
-      period: 7-10 Jul 2010
-    - title: Statistical characterization of fragment ions
-        in MSMS mass spectrometry
-      subtitle: "XXI Sitges Conference on Statistical Mechanics:
-        Statistical Mechanics of Molecular Biophysics"
-      location: Sitges, Spain
-      period: 2-6 Jun 2008
+      - title: "Directed hyper-graphs and dynamical systems"
+        location: Complex Networks 2021 @ Madrid (Spain)
+        subtitle: M. Faccin, F. Gargiulo
+        url: https://complexnetworks.org
+        period: 1 Dec 2021
+      - title: "State aggregation in non-Markovian systems by auto-information maximization"
+        subtitle: Netsci 2020
+        location: Rome, Italy
+        period: 17-25 Sept 2020
+        url: https://netsci2020.netscisociety.net
+      - title: The variability of network structures inferred from time series data
+        subtitle: Netsci 2020
+        location: Rome, Italy
+        period: 17-25 Sept 2020
+        url: https://netsci2020.netscisociety.net
+      - title: The variability of network structures inferred from time series data
+        subtitle: Complex Networks 2019
+        location: Lisbon, Portugal
+        period: 10-12 Dec 2019
+        url: https://www.complexnetworks.org/
+      - title: Variable aggregation on (broadcasting) networks
+        subtitle: CCS/Italy 2019
+        location: Trento, Italy
+        period: 1-3 July 2019
+      - title: Memory and Mesoscopic Structures in Diffusion Processes
+        subtitle: Complenet 2016
+        location: Dijon, France
+        period: 23-25 Mar 2016
+      - title: Folding Pathways Characterization for Ankyrin Repeat
+          Protein Myotrophin
+        subtitle: IV Spanish Portuguese Biophysical Congress
+        location: Zaragoza, Spain
+        period: 7-10 Jul 2010
+      - title: Statistical characterization of fragment ions
+          in MSMS mass spectrometry
+        subtitle: "XXI Sitges Conference on Statistical Mechanics:
+          Statistical Mechanics of Molecular Biophysics"
+        location: Sitges, Spain
+        period: 2-6 Jun 2008
 
 Tables:
   - Computer skills:
-            Coding:
-              - Python
-              - C
-              - Matlab
-              - Fortran
-            Shell:
-              - Bash
-              - iPython/Jupyter
-            Versioning:
-              - GIT
-              - Subversion
-              - Mercurial
-            Plotting:
-              - Matplotlib (python)
-              - Gnuplot
-              - PGFPlots (LaTeX)
-            Typesetting:
-              - LaTeX
-              - LibreOffice
-              - MSOffice
-              - Markdown
-            Imaging:
-              - Gimp (Raster)
-              - Tikz (LaTeX)
-              - Inkscape (Vectorial)
-              - Rawtherapee (RAW)
-            Web:
-              - HTML5
-              - CSS/SCSS
-              - static site generators
-              - Wordpress
+      Coding:
+        - Python
+        - C
+        - Matlab
+        - Fortran
+      Shell:
+        - Bash
+        - iPython/Jupyter
+      Versioning:
+        - GIT
+        - Subversion
+        - Mercurial
+      Plotting:
+        - Matplotlib (python)
+        - Gnuplot
+        - PGFPlots (LaTeX)
+      Typesetting:
+        - LaTeX
+        - LibreOffice
+        - MSOffice
+        - Markdown
+      Imaging:
+        - Gimp (Raster)
+        - Tikz (LaTeX)
+        - Inkscape (Vectorial)
+        - Rawtherapee (RAW)
+      Web:
+        - HTML5
+        - CSS/SCSS
+        - static site generators
+        - Wordpress
 
   - Languages:
-            Italian:
-              - Mother tongue
-            English:
-              - Fluent
-            Spanish:
-              - Fluent
-            French:
-              - Fair
-
+      Italian:
+        - Mother tongue
+      English:
+        - Fluent
+      Spanish:
+        - Fluent
+      French:
+        - Fair
 # vim: fdm=indent
