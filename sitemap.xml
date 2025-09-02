@@ -106,10 +106,6 @@
         <loc>https://maurofaccin.github.io/slides/</loc>
     </url>
     <url>
-        <loc>https://maurofaccin.github.io/slides/2025-07-22-statphys26-venice/</loc>
-        <lastmod>2025-07-22</lastmod>
-    </url>
-    <url>
         <loc>https://maurofaccin.github.io/slides/aisa/</loc>
         <lastmod>2021-12-02</lastmod>
     </url>
@@ -148,6 +144,10 @@
     <url>
         <loc>https://maurofaccin.github.io/slides/ccs2022-compartmentalmodels/</loc>
         <lastmod>2022-10-17</lastmod>
+    </url>
+    <url>
+        <loc>https://maurofaccin.github.io/slides/ccs25-siena/</loc>
+        <lastmod>2025-07-22</lastmod>
     </url>
     <url>
         <loc>https://maurofaccin.github.io/slides/complenet2014/</loc>
@@ -212,6 +212,10 @@
     <url>
         <loc>https://maurofaccin.github.io/slides/state-aggregation-netsci2020/</loc>
         <lastmod>2020-09-22</lastmod>
+    </url>
+    <url>
+        <loc>https://maurofaccin.github.io/slides/statphys26-venice/</loc>
+        <lastmod>2025-07-22</lastmod>
     </url>
     <url>
         <loc>https://maurofaccin.github.io/slides/tb-cluster-leuven/</loc>
