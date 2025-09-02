@@ -1,6 +1,6 @@
 ---
-date: 2025-07-22
+date: 2025-09-02
 title: "Climate-induced delay propagation in rail networks as a non-Markovian process"
-description: "StatPhys29 (Complex Networks)"
+description: "CCS 2025"
 ---
 
