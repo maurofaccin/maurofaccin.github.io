@@ -7,7 +7,7 @@ draft: false
 
 
 {{ card(
-    url="karate/pics/shotokan.svg",
+    url="pics/shotokan.svg",
     text="I started training karate since I was very young, there was a brand-new dojo in my village, and I was curious.
 There, I found friendship, respect, and a lot of fun.
 
