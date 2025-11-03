@@ -1,0 +1,8 @@
+<div class='card'>
+    <div class="cardimage" style='vertical-align: middle;'>
+        <img src="{{ url | safe }}" alt="">
+    </div>
+    <div class="cardtext" style='vertical-align: middle;'>
+        <p>{{ text | markdown(inline=true) | safe }}</p>
+    </div>
+</div>
