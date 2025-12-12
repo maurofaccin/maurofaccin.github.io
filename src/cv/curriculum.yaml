@@ -240,6 +240,10 @@ Content:
         location: "arXiv:2304.14075"
         url: "https://doi.org/10.48550/arXiv.2304.14075"
   - Publications:
+      - title: "Leveraging complex network features improves vaccine stance classification"
+        subtitle: "F. Durazzi, N. Barbieri, M. Faccin, D. Gori, D. Remondini"
+        location: "Scientific Reports, 15(1) (2025)"
+        url: https://dx.doi.org/10.1038/s41598-025-27487-8
       - title: "Analyzing Satellite Imagery to Target Tuberculosis Control Interventions in Densely Urbanized Areas of Kigali, Rwanda: Cross-Sectional Pilot Study"
         subtitle: "M. Faccin, C. Geenen, M. Happaerts, S. Ombelet, P. Migambi, E. André"
         location: JMIR Public Health Surveill 2025;11:e68355
