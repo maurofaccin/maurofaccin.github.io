@@ -38,3 +38,4 @@ In this long period I stepped in many dojos and associations in different cities
 - **II dan**: 1998-12-20 (FESIK)
 - **III dan**: 2021-11-06 (FIKTA, Casale Monferrato)
 - **Allenatore (trainer)**: 2024-11-04 (FIK, Misano-Adriatico)
+- **IV dan**: 2026-10-04 (FIK, Caorle)
