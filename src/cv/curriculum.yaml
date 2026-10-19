@@ -240,6 +240,10 @@ Content:
         location: "arXiv:2304.14075"
         url: "https://doi.org/10.48550/arXiv.2304.14075"
   - Publications:
+      - title: "Systemic collapse emergence from climate-induced perturbations in transportation networks"
+        subtitle: "M. Faccin, T. Scagliarini, M. De Domenico"
+        location: "Proc. Natl. Acad. Sci. U.S.A. 123 (42) e2532180123, (2026)"
+        url: https://doi.org/10.1073/pnas.2532180123
       - title: "Leveraging complex network features improves vaccine stance classification"
         subtitle: "F. Durazzi, N. Barbieri, M. Faccin, D. Gori, D. Remondini"
         location: "Scientific Reports, 15(1) (2025)"
