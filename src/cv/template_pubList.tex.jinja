@@ -1,0 +1,45 @@
+\documentclass[10pt,a4paper]{memoir}
+
+\include{cv-template}
+
+\title{Publication List}
+\author{[[ name ]] [[ surname ]]}
+\def\authoremail{[[ email ]]}
+\def\authoraddress{[[% for key in address %]][[ key ]]\\[[% endfor %]]}
+\def\authorweb{[[ url ]]}
+[[% if pronouns %]]
+\def\authorpronouns{[[ pronouns ]]}
+[[% endif %]]
+\date{}
+
+\begin{document}
+
+\thetitle
+
+\bigskip
+
+[[% for class in Content %]][[% for title,content in class.items()%]]
+[[% if title == 'Publications' %]]
+\section{[[ title ]]}
+[[% for item in content %]]
+\theitem{[[ item.period]]}{\href{[[ item.url ]]}{[[ item.title ]]}}{[[ item.location ]]}{[[ item.subtitle|md ]]}
+[[% if item.long %]]
+\theitem{\ }{\footnotesize\color{gray} [[ item.long ]]}{}{}
+[[% endif %]]
+[[% if item.topics %]]
+\itemlist{}{
+\begin{itemize}
+	[[% for i in item.topics %]]
+	\item [[ i|md ]]
+	      [[% endfor %]]
+\end{itemize}}
+[[% endif %]]
+[[% endfor %]]
+[[% endif %]]
+[[% endfor %]][[% endfor %]]
+
+
+\hfill \textit{\theauthor}\\
+
+\medskip
+\end{document}
